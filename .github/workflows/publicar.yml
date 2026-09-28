@@ -1,0 +1,54 @@
+name: Publicar no Instagram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # confere a cada 15 min (o GitHub pode atrasar alguns minutos)
+  push:
+    paths: ["posts/**/post.json"]
+  workflow_dispatch:
+    inputs:
+      verificar:
+        description: "Só testar a conexão com o Instagram (não publica)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-instagram
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Testar conexão
+        if: ${{ inputs.verificar }}
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          python scripts/publicar.py --descobrir
+          if [ -n "$IG_USER_ID" ]; then python scripts/publicar.py --verificar; fi
+
+      - name: Publicar posts agendados
+        if: ${{ !inputs.verificar }}
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python scripts/publicar.py
+
+      - name: Salvar status
+        if: ${{ always() && !inputs.verificar }}
+        run: |
+          git config user.name "publicador-instagram"
+          git config user.email "actions@github.com"
+          git add posts
+          git diff --cached --quiet || (git commit -m "Status de publicação [skip ci]" && git push)
