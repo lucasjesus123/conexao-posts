@@ -71,8 +71,8 @@ def verificar():
 def descobrir():
     """Mostra o ID do Instagram ligado ao token (funciona com token de página ou de usuário)."""
     try:
-        me = api("GET", "me", fields="name,instagram_business_account{id,username}")
-        ig = me.get("instagram_business_account")
+        me = api("GET", "me", fields="name,instagram_business_account{id,username},connected_instagram_account{id,username}")
+        ig = me.get("instagram_business_account") or me.get("connected_instagram_account")
         if ig:
             print(f"Página: {me.get('name')} -> Instagram @{ig.get('username')} IG_USER_ID = {ig.get('id')}")
             return
