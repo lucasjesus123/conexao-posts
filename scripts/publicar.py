@@ -18,7 +18,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-GRAPH = f"https://graph.facebook.com/{os.environ.get('GRAPH_VERSION', 'v21.0')}"
+GRAPH = f"https://graph.facebook.com/{os.environ.get('GRAPH_VERSION', 'v26.0')}"
 TOKEN = os.environ.get("META_TOKEN", "")
 IG = os.environ.get("IG_USER_ID", "")
 REPO = os.environ.get("GITHUB_REPOSITORY", "lucasjesus123/conexao-posts")
