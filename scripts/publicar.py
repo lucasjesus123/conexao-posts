@@ -69,10 +69,21 @@ def verificar():
 
 
 def descobrir():
-    """Lista as páginas e o ID da conta do Instagram ligada a cada uma (para preencher IG_USER_ID)."""
-    for pg in api("GET", "me/accounts", fields="name,instagram_business_account{id,username}").get("data", []):
-        ig = pg.get("instagram_business_account") or {}
-        print(f"Página: {pg.get('name')} -> Instagram @{ig.get('username', '(nenhum ligado)')} IG_USER_ID = {ig.get('id', '-')}")
+    """Mostra o ID do Instagram ligado ao token (funciona com token de página ou de usuário)."""
+    try:
+        me = api("GET", "me", fields="name,instagram_business_account{id,username}")
+        ig = me.get("instagram_business_account")
+        if ig:
+            print(f"Página: {me.get('name')} -> Instagram @{ig.get('username')} IG_USER_ID = {ig.get('id')}")
+            return
+    except Exception as e:
+        print(f"Aviso ao ler o token como página: {e}")
+    try:
+        for pg in api("GET", "me/accounts", fields="name,instagram_business_account{id,username}").get("data", []):
+            ig = pg.get("instagram_business_account") or {}
+            print(f"Página: {pg.get('name')} -> Instagram @{ig.get('username', '(nenhum ligado)')} IG_USER_ID = {ig.get('id', '-')}")
+    except Exception as e:
+        print(f"Aviso ao listar páginas: {e}")
 
 
 def main():
