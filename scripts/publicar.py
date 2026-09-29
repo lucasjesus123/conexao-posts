@@ -18,9 +18,12 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-GRAPH = f"https://graph.facebook.com/{os.environ.get('GRAPH_VERSION', 'v26.0')}"
-TOKEN = os.environ.get("META_TOKEN", "")
-IG = os.environ.get("IG_USER_ID", "")
+TOKEN = os.environ.get("META_TOKEN", "").strip()
+# Token do "login com Instagram" começa com IG e usa graph.instagram.com; token de página usa graph.facebook.com
+LOGIN_INSTAGRAM = TOKEN.startswith("IG")
+HOST = "graph.instagram.com" if LOGIN_INSTAGRAM else "graph.facebook.com"
+GRAPH = f"https://{HOST}/{os.environ.get('GRAPH_VERSION', 'v26.0')}"
+IG = "me" if LOGIN_INSTAGRAM else os.environ.get("IG_USER_ID", "").strip()
 REPO = os.environ.get("GITHUB_REPOSITORY", "lucasjesus123/conexao-posts")
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 RAW = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
@@ -64,11 +67,19 @@ def publicar(image_url, legenda=None, story=False):
 
 
 def verificar():
-    info = api("GET", IG, fields="username,name,followers_count")
+    info = api("GET", IG, fields="username,followers_count")
     print(f"Conectado: @{info.get('username')} ({info.get('followers_count')} seguidores)")
 
 
 def descobrir():
+    if LOGIN_INSTAGRAM:
+        info = api("GET", "me", fields="user_id,username")
+        print(f"Token de login com Instagram: @{info.get('username')} IG_USER_ID = {info.get('user_id')}")
+        return
+    _descobrir_pagina()
+
+
+def _descobrir_pagina():
     """Mostra o ID do Instagram ligado ao token (funciona com token de página ou de usuário)."""
     try:
         me = api("GET", "me", fields="name,instagram_business_account{id,username},connected_instagram_account{id,username}")
