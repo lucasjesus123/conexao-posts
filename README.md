@@ -4,25 +4,30 @@ Posts do Instagram do **Grupo Conexão**. A rotina diária do Claude cria a arte
 
 ## Como funciona
 
+São **dois posts por dia**: um às **8h** e outro às **16h** (horário de Brasília). Cada post tem a própria pasta:
+
 ```
-posts/AAAA-MM-DD/
+posts/AAAA-MM-DD-08h/      post da manhã
+posts/AAAA-MM-DD-16h/      post da tarde
   feed.jpg     arte do feed (1080x1350)
   story.jpg    arte do story (1080x1920)
   post.json    horário, legenda e status
 ```
 
+(As pastas antigas, só com a data, são de quando era um post por dia.)
+
 `post.json`:
 
 ```json
 {
-  "publicar_em": "2026-09-28T18:00:00-03:00",
+  "publicar_em": "2026-10-03T08:00:00-03:00",
   "legenda": "texto do post…",
   "story": true,
   "status": "agendado"
 }
 ```
 
-A cada 15 minutos o workflow **Publicar no Instagram** procura posts `agendado` cujo horário já chegou. Ele publica o feed e o story e muda o status para `publicado`. Se der erro, o status vira `erro` e a mensagem da Meta fica gravada no campo `erro`.
+A cada 5 minutos o workflow **Publicar no Instagram** procura posts `agendado` cujo horário já chegou. Ele publica o feed e o story e muda o status para `publicado`. Se der erro, o status vira `erro` e a mensagem da Meta fica gravada no campo `erro`.
 
 Para cancelar um post, troque o status para `cancelado`. Para mudar o horário, edite `publicar_em`.
 
