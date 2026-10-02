@@ -44,9 +44,24 @@ def api(method, path, **params):
         raise RuntimeError(f"Meta API {e.code}: {e.read().decode()[:500]}") from None
 
 
+def _nao_encontrado(e):
+    """Erro "Media Not Found" da Meta: o container ainda não propagou. Passa sozinho em alguns segundos."""
+    return "2207006" in str(e) or "Media Not Found" in str(e)
+
+
+def _com_espera(chamada, tentativas=4, pausa=10):
+    for i in range(tentativas):
+        try:
+            return chamada()
+        except RuntimeError as e:
+            if not _nao_encontrado(e) or i == tentativas - 1:
+                raise
+            time.sleep(pausa)
+
+
 def esperar_container(cid, tentativas=30):
     for _ in range(tentativas):
-        st = api("GET", cid, fields="status_code,status").get("status_code")
+        st = _com_espera(lambda: api("GET", cid, fields="status_code,status")).get("status_code")
         if st == "FINISHED":
             return
         if st in ("ERROR", "EXPIRED"):
@@ -63,7 +78,7 @@ def publicar(image_url, legenda=None, story=False):
         params["caption"] = legenda
     cid = api("POST", f"{IG}/media", **params)["id"]
     esperar_container(cid)
-    return api("POST", f"{IG}/media_publish", creation_id=cid)["id"]
+    return _com_espera(lambda: api("POST", f"{IG}/media_publish", creation_id=cid))["id"]
 
 
 def verificar():
@@ -118,26 +133,37 @@ def main():
     erros = 0
     for pj in sorted(pathlib.Path("posts").glob("*/post.json")):
         post = json.loads(pj.read_text(encoding="utf-8"))
-        if post.get("status") != "agendado":
-            continue
+        status = post.get("status")
         quando = dt.datetime.fromisoformat(post["publicar_em"])
-        if quando > agora:
-            print(f"{pj.parent.name}: agendado para {post['publicar_em']}")
+        pasta, nome = pj.parent.as_posix(), pj.parent.name
+        tem_story = bool(post.get("story")) and (pj.parent / "story.jpg").exists()
+        # Story que falhou: tenta de novo nas próximas rodadas (até 3 vezes, nas 6 horas seguintes)
+        refazer_story = (status == "publicado_sem_story" and tem_story and post.get("story_tentativas", 0) < 3
+                         and agora - quando < dt.timedelta(hours=6))
+        if status == "agendado" and quando > agora:
+            print(f"{nome}: agendado para {post['publicar_em']}")
             continue
-        pasta = pj.parent.as_posix()
+        if status != "agendado" and not refazer_story:
+            continue
         try:
-            post["feed_id"] = publicar(f"{RAW}/{pasta}/feed.jpg", post.get("legenda", ""))
-            print(f"{pj.parent.name}: feed publicado ({post['feed_id']})")
-            if post.get("story") and (pj.parent / "story.jpg").exists():
+            if status == "agendado":
+                post["feed_id"] = publicar(f"{RAW}/{pasta}/feed.jpg", post.get("legenda", ""))
+                post["publicado_em"] = agora.isoformat(timespec="seconds")
+                print(f"{nome}: feed publicado ({post['feed_id']})")
+            if tem_story:
                 post["story_id"] = publicar(f"{RAW}/{pasta}/story.jpg", story=True)
-                print(f"{pj.parent.name}: story publicado ({post['story_id']})")
+                print(f"{nome}: story publicado ({post['story_id']})")
             post["status"] = "publicado"
-            post["publicado_em"] = agora.isoformat(timespec="seconds")
+            post.pop("erro", None)
         except Exception as e:  # registra e segue para o próximo
             erros += 1
-            post["status"] = "erro" if "feed_id" not in post else "publicado_sem_story"
+            if "feed_id" in post:
+                post["status"] = "publicado_sem_story"
+                post["story_tentativas"] = post.get("story_tentativas", 0) + (1 if refazer_story else 0)
+            else:
+                post["status"] = "erro"
             post["erro"] = str(e)
-            print(f"{pj.parent.name}: ERRO {e}")
+            print(f"{nome}: ERRO {e}")
         pj.write_text(json.dumps(post, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if erros:
         sys.exit(1)

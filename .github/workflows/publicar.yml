@@ -2,7 +2,7 @@ name: Publicar no Instagram
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # confere a cada 15 min (o GitHub pode atrasar alguns minutos)
+    - cron: "3-59/5 * * * *"   # a cada 5 min, fora dos minutos de pico (o GitHub atrasa ou pula rodadas agendadas)
   push:
     paths: ["posts/**/post.json"]
   workflow_dispatch:
