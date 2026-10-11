@@ -60,4 +60,7 @@ jobs:
           git config user.name "publicador-instagram"
           git config user.email "actions@github.com"
           git add posts
-          git diff --cached --quiet || (git commit -m "Status de publicação [skip ci]" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Status de publicação [skip ci]"
+            for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push && break; sleep 5; done
+          fi
