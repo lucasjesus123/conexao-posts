@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "3-59/5 * * * *"   # a cada 5 min, fora dos minutos de pico (o GitHub atrasa ou pula rodadas agendadas)
   push:
-    paths: ["posts/**/post.json"]
+    paths: ["posts/**/post.json", "scripts/publicar.py"]
   workflow_dispatch:
     inputs:
       verificar:
@@ -22,6 +22,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    timeout-minutes: 370
     steps:
       - uses: actions/checkout@v4
 
@@ -37,6 +38,14 @@ jobs:
         run: |
           python scripts/publicar.py --descobrir
           if [ -n "$IG_USER_ID" ]; then python scripts/publicar.py --verificar; fi
+
+      # O agendador do GitHub atrasa às vezes horas. Quando um post vence nas próximas horas,
+      # o run fica esperando até o horário exato e pega a versão mais nova do repositório.
+      - name: Esperar o horário do próximo post
+        if: ${{ !inputs.verificar }}
+        run: |
+          python scripts/publicar.py --esperar
+          git pull --ff-only -q origin main
 
       - name: Publicar posts agendados
         if: ${{ !inputs.verificar }}

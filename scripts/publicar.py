@@ -112,7 +112,33 @@ def _descobrir_pagina():
         print(f"Aviso ao listar páginas: {e}")
 
 
+def esperar_proximo(max_min=350):
+    """O agendador do GitHub atrasa (às vezes horas). Se um post vence nas próximas ~6h,
+    este run fica esperando acordado até o horário exato e só então segue para publicar."""
+    agora = dt.datetime.now(dt.timezone.utc)
+    proximos = []
+    for pj in pathlib.Path("posts").glob("*/post.json"):
+        post = json.loads(pj.read_text(encoding="utf-8"))
+        if post.get("status") == "agendado":
+            quando = dt.datetime.fromisoformat(post["publicar_em"])
+            if quando <= agora:
+                print("Há post atrasado; publica já, sem espera.")
+                return
+            if quando <= agora + dt.timedelta(minutes=max_min):
+                proximos.append(quando)
+    if not proximos:
+        print("Nenhum post vencendo nas próximas horas; sem espera.")
+        return
+    alvo = min(proximos)
+    seg = (alvo - agora).total_seconds() + 5
+    print(f"Esperando {seg/60:.0f} min até {alvo.isoformat()} para publicar na hora certa.")
+    time.sleep(seg)
+
+
 def main():
+    if "--esperar" in sys.argv:
+        esperar_proximo()
+        return
     if not TOKEN:
         if len(sys.argv) > 1:
             sys.exit("Falta o segredo META_TOKEN no repositório.")
