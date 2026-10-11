@@ -34,5 +34,6 @@
   ],
   "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real. O investimento é SEMPRE \"R$ 198,00\", em destaque.",
   "tom": "MUITO provocativo, chamativo e de marketing: manchete em caixa alta que incomoda (ex.: \"ELE JÁ SENTOU NA SUA CADEIRA.\"), tarja de alerta, contraste \"pra você ou pro seu concorrente\", CTA forte. Sem mentir e sem falsa escassez.",
-  "modelo_preferido": "impacto"
+  "modelo_preferido": "Alterne \"cinema\" (foto sangrando, manchete com {palavra} em itálico serifado ciano, CTA em pílula e selo R$ 198,00 — estilo campanha de cinema) e \"impacto\" (manchete Anton gigante com [tarja] e alerta vermelho). Nunca o mesmo dos dois últimos posts da campanha. O render.py e as fontes (inclusive fonts/serif-*.woff2) estão no kit do artifact.",
+  "referencias_visuais": "Posts de referência que o Lucas aprovou: exército de robôs humanoides com manchete embaixo e palavra em itálico; celular grande com conversa e borda luminosa; pessoa com janelas holográficas; chip de IA com manchete em caixa alta. Imagem domina a arte, texto enxuto, CTA em pílula."
 }
