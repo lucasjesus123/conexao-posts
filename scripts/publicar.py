@@ -154,6 +154,46 @@ def esperar_proximo():
         alvo = novo
 
 
+def _git(*args):
+    import subprocess
+    return subprocess.run(["git", *args], capture_output=True, text=True).returncode == 0
+
+
+def reivindicar(pj):
+    """Trava o post antes de publicar: marca "publicando" e faz push. Se dois runs tentarem ao
+    mesmo tempo, só o push de um passa; o outro desiste. Fora do GitHub Actions, não trava."""
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return True
+    _git("add", "posts")
+    _git("commit", "-q", "-m", "Status de publicação [skip ci]")  # salva o que já foi publicado neste run
+    _git("pull", "--rebase", "-q", "origin", "main")
+    post = json.loads(pj.read_text(encoding="utf-8"))
+    if post.get("status") != "agendado":
+        return False
+    post["status"] = "publicando"
+    pj.write_text(json.dumps(post, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _git("add", str(pj))
+    _git("commit", "-q", "-m", f"Publicando {pj.parent.name} [skip ci]")
+    if _git("push", "-q", "origin", "HEAD:main"):
+        return True
+    # Push recusado: alguém mexeu no repositório. Tenta de novo uma vez com a versão nova.
+    _git("reset", "-q", "HEAD~1")
+    _git("checkout", "--", str(pj))
+    _git("pull", "--rebase", "-q", "origin", "main")
+    post = json.loads(pj.read_text(encoding="utf-8"))
+    if post.get("status") != "agendado":
+        return False
+    post["status"] = "publicando"
+    pj.write_text(json.dumps(post, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    _git("add", str(pj))
+    _git("commit", "-q", "-m", f"Publicando {pj.parent.name} [skip ci]")
+    if _git("push", "-q", "origin", "HEAD:main"):
+        return True
+    _git("reset", "-q", "HEAD~1")
+    _git("checkout", "--", str(pj))
+    return False
+
+
 def main():
     if "--esperar" in sys.argv:
         esperar_proximo()
@@ -190,6 +230,11 @@ def main():
             continue
         if status != "agendado" and not refazer_story:
             continue
+        if status == "agendado":
+            if not reivindicar(pj):
+                print(f"{nome}: outro run já está publicando; pulando.")
+                continue
+            post = json.loads(pj.read_text(encoding="utf-8"))
         try:
             if status == "agendado":
                 post["feed_id"] = publicar(f"{RAW}/{pasta}/feed.jpg", post.get("legenda", ""))
