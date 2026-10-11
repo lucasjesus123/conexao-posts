@@ -138,9 +138,20 @@ def esperar_proximo():
     if alvo <= agora:
         print("Há post no horário ou atrasado; publica já.")
         return
-    seg = (alvo - agora).total_seconds() + 5
-    print(f"Esperando {seg/60:.0f} min até {alvo.isoformat()} para publicar na hora certa.")
-    time.sleep(seg)
+    print(f"Esperando até {alvo.isoformat()} para publicar na hora certa.")
+    # Dorme em blocos de 1 min e relê o repositório: se alguém antecipar ou trocar um post, o run percebe.
+    import subprocess
+    while True:
+        agora = dt.datetime.now(dt.timezone.utc)
+        if alvo <= agora:
+            return
+        time.sleep(min(60, (alvo - agora).total_seconds() + 5))
+        subprocess.run(["git", "pull", "--rebase", "-q", "origin", "main"], check=False)
+        novo = _proximo_agendado()
+        if novo is None or novo > _prazo():
+            print("O post que eu esperava foi tirado ou adiado; encerrando a espera.")
+            sys.exit(3)
+        alvo = novo
 
 
 def main():

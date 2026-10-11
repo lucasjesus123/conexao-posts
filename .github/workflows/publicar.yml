@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: publicar-instagram
+  group: publicar-instagram-v2
   cancel-in-progress: false
 
 jobs:
