@@ -39,28 +39,29 @@ jobs:
           python scripts/publicar.py --descobrir
           if [ -n "$IG_USER_ID" ]; then python scripts/publicar.py --verificar; fi
 
-      # O agendador do GitHub atrasa às vezes horas. Quando um post vence nas próximas horas,
-      # o run fica esperando até o horário exato e pega a versão mais nova do repositório.
-      - name: Esperar o horário do próximo post
-        if: ${{ !inputs.verificar }}
-        run: |
-          python scripts/publicar.py --esperar
-          git pull --ff-only -q origin main
-
-      - name: Publicar posts agendados
+      # O agendador do GitHub atrasa às vezes horas. Por isso este passo fica acordado:
+      # espera o horário de cada post que vence nas próximas ~5h40, publica na hora exata,
+      # salva o status e segue para o próximo.
+      - name: Publicar na hora certa
         if: ${{ !inputs.verificar }}
         env:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
-        run: python scripts/publicar.py
-
-      - name: Salvar status
-        if: ${{ always() && !inputs.verificar }}
         run: |
+          export INICIO_RUN=$(date +%s)
           git config user.name "publicador-instagram"
           git config user.email "actions@github.com"
-          git add posts
-          if ! git diff --cached --quiet; then
-            git commit -m "Status de publicação [skip ci]"
-            for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push && break; sleep 5; done
-          fi
+          erro=0
+          for i in $(seq 1 12); do
+            rc=0; python scripts/publicar.py --esperar || rc=$?
+            [ $rc -ne 0 ] && [ $rc -ne 3 ] && { erro=1; break; }
+            [ $rc -eq 3 ] && break
+            git pull --rebase -q origin main
+            python scripts/publicar.py || erro=1
+            git add posts
+            if ! git diff --cached --quiet; then
+              git commit -q -m "Status de publicação [skip ci]"
+              for t in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
+            fi
+          done
+          exit $erro

@@ -112,24 +112,32 @@ def _descobrir_pagina():
         print(f"Aviso ao listar páginas: {e}")
 
 
-def esperar_proximo(max_min=350):
-    """O agendador do GitHub atrasa (às vezes horas). Se um post vence nas próximas ~6h,
-    este run fica esperando acordado até o horário exato e só então segue para publicar."""
+def _proximo_agendado():
+    """Horário do próximo post 'agendado' (o mais cedo), ou None."""
+    datas = [dt.datetime.fromisoformat(json.loads(pj.read_text(encoding="utf-8"))["publicar_em"])
+             for pj in pathlib.Path("posts").glob("*/post.json")
+             if json.loads(pj.read_text(encoding="utf-8")).get("status") == "agendado"]
+    return min(datas) if datas else None
+
+
+def _prazo():
+    """Até quando este run pode ficar acordado (o job do GitHub tem limite de 6h)."""
+    ini = float(os.environ.get("INICIO_RUN") or time.time())
+    return dt.datetime.fromtimestamp(ini, dt.timezone.utc) + dt.timedelta(minutes=340)
+
+
+def esperar_proximo():
+    """O agendador do GitHub atrasa (às vezes horas). Se um post vence antes do prazo deste run,
+    o run fica esperando acordado até o horário exato e só então segue para publicar.
+    Sai com código 0 se há algo para publicar agora, 3 se não há nada dentro do prazo."""
     agora = dt.datetime.now(dt.timezone.utc)
-    proximos = []
-    for pj in pathlib.Path("posts").glob("*/post.json"):
-        post = json.loads(pj.read_text(encoding="utf-8"))
-        if post.get("status") == "agendado":
-            quando = dt.datetime.fromisoformat(post["publicar_em"])
-            if quando <= agora:
-                print("Há post atrasado; publica já, sem espera.")
-                return
-            if quando <= agora + dt.timedelta(minutes=max_min):
-                proximos.append(quando)
-    if not proximos:
-        print("Nenhum post vencendo nas próximas horas; sem espera.")
+    alvo = _proximo_agendado()
+    if alvo is None or alvo > _prazo():
+        print("Nenhum post vencendo dentro do prazo deste run.")
+        sys.exit(3)
+    if alvo <= agora:
+        print("Há post no horário ou atrasado; publica já.")
         return
-    alvo = min(proximos)
     seg = (alvo - agora).total_seconds() + 5
     print(f"Esperando {seg/60:.0f} min até {alvo.isoformat()} para publicar na hora certa.")
     time.sleep(seg)
