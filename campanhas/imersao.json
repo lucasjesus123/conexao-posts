@@ -35,5 +35,13 @@
   "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real. O investimento é SEMPRE \"R$ 198,00\", em destaque.",
   "tom": "MUITO provocativo, chamativo e de marketing: manchete em caixa alta que incomoda (ex.: \"ELE JÁ SENTOU NA SUA CADEIRA.\"), tarja de alerta, contraste \"pra você ou pro seu concorrente\", CTA forte. Sem mentir e sem falsa escassez.",
   "modelo_preferido": "Alterne \"cinema\" (foto sangrando, manchete com {palavra} em itálico serifado ciano, CTA em pílula e selo R$ 198,00 — estilo campanha de cinema) e \"impacto\" (manchete Anton gigante com [tarja] e alerta vermelho). Nunca o mesmo dos dois últimos posts da campanha. O render.py e as fontes (inclusive fonts/serif-*.woff2) estão no kit do artifact.",
-  "referencias_visuais": "Posts de referência que o Lucas aprovou: exército de robôs humanoides com manchete embaixo e palavra em itálico; celular grande com conversa e borda luminosa; pessoa com janelas holográficas; chip de IA com manchete em caixa alta. Imagem domina a arte, texto enxuto, CTA em pílula."
+  "referencias_visuais": "Posts de referência que o Lucas aprovou: exército de robôs humanoides com manchete embaixo e palavra em itálico; celular grande com conversa e borda luminosa; pessoa com janelas holográficas; chip de IA com manchete em caixa alta. Imagem domina a arte, texto enxuto, CTA em pílula.",
+  "lucas_na_arte": "O Lucas Jesus é quem dá o curso: use a foto dele (personagem LUCAS JESUS do Kairogen, id 6aa977dc6634cdb18cd43913, com as imagens de referência e o descritor exato, óculos de armação transparente) em PELO MENOS 2 de cada 3 artes da campanha, sempre junto dos robôs humanoides (ao lado de um robô, à frente de um exército de robôs, no palco com um robô, apertando a mão de um robô, comandando robôs). Legenda em primeira pessoa quando ele aparece (\"eu vou estar lá\"). Nos dias com o Lucas na arte da campanha, o post das 8h fica sem pessoa.",
+  "lucas_referencias": [
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/388f2955-ecd9-47f3-b09c-2b7a81a17ccd.jpeg",
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/9b471616-1e5b-4ae3-a37f-dafd99561a42.png",
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/fb879584-d90d-47d4-9382-a1443db3122a.png",
+    "https://cdn.kairogen.ai/gallery/images/6a9b1bd51710ffa78948ff39/3590778f-111a-4042-939a-c38e1be6907a.png"
+  ],
+  "lucas_descritor": "broad oval face with a softly squared jaw, warm medium-brown skin, thick black hair styled upward and swept back with short tapered sides, dark brown almond-shaped eyes, thick gently arched eyebrows, broad straight nose, full defined lips, dense full black beard with connected moustache, clear transparent-frame eyeglasses"
 }
