@@ -3,11 +3,15 @@
   "data": "2026-11-25",
   "horario": "19h às 22h",
   "local": "Tri Hotel · Lajeado/RS",
-  "investimento": "R$ 198,90 ou 18x de R$ 11,05 (Pix ou cartão)",
+  "investimento": "R$ 198,00 (valor fixo: sempre escrever exatamente \"R$ 198,00\"; não usar 198,90 nem parcelas)",
   "vagas": 60,
   "site": "treinamentoia.conexaomkt.com.br",
   "grupo_vip_whatsapp": "",
-  "dias_de_post": ["segunda", "quarta", "sexta"],
+  "dias_de_post": [
+    "segunda",
+    "quarta",
+    "sexta"
+  ],
   "turno": "16h",
   "temas_robo": [
     "robô humanoide executivo numa sala de reunião, dono de empresa ao lado",
@@ -28,5 +32,5 @@
     "prazo real de reembolso: até 18/11",
     "a noite do evento: horário, local, o que levar"
   ],
-  "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real."
+  "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real. O investimento é SEMPRE \"R$ 198,00\", em destaque."
 }
