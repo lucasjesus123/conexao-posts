@@ -32,5 +32,7 @@
     "prazo real de reembolso: até 18/11",
     "a noite do evento: horário, local, o que levar"
   ],
-  "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real. O investimento é SEMPRE \"R$ 198,00\", em destaque."
+  "regras": "Nunca inventar depoimento, número de alunos, resultado financeiro, desconto ou 'últimas vagas'. Só usar fatos deste arquivo ou do site. Sem logotipos de terceiros nem plateia real. O investimento é SEMPRE \"R$ 198,00\", em destaque.",
+  "tom": "MUITO provocativo, chamativo e de marketing: manchete em caixa alta que incomoda (ex.: \"ELE JÁ SENTOU NA SUA CADEIRA.\"), tarja de alerta, contraste \"pra você ou pro seu concorrente\", CTA forte. Sem mentir e sem falsa escassez.",
+  "modelo_preferido": "impacto"
 }
