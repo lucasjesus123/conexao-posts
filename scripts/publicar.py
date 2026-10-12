@@ -59,14 +59,15 @@ def _com_espera(chamada, tentativas=4, pausa=10):
             time.sleep(pausa)
 
 
-def esperar_container(cid, tentativas=30):
+def esperar_container(cid, tentativas=30, pausa=5):
     for _ in range(tentativas):
-        st = _com_espera(lambda: api("GET", cid, fields="status_code,status")).get("status_code")
+        r = _com_espera(lambda: api("GET", cid, fields="status_code,status"))
+        st = r.get("status_code")
         if st == "FINISHED":
             return
         if st in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"Container {cid} falhou: {st}")
-        time.sleep(5)
+            raise RuntimeError(f"Container {cid} falhou: {st} {r.get('status', '')}")
+        time.sleep(pausa)
     raise RuntimeError(f"Container {cid} não ficou pronto a tempo")
 
 
@@ -78,6 +79,19 @@ def publicar(image_url, legenda=None, story=False):
         params["caption"] = legenda
     cid = api("POST", f"{IG}/media", **params)["id"]
     esperar_container(cid)
+    return _com_espera(lambda: api("POST", f"{IG}/media_publish", creation_id=cid))["id"]
+
+
+def publicar_video(video_url, legenda=None, story=False, capa_ms=None):
+    """Reels no feed (com legenda) ou vídeo no story. Vídeo demora mais para processar na Meta."""
+    params = {"video_url": video_url, "media_type": "STORIES" if story else "REELS"}
+    if not story:
+        params["caption"] = legenda or ""
+        params["share_to_feed"] = "true"
+        if capa_ms is not None:
+            params["thumb_offset"] = str(capa_ms)
+    cid = api("POST", f"{IG}/media", **params)["id"]
+    esperar_container(cid, tentativas=60, pausa=10)
     return _com_espera(lambda: api("POST", f"{IG}/media_publish", creation_id=cid))["id"]
 
 
@@ -221,7 +235,8 @@ def main():
         status = post.get("status")
         quando = dt.datetime.fromisoformat(post["publicar_em"])
         pasta, nome = pj.parent.as_posix(), pj.parent.name
-        tem_story = bool(post.get("story")) and (pj.parent / "story.jpg").exists()
+        video = post.get("video")  # ex.: "reel.mp4" na pasta do post -> publica como Reels (+ story em vídeo)
+        tem_story = bool(post.get("story")) and ((pj.parent / "story.jpg").exists() or bool(video))
         # Story que falhou: tenta de novo nas próximas rodadas (até 3 vezes, nas 6 horas seguintes)
         refazer_story = (status == "publicado_sem_story" and tem_story and post.get("story_tentativas", 0) < 3
                          and agora - quando < dt.timedelta(hours=6))
@@ -237,11 +252,17 @@ def main():
             post = json.loads(pj.read_text(encoding="utf-8"))
         try:
             if status == "agendado":
-                post["feed_id"] = publicar(f"{RAW}/{pasta}/feed.jpg", post.get("legenda", ""))
+                if video:
+                    post["feed_id"] = publicar_video(f"{RAW}/{pasta}/{video}", post.get("legenda", ""), capa_ms=post.get("capa_ms"))
+                else:
+                    post["feed_id"] = publicar(f"{RAW}/{pasta}/feed.jpg", post.get("legenda", ""))
                 post["publicado_em"] = agora.isoformat(timespec="seconds")
                 print(f"{nome}: feed publicado ({post['feed_id']})")
             if tem_story:
-                post["story_id"] = publicar(f"{RAW}/{pasta}/story.jpg", story=True)
+                if video and not (pj.parent / "story.jpg").exists():
+                    post["story_id"] = publicar_video(f"{RAW}/{pasta}/{video}", story=True)
+                else:
+                    post["story_id"] = publicar(f"{RAW}/{pasta}/story.jpg", story=True)
                 print(f"{nome}: story publicado ({post['story_id']})")
             post["status"] = "publicado"
             post.pop("erro", None)
