@@ -25,14 +25,14 @@ O perfil é visto em grade de 3 colunas. Antes de escolher o modelo, olhe os 5 p
 | palavra | azul chapado | quebrar o ritmo, 1 a cada 9 | titulo (1 palavra), subtitulo, kicker, fundo |
 | foto | escuro | respiro, bastidor, robô | imagem, legenda, frase |
 
-### Com a foto do Lucas (premium)
+### Com a foto do Lucas (premium): SEMPRE ESCURO
 
 | modelo | tom | quando usar | campos principais |
 |---|---|---|---|
-| revista | claro em cima e escuro embaixo | venda da imersão, autoridade | recorte, palavra (atrás da cabeça), kicker, titulo, info, x, y, w |
-| popout | claro | palestra, bastidor, convite | imagem, recorte, titulo, kicker, x, y, w |
+| revista | escuro (padrão) | venda da imersão, autoridade | recorte, palavra (atrás da cabeça), kicker, titulo, info, x, y, w |
+| popout | escuro (padrão) | palestra, bastidor, convite | imagem, recorte, titulo, kicker, x, y, w |
 | retrato | escuro, P&B | opinião forte do Lucas | imagem, frase, kicker |
-| flutuante | escuro ou claro (tema) | venda com cards de vidro flutuando à frente e atrás dele | recorte, titulo ([gradiente]), subtitulo, cards_atras, cards_frente, x, y, w |
+| flutuante | escuro | venda com cards de vidro flutuando à frente e atrás dele | recorte, titulo ([gradiente]), subtitulo, cards_atras, cards_frente, x, y, w |
 
 ### Compostos (Photoshop: 3D, mockup, imagem sobre imagem)
 
