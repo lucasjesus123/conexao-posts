@@ -1,9 +1,30 @@
-name: Gerar imagem com GPT
+name: Gerar arte no estilo (GPT)
 
 on:
   push:
     paths: ["gerar/pedidos/*.json"]
   workflow_dispatch:
+    inputs:
+      estilo:
+        description: "Nome do estilo guardado em estilos/ (ex.: anuncio-hud, cinema-robo, painel3d-claro, revista-lucas-robo)"
+        required: true
+        default: "revista-lucas-robo"
+      textos:
+        description: "Seus textos, separados por | (título primeiro). Ex.: VOCÊ, LOJISTA DE LAJEADO | Imersão de I.A. em Lajeado | Garanta sua vaga"
+        required: true
+      com_lucas:
+        description: "Colocar você (Lucas) na arte"
+        type: boolean
+        default: true
+      formato:
+        description: "Formato"
+        type: choice
+        options: [feed, story]
+        default: feed
+      cena:
+        description: "Opcional: o que mudar na imagem (ex.: robô atendendo no balcão de uma loja)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -21,18 +42,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q openai
+      - run: pip install -q openai pillow
       - name: Gerar
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
-        run: python scripts/gerar_imagem.py || echo "houve erro (ver o pedido)"
+          IN_ESTILO: ${{ inputs.estilo }}
+          IN_TEXTOS: ${{ inputs.textos }}
+          IN_LUCAS: ${{ inputs.com_lucas }}
+          IN_FORMATO: ${{ inputs.formato }}
+          IN_CENA: ${{ inputs.cena }}
+        run: python scripts/gerar_imagem.py || echo "houve erro (ver o pedido em gerar/pedidos)"
       - name: Salvar no repositório
         run: |
           git config user.name "gerador-gpt"
           git config user.email "actions@github.com"
           git add gerar campanhas/referencias
           if ! git diff --cached --quiet; then
-            git commit -q -m "Imagem gerada com GPT [skip ci]"
+            git commit -q -m "Arte gerada com GPT [skip ci]"
             for t in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
           fi

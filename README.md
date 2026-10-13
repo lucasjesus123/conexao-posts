@@ -57,3 +57,19 @@ Pronto: daí em diante os posts saem sozinhos.
 ## Novo cliente
 
 Cada cliente tem o próprio repositório, cópia deste, com o próprio `META_TOKEN` e o próprio `IG_USER_ID`. Nada se mistura entre clientes.
+
+## Artes com GPT no estilo das referências
+
+As referências de estilo ficam em `estilos/` (uma imagem por estilo, descrita em `estilos/estilos.json`). As fotos do Lucas e do robô ficam em `campanhas/referencias.json` (apelidos `lucas`, `robo` e `hibrido`).
+
+**Guardar um estilo novo:** suba a imagem em `estilos/` (Add file > Upload files) com um nome curto, ex.: `estilos/convite-palco.jpg`.
+
+**Criar uma arte:** abra **Actions > Gerar arte no estilo (GPT) > Run workflow** e preencha:
+- **estilo:** o nome do arquivo, sem a extensão (ex.: `convite-palco`);
+- **textos:** os seus textos separados por `|`, com o título primeiro;
+- **com_lucas:** marque para você aparecer na arte;
+- **formato:** feed (1080x1350) ou story (1080x1920).
+
+Em 2 a 3 minutos a arte aparece em `gerar/saida/` (o `.jpg` já está no tamanho do Instagram). Usa o segredo `OPENAI_API_KEY`.
+
+> O GPT escreve os textos dentro da imagem. Confira os acentos antes de publicar.

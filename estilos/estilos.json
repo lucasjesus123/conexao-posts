@@ -1,0 +1,19 @@
+{
+  "_ajuda": "Biblioteca de estilos. Para guardar uma referência nova: suba a imagem nesta pasta (estilos/NOME.jpg ou .png) e, se quiser, descreva aqui. Para criar: GitHub > Actions > 'Gerar arte no estilo' > Run workflow, ou peça ao Claude 'no estilo NOME com os textos ...'.",
+  "anuncio-hud": {
+    "arquivo": "estilos/anuncio-hud.jpg",
+    "descricao": "Anúncio escuro tipo HUD: Lucas no centro numa loja à noite, robô com tablet ao lado, tarja vermelha de alerta, manchete em caixa alta + linha em itálico ciano, faixa de informações, botão em pílula e preço grande à direita."
+  },
+  "cinema-robo": {
+    "arquivo": "estilos/cinema-robo.jpg",
+    "descricao": "Cinema escuro: Lucas segurando painel holográfico, robô de perfil à direita, kicker ciano em mono, título branco grande com palavra em itálico ciano, botão pílula + caixa de investimento."
+  },
+  "painel3d-claro": {
+    "arquivo": "estilos/painel3d-claro.jpg",
+    "descricao": "Composto claro: fundo papel, título preto enorme com palavra em gradiente azul, chips brancos com ícones, cards de vidro e objeto 3D à direita, botão azul em pílula, selo 'painel ilustrativo'."
+  },
+  "revista-lucas-robo": {
+    "arquivo": "estilos/revista-lucas-robo.jpg",
+    "descricao": "Revista escura: Lucas de braços cruzados e robô oficial atrás com gráfico holográfico, anel de luz, etiqueta ciano no alto do bloco de texto, título 'branco + itálico em gradiente', faixa de informações, botão e preço."
+  }
+}
