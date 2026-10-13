@@ -5,5 +5,7 @@
   ],
   "formato": "feed",
   "qualidade": "high",
-  "status": "pendente"
+  "status": "pronto",
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-noticia-terno.png"
 }
