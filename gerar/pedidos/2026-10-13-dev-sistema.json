@@ -1,0 +1,20 @@
+{
+  "formato": "feed",
+  "paleta": "marca",
+  "status": "pendente",
+  "com_lucas": false,
+  "estilo": "painel-isometrico-escuro",
+  "textos": [
+    "Sistema",
+    "sob medida",
+    "para a sua empresa.",
+    "Do jeito que você já trabalha: pedidos, estoque, financeiro e equipe num lugar só.",
+    "Pedidos",
+    "Estoque",
+    "Financeiro",
+    "Equipe",
+    "Quero o meu sistema",
+    "PAINEL ILUSTRATIVO"
+  ],
+  "cena": "Button in electric blue #2F6BFF instead of green. Dashboard labels in Portuguese only from the list; no other numbers or words in the panel besides simple chart lines. Leave the bottom 10% clean."
+}
