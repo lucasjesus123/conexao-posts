@@ -14,5 +14,13 @@
   "com_lucas": true,
   "cena": "Keep the night store scene with the humanoid robot holding a tablet.",
   "formato": "feed",
-  "status": "pendente"
+  "status": "pronto",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Anúncio escuro tipo HUD: Lucas no centro numa loja à noite, robô com tablet ao lado, tarja vermelha de alerta, manchete em caixa alta + linha em itálico ciano, faixa de informações, botão em pílula e preço grande à direita.\nThe other reference images show the real man Lucas: wherever a person appears in the layout, it must be exactly this man (same face, beard, hair and clear transparent-frame eyeglasses). Keep the night store scene with the humanoid robot holding a tablet.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"VOCÊ, LOJISTA DE LAJEADO\"\n2. \"IMERSÃO DE I.A. EM LAJEADO\"\n3. \"aprenda com quem atua.\"\n4. \"IMERSÃO PRESENCIAL\"\n5. \"25/11 • 19H • TRI HOTEL • LAJEADO/RS\"\n6. \"GARANTA SUA VAGA\"\n7. \"INVESTIMENTO\"\n8. \"R$ 198,90\"\n9. \"treinamentoia.conexaomkt.com.br\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/anuncio-hud.jpg",
+    "lucas"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-teste-estilo-hud.png",
+  "arte_final": "gerar/saida/2026-10-13-teste-estilo-hud.jpg"
 }
