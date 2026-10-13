@@ -16,5 +16,12 @@
   "cena": "",
   "formato": "feed",
   "post": "gerar/teste-squad",
-  "status": "pendente"
+  "status": "pronto",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Composto claro: fundo papel, título preto enorme com palavra em gradiente azul, chips brancos com ícones, cards de vidro e objeto 3D à direita, botão azul em pílula, selo 'painel ilustrativo'.\n\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"Seu WhatsApp\"\n2. \"responde sozinho.\"\n3. \"Atendimento com I.A. que não esquece ninguém\"\n4. \"Resposta em segundos\"\n5. \"Agenda marcada\"\n6. \"Pedido anotado\"\n7. \"Cliente avisado\"\n8. \"Quero no meu negócio\"\n9. \"PAINEL ILUSTRATIVO\"\n10. \"conexaomkt.com.br\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/painel3d-claro.jpg"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/teste-squad-feed.png",
+  "arte_final": "gerar/saida/teste-squad-feed.jpg"
 }
