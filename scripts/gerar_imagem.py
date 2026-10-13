@@ -91,8 +91,9 @@ def ajustar(png_bytes, formato):
     return im.crop((x, y, x + w, y + h))
 
 
-def rodape(im, formato):
-    """Logo + WhatsApp + site aplicados por código (o GPT erra site e telefone). No story, acima dos 20% da base."""
+def rodape(im, formato, destaque=""):
+    """Logo + WhatsApp + site aplicados por código (o GPT erra site e telefone). No story, acima dos 20% da base.
+    destaque: pílula ciano opcional acima do contato (ex.: "INSCRIÇÕES ABERTAS")."""
     from PIL import Image, ImageDraw, ImageFont
     import numpy as np
     im = im.convert("RGBA")
@@ -112,10 +113,19 @@ def rodape(im, formato):
     lh = 54
     logo = logo.resize((int(logo.width * lh / logo.height), lh), Image.LANCZOS)
     im.alpha_composite(logo, (56, base - lh - 34))
-    f = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 27)
     d = ImageDraw.Draw(im)
     t = "(51) 99266-8095  ·  conexaomkt.com.br"
-    d.text((W - 56 - d.textlength(t, font=f), base - 34 - lh / 2 - 17), t, font=f, fill=(255, 255, 255, 235))
+    if destaque:
+        fb = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 26)
+        f = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 24)
+        w1 = d.textlength(destaque, font=fb)
+        x1, y1 = W - 56 - w1 - 44, base - 118
+        d.rounded_rectangle([x1, y1, W - 56, y1 + 48], radius=30, fill=(34, 211, 238, 255))
+        d.text((x1 + 22, y1 + 9), destaque, font=fb, fill=(5, 7, 13, 255))
+        d.text((W - 56 - d.textlength(t, font=f), base - 52), t, font=f, fill=(255, 255, 255, 230))
+    else:
+        f = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 27)
+        d.text((W - 56 - d.textlength(t, font=f), base - 34 - lh / 2 - 17), t, font=f, fill=(255, 255, 255, 235))
     return im.convert("RGB")
 
 
@@ -205,7 +215,7 @@ def main():
             if pedido.get("estilo"):
                 arte = ajustar(png, pedido.get("formato", "feed"))
                 if pedido.get("rodape", True):
-                    arte = rodape(arte, pedido.get("formato", "feed"))
+                    arte = rodape(arte, pedido.get("formato", "feed"), pedido.get("destaque", ""))
                 arte.save(SAIDA / f"{pj.stem}.jpg", quality=92)
                 pedido["arte_final"] = f"gerar/saida/{pj.stem}.jpg"
             pedido.pop("erro", None)
