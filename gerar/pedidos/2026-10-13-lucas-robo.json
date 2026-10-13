@@ -1,0 +1,10 @@
+{
+  "prompt": "Use the reference images: the first four show the real man (keep his face, beard, hair and clear transparent-frame eyeglasses 100% identical — same person, do not beautify or change him); the last one shows the official brand robot (dark titanium humanoid with glowing blue eyes) — keep its design.\n\nScene: premium, cinematic, photorealistic editorial photo for an executive AI event. The man stands on the left-center, waist-up, slightly turned to the camera, serious and confident, arms crossed, wearing a tailored black blazer over a black t-shirt. Just behind his right shoulder stands the dark titanium humanoid robot with glowing blue eyes, looking forward like a trusted ally, its hand resting on a floating holographic glass panel with clean rising line charts in cyan (no readable numbers, no logos, no words).\n\nLight: deep blue-black background (#05070D), cyan (#22D3EE) rim light on one side of his face, electric blue (#2F6BFF) on the other, subtle violet haze, thin glowing light ring behind them, fine particles, faint perspective grid floor. 85mm lens, shallow depth of field, sharp eyes, real skin texture.\n\nComposition: vertical. Both figures occupy the upper 60% of the frame; the lower 40% fades smoothly into almost black, empty, for text to be added later.\n\nAbsolutely NO text, letters, numbers, watermark or logos anywhere in the image. No other people.",
+  "referencias": [
+    "lucas",
+    "robo"
+  ],
+  "tamanho": "1024x1536",
+  "qualidade": "high",
+  "status": "pendente"
+}

@@ -1,0 +1,11 @@
+{
+  "lucas": [
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/388f2955-ecd9-47f3-b09c-2b7a81a17ccd.jpeg",
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/9b471616-1e5b-4ae3-a37f-dafd99561a42.png",
+    "https://cdn.kairogen.ai/characters/6a9b1bd51710ffa78948ff39/fb879584-d90d-47d4-9382-a1443db3122a.png",
+    "https://cdn.kairogen.ai/gallery/images/6a9b1bd51710ffa78948ff39/3590778f-111a-4042-939a-c38e1be6907a.png"
+  ],
+  "robo": "https://cdn.kairogen.ai/gallery/images/6a9b1bd51710ffa78948ff39/b17e68ec-4759-499b-bff9-e86ef8f6fe9e.png",
+  "hibrido": "https://cdn.kairogen.ai/gallery/images/6a9b1bd51710ffa78948ff39/37cd092b-4762-45aa-b456-4e93808f71c7.png",
+  "_ajuda": "Apelidos usados em gerar/pedidos/*.json: lucas = fotos do personagem LUCAS JESUS (Kairogen); robo = robô oficial da marca (humanoide de titânio escuro, olhos azuis); hibrido = retrato metade Lucas, metade robô cromado."
+}

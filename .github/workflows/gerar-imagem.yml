@@ -1,0 +1,38 @@
+name: Gerar imagem com GPT
+
+on:
+  push:
+    paths: ["gerar/pedidos/*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gerar-imagem
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q openai
+      - name: Gerar
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+        run: python scripts/gerar_imagem.py || echo "houve erro (ver o pedido)"
+      - name: Salvar no repositório
+        run: |
+          git config user.name "gerador-gpt"
+          git config user.email "actions@github.com"
+          git add gerar campanhas/referencias
+          if ! git diff --cached --quiet; then
+            git commit -q -m "Imagem gerada com GPT [skip ci]"
+            for t in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break; sleep 5; done
+          fi
