@@ -74,7 +74,8 @@ in Brazilian Portuguese, keeping every accent and punctuation mark, perfectly sp
 {lista}
 
 Put each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).
-Do not invent prices, dates, numbers or logos that are not in the list. No watermark."""
+Do not invent prices, dates, numbers or logos that are not in the list. No watermark.
+Do NOT write any phone number, website, @handle or social icons: leave the bottom 11% of the image (and, in a story, the bottom 20%) clean and dark — a footer is added later."""
     return prompt, refs, formato
 
 
@@ -88,6 +89,34 @@ def ajustar(png_bytes, formato):
     im = im.resize((round(im.width * esc), round(im.height * esc)), Image.LANCZOS)
     x, y = (im.width - w) // 2, (im.height - h) // 2
     return im.crop((x, y, x + w, y + h))
+
+
+def rodape(im, formato):
+    """Logo + WhatsApp + site aplicados por código (o GPT erra site e telefone). No story, acima dos 20% da base."""
+    from PIL import Image, ImageDraw, ImageFont
+    import numpy as np
+    im = im.convert("RGBA")
+    W, H = im.size
+    base = H if formato == "feed" else int(H * 0.80)
+    a = np.asarray(im).astype(float)
+    cor = np.median(a[base - 160:base - 140, W // 3:2 * W // 3, :3].reshape(-1, 3), 0)
+    h = 150
+    g = np.zeros((h, W, 4), dtype=np.uint8)
+    g[..., :3] = cor
+    g[..., 3] = (np.clip(np.linspace(0, 1, h) * 3, 0, 1)[:, None] * 240).astype(np.uint8)
+    im.alpha_composite(Image.fromarray(g, "RGBA"), (0, base - h))
+    if formato == "story":
+        fundo = np.zeros((H - base, W, 4), dtype=np.uint8); fundo[..., :3] = cor; fundo[..., 3] = 240
+        im.alpha_composite(Image.fromarray(fundo, "RGBA"), (0, base))
+    logo = Image.open("campanhas/assets/logo_conexao.png").convert("RGBA")
+    lh = 54
+    logo = logo.resize((int(logo.width * lh / logo.height), lh), Image.LANCZOS)
+    im.alpha_composite(logo, (56, base - lh - 34))
+    f = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 27)
+    d = ImageDraw.Draw(im)
+    t = "(51) 99266-8095  ·  conexaomkt.com.br"
+    d.text((W - 56 - d.textlength(t, font=f), base - 34 - lh / 2 - 17), t, font=f, fill=(255, 255, 255, 235))
+    return im.convert("RGB")
 
 
 def baixar(ref):
@@ -174,7 +203,10 @@ def main():
             (SAIDA / f"{pj.stem}.png").write_bytes(png)
             pedido.update(status="pronto", modelo=modelo, saida=f"gerar/saida/{pj.stem}.png")
             if pedido.get("estilo"):
-                ajustar(png, pedido.get("formato", "feed")).save(SAIDA / f"{pj.stem}.jpg", quality=92)
+                arte = ajustar(png, pedido.get("formato", "feed"))
+                if pedido.get("rodape", True):
+                    arte = rodape(arte, pedido.get("formato", "feed"))
+                arte.save(SAIDA / f"{pj.stem}.jpg", quality=92)
                 pedido["arte_final"] = f"gerar/saida/{pj.stem}.jpg"
             pedido.pop("erro", None)
             print(f"{pj.stem}: pronto com {modelo}")

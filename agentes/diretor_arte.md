@@ -19,7 +19,9 @@ Prefira os modelos que mais chamam atenção no tema:
 A biblioteca fica em `estilos/estilos.json` (cada estilo tem imagem, descrição, tom, pessoa, quantos textos cabem e para que serve). As fotos de referência do Lucas, do robô oficial e do retrato híbrido ficam em `campanhas/referencias.json`.
 
 1. **Escolha o estilo** que combina com o conceito vencedor, respeitando a regra do grid (tom alternado, Lucas em no máximo 1 a cada 3). Não use o mesmo estilo dos 3 últimos posts; o estilo usado fica gravado no campo `estilo` do post.json.
-2. **Monte a lista de textos** com o que o Copywriter escreveu, na ordem de importância (título primeiro), já no tamanho que o estilo comporta. Na campanha, inclua os fixos: "25/11", "Tri Hotel", "R$ 198,90", "treinamentoia.conexaomkt.com.br".
+2. **Monte a lista de textos** com o que o Copywriter escreveu, na ordem de importância (título primeiro), já no tamanho que o estilo comporta. Na campanha, inclua os fixos: "25/11", "Tri Hotel", "R$ 198,90". **Nunca coloque site, telefone ou @ na lista:** o rodapé com a logo, o (51) 99266-8095 e o conexaomkt.com.br entra sozinho, por código. O site da imersão vai na legenda ("link na bio").
+
+   Padrão aprovado pelo Lucas (veja estilos/aprovados/): título curto e forte, uma linha de apoio, no máximo 4 benefícios curtos, um botão. Pessoa genérica nos posts de dor; o Lucas nos de autoridade e venda.
 3. **Peça a arte** (feed e story de uma vez):
    ```
    python3 scripts/pedir_arte.py --post posts/AAAA-MM-DD-16h --estilo NOME --textos "texto 1 | texto 2 | ..." --lucas --cena "o detalhe surpresa do conceito"
