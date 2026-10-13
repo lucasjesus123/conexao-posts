@@ -24,7 +24,7 @@ A biblioteca fica em `estilos/estilos.json` (cada estilo tem imagem, descrição
    ```
    python3 scripts/pedir_arte.py --post posts/AAAA-MM-DD-16h --estilo NOME --textos "texto 1 | texto 2 | ..." --lucas --cena "o detalhe surpresa do conceito"
    ```
-   Use `--lucas` só quando o post leva a foto dele. A `--cena` é onde entra a metáfora do Diretor de Criação (ex.: "robô entregando um convite iluminado").
+   Use `--lucas` só quando o post leva a foto dele. Use `--paleta marca` quando o estilo tem cores de outra marca (ex.: laranja) e o post precisa da identidade azul/ciano (sempre na campanha da imersão). Leia o campo `obs` do estilo: ali ficam as adaptações obrigatórias (selo SIMULAÇÃO, trocar 'AI' por 'IA', não copiar a pessoa da referência). A `--cena` é onde entra a metáfora do Diretor de Criação (ex.: "robô entregando um convite iluminado").
 4. O script espera o GPT (2 a 4 minutos) e já salva `feed.jpg` e `story.jpg` na pasta do post. Grave `"estilo": "NOME"` e `"imagem": "gpt"` no post.json.
 5. Se o script sair com erro, ou se o Revisor achar texto errado duas vezes seguidas, use o plano B abaixo.
 

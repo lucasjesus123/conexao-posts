@@ -32,6 +32,7 @@ def main():
     ap.add_argument("--lucas", action="store_true")
     ap.add_argument("--cena", default="")
     ap.add_argument("--sem-story", action="store_true")
+    ap.add_argument("--paleta", choices=["original", "marca"], default="original", help="marca = recolorir em azul/ciano do Grupo Conexão")
     ap.add_argument("--espera", type=int, default=600)
     a = ap.parse_args()
 
@@ -47,7 +48,7 @@ def main():
     for f in formatos:
         nome = f"{post.name}-{f}"
         pedido = {"estilo": a.estilo, "textos": textos, "com_lucas": a.lucas, "cena": a.cena,
-                  "formato": f, "post": post.as_posix(), "status": "pendente"}
+                  "formato": f, "paleta": a.paleta, "post": post.as_posix(), "status": "pendente"}
         pj = pathlib.Path(f"gerar/pedidos/{nome}.json")
         pj.parent.mkdir(parents=True, exist_ok=True)
         pj.write_text(json.dumps(pedido, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

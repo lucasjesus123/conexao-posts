@@ -57,10 +57,17 @@ def montar_estilo(pedido):
         refs.append("lucas")
         pessoa = ("The other reference images show the real man Lucas: wherever a person appears in the layout, "
                   "it must be exactly this man (same face, beard, hair and clear transparent-frame eyeglasses). ")
+    else:
+        pessoa = ("If the reference shows a person, replace them with a NEW generic person (never copy the real person of the reference). ")
+    paleta = ""
+    if pedido.get("paleta") == "marca":
+        paleta = "Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. "
+    obs = e.get("obs", "")
     formato = pedido.get("formato", "feed")
     prompt = f"""Recreate the FIRST reference image as a new Instagram {formato} ad in exactly the same visual style:
 same layout, composition, color palette, typography style, light effects, buttons and overall quality. {e.get('descricao', '')}
-{pessoa}{pedido.get('cena', '')}
+{pessoa}{paleta}{pedido.get('cena', '')} {obs}
+Remove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.
 
 Replace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,
 in Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:

@@ -31,5 +31,144 @@
     "pessoa": "Lucas + robô",
     "textos": "8 a 10 (etiqueta, kicker, título, apoio, faixa de info, botão, preço, site)",
     "uso": "venda da imersão"
+  },
+  "conceito-maos-ia": {
+    "arquivo": "estilos/conceito-maos-ia.jpg",
+    "descricao": "Mão robótica branca e mão humana quase se tocando em torno de um cubo holográfico com 'AI' em neon, rede de pontos e linhas ao fundo azul-marinho. Assinatura em serifa fina no topo, pergunta em caixa alta dourada em 2 linhas, linha pequena espaçada abaixo.",
+    "tom": "escuro",
+    "pessoa": "nenhuma (mãos)",
+    "textos": "3 (assinatura, pergunta, 'leia a legenda')",
+    "uso": "reflexão, pergunta provocativa, conteúdo de opinião",
+    "obs": "Trocar 'AI' do cubo por 'IA'. A assinatura vira 'GRUPO CONEXÃO' ou 'LUCAS JESUS'."
+  },
+  "maos-orbita": {
+    "arquivo": "estilos/maos-orbita.jpg",
+    "descricao": "Fundo preto com arcos de planeta em azul elétrico nos cantos, mão robótica metálica com LEDs azuis e mão humana se aproximando. Título branco centralizado em 3 linhas com 2 palavras em azul, linha de apoio curta com pontos, pílula com o site embaixo e seta circular.",
+    "tom": "escuro",
+    "pessoa": "nenhuma (mãos)",
+    "textos": "4 (título com 2 destaques, apoio, site)",
+    "uso": "serviço de IA, produto, institucional"
+  },
+  "hologramas-autoridade": {
+    "arquivo": "estilos/hologramas-autoridade.jpg",
+    "descricao": "Pessoa de meio corpo no centro, cercada por um anel de telas holográficas azuis flutuando, linhas de conexão no chão; título enorme alinhado à direita em 2 linhas com a última palavra em gradiente azul; apoio com início em negrito; 3 pílulas de categoria embaixo.",
+    "tom": "escuro",
+    "pessoa": "Lucas no centro",
+    "textos": "5 a 6 (título 2 linhas, apoio com trecho em negrito, 3 pílulas)",
+    "uso": "notícia de IA com opinião do Lucas, autoridade",
+    "obs": "Telas sem logos de outras empresas."
+  },
+  "rosto-telas-tipografia": {
+    "arquivo": "estilos/rosto-telas-tipografia.jpg",
+    "descricao": "Close do rosto olhando para o lado, iluminado em azul, com notebooks e monitores flutuando em volta; frase em caixa alta espaçada à esquerda; tipografia gigante quebrada em 2 linhas sobre o peito, branca em degradê para ciano; data pequena; rodapé com marca e redes.",
+    "tom": "escuro",
+    "pessoa": "Lucas (close)",
+    "textos": "4 a 5 (frase espaçada, palavra gigante em 2 partes, data, rodapé)",
+    "uso": "manifesto, data comemorativa, contagem regressiva do evento",
+    "obs": "A referência tem marca d'água 'Designi': nunca reproduzir."
+  },
+  "janelas-holograficas-roxo": {
+    "arquivo": "estilos/janelas-holograficas-roxo.jpg",
+    "descricao": "Pessoa de camiseta preta tocando com o dedo janelas de navegador e apps holográficas em vidro, luz roxa e azul; título no topo com palavra manuscrita pequena + palavra grande espaçada em gradiente + linha fina; frase na base sobre linha azul; pílula de redes.",
+    "tom": "escuro",
+    "pessoa": "Lucas tocando as telas",
+    "textos": "4 (palavra manuscrita, palavra grande, complemento, frase de base)",
+    "uso": "sites, sistemas, demonstração de ferramentas"
+  },
+  "lead-notebook-cards": {
+    "arquivo": "estilos/lead-notebook-cards.jpg",
+    "descricao": "Escritório escuro desfocado, pessoa de blazer digitando no notebook à direita, dois cards de vidro flutuando com resposta de IA e resumo de conversa com gráfico; título grande à esquerda em 2 linhas, apoio, botão em pílula cinza com círculo e seta; rodapé com redes e site.",
+    "tom": "escuro",
+    "pessoa": "Lucas no notebook",
+    "textos": "5 a 7 (título, apoio, botão, textos curtos dos cards, rodapé)",
+    "uso": "atendimento com IA, automação, leads",
+    "obs": "Cards são demonstração: incluir o selo 'SIMULAÇÃO'."
+  },
+  "site-imersao": {
+    "arquivo": "estilos/site-imersao.jpg",
+    "descricao": "Topo da página de vendas da imersão (identidade oficial): fundo azul-preto, Lucas de blazer sorrindo com anel de luz ciano, cards de vidro com '25/11' e 'R$ 198,90', marca ALÉM DO AGORA, título enorme branco + ciano, apoio, pílulas '60 VAGAS' e investimento, botão ciano.",
+    "tom": "escuro",
+    "pessoa": "Lucas",
+    "textos": "7 a 9 (marca, subtítulo, título, apoio, 2 pílulas, botão, 2 cards)",
+    "uso": "venda da imersão com a cara do site",
+    "obs": "A referência é horizontal: adaptar para vertical, foto em cima e texto embaixo."
+  },
+  "celular-conversa-laranja": {
+    "arquivo": "estilos/celular-conversa-laranja.jpg",
+    "descricao": "Celular 3D grande inclinado com conversa de direct, uma mensagem ampliada saltando da tela com borda luminosa e trecho grifado; etiqueta em pílula no topo, título enorme de 3 palavras com a última em gradiente laranja, apoio, botão contornado; linhas de luz laranja no fundo preto.",
+    "tom": "escuro",
+    "pessoa": "nenhuma",
+    "textos": "5 a 7 (etiqueta, título, apoio, mensagens curtas, botão)",
+    "uso": "atendimento por WhatsApp/direct, demonstração",
+    "obs": "NUNCA usar 'depoimento real': a etiqueta vira 'SIMULAÇÃO' e as mensagens são ilustrativas."
+  },
+  "loja-cards-claro": {
+    "arquivo": "estilos/loja-cards-claro.jpg",
+    "descricao": "Foto real de loja/comércio ao fundo com balcão, maquininha e notebook com painel; no centro, faixa escura com título em caixa alta, faixa branca com subtítulo, card branco com 4 linhas de benefício com ícones azuis e divisória, botão azul.",
+    "tom": "claro",
+    "pessoa": "nenhuma",
+    "textos": "7 a 8 (título, subtítulo, 4 benefícios, botão)",
+    "uso": "serviço para comércio local, Lajeado, lojistas",
+    "obs": "Números do painel são demonstração: 'PAINEL ILUSTRATIVO'."
+  },
+  "dor-pessoa-roxo": {
+    "arquivo": "estilos/dor-pessoa-roxo.jpg",
+    "descricao": "Pessoa angustiada com as mãos na cabeça, fundo roxo esfumaçado; frase pequena + título enorme em caixa alta em 2 linhas com a última palavra em roxo; linha branca e ícones de rede social na base.",
+    "tom": "escuro",
+    "pessoa": "pessoa genérica (NÃO o Lucas)",
+    "textos": "3 (frase de abertura, título, palavra de destaque)",
+    "uso": "dor, objeção, medo do empresário"
+  },
+  "chip-ia-roxo": {
+    "arquivo": "estilos/chip-ia-roxo.jpg",
+    "descricao": "Chip de IA 3D roxo brilhando sobre placa de circuito, 4 cards de vidro com ícones (engrenagem, documento, gráfico, relógio); pergunta enorme em caixa alta em 4 linhas com 2 palavras em roxo; apoio centralizado; botão retangular roxo em caixa alta.",
+    "tom": "escuro",
+    "pessoa": "nenhuma",
+    "textos": "4 (pergunta, apoio, botão, rótulos do topo)",
+    "uso": "provocação de produtividade, diagnóstico, chamada para conversa"
+  },
+  "robo-porta-cofre": {
+    "arquivo": "estilos/robo-porta-cofre.jpg",
+    "descricao": "Robô humanoide branco e preto de costas diante de uma porta de cofre entreaberta com luz quente saindo; kicker em mono espaçado com data; título grande fino com 2 palavras em itálico serifado colorido; apoio em 2 linhas; botão em pílula colorido.",
+    "tom": "escuro",
+    "pessoa": "robô",
+    "textos": "4 (kicker, título com itálico, apoio, botão)",
+    "uso": "teaser e lançamento da imersão, 'algo novo chegando'",
+    "obs": "Paleta original laranja; pode trocar para ciano/azul com 'paleta marca'."
+  },
+  "exercito-robos": {
+    "arquivo": "estilos/exercito-robos.jpg",
+    "descricao": "Exército de robôs humanoides brancos caminhando em direção à câmera num galpão escuro com luzes quentes; marca e kicker em mono; título grande com itálico serifado colorido; apoio; botão em pílula.",
+    "tom": "escuro",
+    "pessoa": "robôs",
+    "textos": "4 (kicker, título com itálico, apoio, botão)",
+    "uso": "'a nova fase da IA nas empresas', conteúdo que vende a imersão"
+  },
+  "caixa-misteriosa": {
+    "arquivo": "estilos/caixa-misteriosa.jpg",
+    "descricao": "Pessoa sentada à cabeceira de uma mesa de reunião escura com uma caixa preta com símbolo iluminado na frente, cidade à noite pela janela; pílula com data no topo, título em 2 linhas com 2 palavras coloridas, apoio, barra-botão larga na base com círculo e seta.",
+    "tom": "escuro",
+    "pessoa": "Lucas na mesa",
+    "textos": "5 (pílula com data, título, apoio, botão, sub-botão)",
+    "uso": "convite e teaser da imersão ('em 25/11 eu abro essa caixa')",
+    "obs": "O símbolo da caixa vira um chip ou o anel de luz do ALÉM DO AGORA."
+  },
+  "notificacoes-claro": {
+    "arquivo": "estilos/notificacoes-claro.jpg",
+    "descricao": "Fundo claro cinza-gelo, pessoa sorrindo olhando o celular à direita, cards azuis de notificação flutuando; título em caixa alta em 3 linhas com a primeira palavra de cada uma em azul; 2 parágrafos com trechos em negrito; botão azul com seta.",
+    "tom": "claro",
+    "pessoa": "Lucas com o celular",
+    "textos": "5 a 6 (título 3 linhas, 2 apoios, 2 notificações, botão)",
+    "uso": "venda e benefícios com tom leve",
+    "obs": "Notificações são demonstração: 'SIMULAÇÃO'."
+  },
+  "painel-isometrico-escuro": {
+    "arquivo": "estilos/painel-isometrico-escuro.jpg",
+    "descricao": "Fundo azul-marinho para roxo, painel de vidro com cards de métricas e lista à direita, servidor 3D isométrico com nuvem; título grande à esquerda em 4 linhas, apoio, 4 chips com ícones, botão retangular verde, linha final com escudo.",
+    "tom": "escuro",
+    "pessoa": "nenhuma",
+    "textos": "8 a 10 (título, apoio, 4 chips, botão, linha final, rótulos do painel)",
+    "uso": "sistemas sob medida, SaaS, gestão",
+    "obs": "Números do painel: 'PAINEL ILUSTRATIVO'. Botão pode virar azul da marca."
   }
 }
