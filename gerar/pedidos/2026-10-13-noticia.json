@@ -1,0 +1,9 @@
+{
+  "prompt": "Use the reference images: they show the real man Lucas (keep his face, full black beard, hair and clear transparent-frame eyeglasses 100% identical).\n\nCreate a vertical 4:5 Instagram post designed like a premium online NEWS ARTICLE card (editorial journalism layout, credible and sober), with NO real newspaper name or logo.\n\nLayout from top to bottom:\n1. Thin top bar: small category chip in red \"DESTAQUE\" next to small grey text \"LAJEADO/RS · 25/11\". On the right of the bar, the small masthead text \"ALÉM DO AGORA\" in elegant caps.\n2. Big serif headline (like a newspaper), dark navy on white paper background, 3 lines:\n\"Lajeado recebe imersão presencial de Inteligência Artificial para empresários\"\n3. One-line sans-serif standfirst in grey: \"Encontro com Lucas Jesus acontece em 25/11, no Tri Hotel.\"\n4. Large editorial photo (60% of the width and height area): Lucas being interviewed in a modern TV/newsroom studio at night with blue screens in the background, wearing a black blazer over a black t-shirt, speaking confidently, a handheld microphone with a plain blue foam windscreen (no brand) pointed at him. Photojournalism look, natural skin, shallow depth of field.\n5. Overlapping the bottom-left corner of the photo, a white quote card with a big blue quotation mark: \"A I.A. já mudou o trabalho. A pergunta agora é: o seu negócio já mudou?\" and below it in small bold: \"Lucas Jesus\".\n6. Leave the bottom 11% of the image as a clean dark navy band with nothing on it.\n\nColors: white/off-white paper, dark navy #0B1220 text, accents in electric blue #2F6BFF and cyan #22D3EE, the small red chip only.\nWrite every text exactly as given, Brazilian Portuguese with all accents, perfectly spelled, no other words, no fake bylines, no dates other than 25/11, no logos, no watermark.",
+  "referencias": [
+    "lucas"
+  ],
+  "formato": "feed",
+  "qualidade": "high",
+  "status": "pendente"
+}
