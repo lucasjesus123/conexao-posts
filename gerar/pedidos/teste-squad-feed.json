@@ -1,0 +1,20 @@
+{
+  "estilo": "painel3d-claro",
+  "textos": [
+    "Seu WhatsApp",
+    "responde sozinho.",
+    "Atendimento com I.A. que não esquece ninguém",
+    "Resposta em segundos",
+    "Agenda marcada",
+    "Pedido anotado",
+    "Cliente avisado",
+    "Quero no meu negócio",
+    "PAINEL ILUSTRATIVO",
+    "conexaomkt.com.br"
+  ],
+  "com_lucas": false,
+  "cena": "",
+  "formato": "feed",
+  "post": "gerar/teste-squad",
+  "status": "pendente"
+}
