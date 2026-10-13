@@ -1,7 +1,7 @@
 {
   "formato": "feed",
   "paleta": "original",
-  "status": "pendente",
+  "status": "pronto",
   "com_lucas": false,
   "estilo": "loja-cards-claro",
   "textos": [
@@ -14,5 +14,12 @@
     "Fale com a gente",
     "PAINEL ILUSTRATIVO"
   ],
-  "cena": "Keep a real local store background. The small label 'PAINEL ILUSTRATIVO' goes on the laptop dashboard. Leave the bottom 10% of the image clean (no extra button there)."
+  "cena": "Keep a real local store background. The small label 'PAINEL ILUSTRATIVO' goes on the laptop dashboard. Leave the bottom 10% of the image clean (no extra button there).",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Foto real de loja/comércio ao fundo com balcão, maquininha e notebook com painel; no centro, faixa escura com título em caixa alta, faixa branca com subtítulo, card branco com 4 linhas de benefício com ícones azuis e divisória, botão azul.\nIf the reference shows a person, replace them with a NEW generic person (never copy the real person of the reference). Keep a real local store background. The small label 'PAINEL ILUSTRATIVO' goes on the laptop dashboard. Leave the bottom 10% of the image clean (no extra button there). Números do painel são demonstração: 'PAINEL ILUSTRATIVO'.\nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"TRÁFEGO PAGO\"\n2. \"PARA O COMÉRCIO DE LAJEADO\"\n3. \"Campanhas no Instagram e no Google\"\n4. \"Criativos feitos para vender\"\n5. \"Relatório claro todo mês\"\n6. \"Atendimento de quem é daqui\"\n7. \"Fale com a gente\"\n8. \"PAINEL ILUSTRATIVO\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/loja-cards-claro.jpg"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-mkt-trafego.png",
+  "arte_final": "gerar/saida/2026-10-13-mkt-trafego.jpg"
 }

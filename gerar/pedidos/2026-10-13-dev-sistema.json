@@ -1,7 +1,7 @@
 {
   "formato": "feed",
   "paleta": "marca",
-  "status": "pendente",
+  "status": "pronto",
   "com_lucas": false,
   "estilo": "painel-isometrico-escuro",
   "textos": [
@@ -16,5 +16,12 @@
     "Quero o meu sistema",
     "PAINEL ILUSTRATIVO"
   ],
-  "cena": "Button in electric blue #2F6BFF instead of green. Dashboard labels in Portuguese only from the list; no other numbers or words in the panel besides simple chart lines. Leave the bottom 10% clean."
+  "cena": "Button in electric blue #2F6BFF instead of green. Dashboard labels in Portuguese only from the list; no other numbers or words in the panel besides simple chart lines. Leave the bottom 10% clean.",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Fundo azul-marinho para roxo, painel de vidro com cards de métricas e lista à direita, servidor 3D isométrico com nuvem; título grande à esquerda em 4 linhas, apoio, 4 chips com ícones, botão retangular verde, linha final com escudo.\nIf the reference shows a person, replace them with a NEW generic person (never copy the real person of the reference). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. Button in electric blue #2F6BFF instead of green. Dashboard labels in Portuguese only from the list; no other numbers or words in the panel besides simple chart lines. Leave the bottom 10% clean. Números do painel: 'PAINEL ILUSTRATIVO'. Botão pode virar azul da marca.\nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"Sistema\"\n2. \"sob medida\"\n3. \"para a sua empresa.\"\n4. \"Do jeito que você já trabalha: pedidos, estoque, financeiro e equipe num lugar só.\"\n5. \"Pedidos\"\n6. \"Estoque\"\n7. \"Financeiro\"\n8. \"Equipe\"\n9. \"Quero o meu sistema\"\n10. \"PAINEL ILUSTRATIVO\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/painel-isometrico-escuro.jpg"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-dev-sistema.png",
+  "arte_final": "gerar/saida/2026-10-13-dev-sistema.jpg"
 }

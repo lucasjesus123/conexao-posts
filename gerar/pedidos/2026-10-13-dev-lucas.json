@@ -1,7 +1,7 @@
 {
   "formato": "feed",
   "paleta": "marca",
-  "status": "pendente",
+  "status": "pronto",
   "com_lucas": true,
   "estilo": "janelas-holograficas-roxo",
   "textos": [
@@ -10,5 +10,13 @@
     "do jeito que a sua empresa trabalha",
     "Sites, sistemas e automações com I.A., feitos em Lajeado."
   ],
-  "cena": "The man wears a black t-shirt and clear transparent-frame eyeglasses, touching holographic glass windows showing a simple business dashboard, an order list and a WhatsApp-like chat (no readable text in the windows). Leave the bottom 10% clean (no social icons)."
+  "cena": "The man wears a black t-shirt and clear transparent-frame eyeglasses, touching holographic glass windows showing a simple business dashboard, an order list and a WhatsApp-like chat (no readable text in the windows). Leave the bottom 10% clean (no social icons).",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Pessoa de camiseta preta tocando com o dedo janelas de navegador e apps holográficas em vidro, luz roxa e azul; título no topo com palavra manuscrita pequena + palavra grande espaçada em gradiente + linha fina; frase na base sobre linha azul; pílula de redes.\nThe other reference images show the real man Lucas: wherever a person appears in the layout, it must be exactly this man (same face, beard, hair and clear transparent-frame eyeglasses). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. The man wears a black t-shirt and clear transparent-frame eyeglasses, touching holographic glass windows showing a simple business dashboard, an order list and a WhatsApp-like chat (no readable text in the windows). Leave the bottom 10% clean (no social icons). \nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"seu\"\n2. \"SISTEMA\"\n3. \"do jeito que a sua empresa trabalha\"\n4. \"Sites, sistemas e automações com I.A., feitos em Lajeado.\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/janelas-holograficas-roxo.jpg",
+    "lucas"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-dev-lucas.png",
+  "arte_final": "gerar/saida/2026-10-13-dev-lucas.jpg"
 }

@@ -1,7 +1,7 @@
 {
   "formato": "feed",
   "paleta": "marca",
-  "status": "pendente",
+  "status": "pronto",
   "com_lucas": false,
   "estilo": "dor-pessoa-roxo",
   "textos": [
@@ -9,5 +9,12 @@
     "O CLIENTE NÃO",
     "COMPRA?"
   ],
-  "cena": "A Brazilian small business owner (generic new person, not from the reference) in a dark shop at night, hands on head, phone in one hand with the Instagram feed glowing. Leave the bottom 12% of the image empty dark (no icons, no line)."
+  "cena": "A Brazilian small business owner (generic new person, not from the reference) in a dark shop at night, hands on head, phone in one hand with the Instagram feed glowing. Leave the bottom 12% of the image empty dark (no icons, no line).",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Pessoa angustiada com as mãos na cabeça, fundo roxo esfumaçado; frase pequena + título enorme em caixa alta em 2 linhas com a última palavra em roxo; linha branca e ícones de rede social na base.\nIf the reference shows a person, replace them with a NEW generic person (never copy the real person of the reference). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. A Brazilian small business owner (generic new person, not from the reference) in a dark shop at night, hands on head, phone in one hand with the Instagram feed glowing. Leave the bottom 12% of the image empty dark (no icons, no line). \nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"Você posta todo dia, mas\"\n2. \"O CLIENTE NÃO\"\n3. \"COMPRA?\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/dor-pessoa-roxo.jpg"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-mkt-dor.png",
+  "arte_final": "gerar/saida/2026-10-13-mkt-dor.jpg"
 }
