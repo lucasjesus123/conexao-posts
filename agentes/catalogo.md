@@ -36,6 +36,9 @@ O perfil é visto em grade de 3 colunas. Antes de escolher o modelo, olhe os 5 p
 
 ### Compostos (Photoshop: 3D, mockup, imagem sobre imagem)
 
+Todos aceitam `"tema": "claro"` (fundo papel, vidro branco, celular prata) ou escuro (padrão). Use um composto por dia, alternando claro e escuro, conforme agentes/calendario.md.
+
+
 | modelo | quando usar | campos principais |
 |---|---|---|
 | celular3d | demonstrar IA no WhatsApp, atendimento, automação | tag, titulo ([gradiente]), subtitulo, conversa [[quem, texto]...], pop_html (última mensagem com `<span class="mk">` de marca-texto), pop_rodape, cta, selo |
@@ -50,7 +53,7 @@ Modelos antigos (cinema, impacto, capa, dado, manchete, chat, frase, lista, even
 - `lucas_estudio.jpg` / `lucas_estudio_recorte.png`: retrato de estúdio, braços cruzados (revista, flutuante)
 - `lucas_palestra.jpg` / `lucas_palestra_recorte.png`: palestrando com microfone (popout)
 - `lucas_pb.jpg`: retrato P&B pensativo (retrato)
-- `chip3d.jpg`: chip de IA 3D em fundo escuro (objeto do painel3d)
+- `chip3d.png`: chip de IA 3D já recortado com brilho (objeto padrão do painel3d). Objetos novos: gere em fundo escuro liso e recorte com `python3 scripts/recorte_brilho.py entrada.jpg campanhas/assets/nome.png`
 - `robo2.jpg`, `lucas_holo.jpg`: robôs e cena holográfica
 
 Foto nova: o Diretor de Arte escreve o prompt completo e gera no Kairogen. Recorte com rembg (`pip install "rembg[cpu]" --break-system-packages`, sessão `isnet-general-use`). Salve no repositório em campanhas/assets/ para reusar depois.
