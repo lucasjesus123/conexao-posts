@@ -9,12 +9,12 @@ Todo dia sai **pelo menos um criativo composto** (celular3d, painel3d ou flutuan
 | **Quarta** (imersão) | papel ou nota **claro**: notícia de IA da semana → imersão | ★ flutuante **escuro** (Lucas): venda da imersão |
 | **Quinta** | carrossel **claro**: guia de IA nas empresas | ★ celular3d **escuro**: automação no WhatsApp |
 | **Sexta** (imersão) | ★ painel3d **claro**: notícia ou dado de IA → imersão | retrato **P&B escuro** (Lucas): FRASE forte dele + venda na legenda + story do Grupo VIP |
-| **Sábado** | ★ celular3d **claro**: vendas pelo WhatsApp e redes | popout **escuro** (Lucas palestrando) ou foto escura: bastidor com uma frase |
+| **Sábado** | ★ celular3d **escuro**: vendas pelo WhatsApp e redes | popout **claro** (Lucas palestrando): bastidor com uma frase |
 | **Domingo** | papel **claro**: FRASE da semana (opinião do Lucas) | ★ painel3d **claro**: institucional, o que a Conexão entrega |
 
 ## Regras
 
-- **Foto do Lucas é SEMPRE em arte ESCURA** (revista, popout, retrato e flutuante no tema escuro). Nunca use a foto dele em fundo claro.
+- **Foto do Lucas é SEMPRE em arte ESCURA** (revista, retrato e flutuante no tema escuro). Única exceção aprovada: o **popout claro** (fundo papel com a foto escura dele na moldura e a cabeça saindo do quadro), que ele gostou; use-o no máximo 1 vez por semana.
 - **Frases:** o Lucas gosta de frases fortes. Pelo menos 3 posts por semana são de frase (papel, nota ou retrato), escritas como opinião dele: curtas, afirmativas e que dão vontade de compartilhar.
 
 - Se a regra do grid (catalogo.md) bater de frente com esta tabela, vale o grid: troque o tema (claro ↔ escuro) ou o modelo editorial, mas mantenha o composto do dia.
