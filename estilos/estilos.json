@@ -1,19 +1,35 @@
 {
-  "_ajuda": "Biblioteca de estilos. Para guardar uma referência nova: suba a imagem nesta pasta (estilos/NOME.jpg ou .png) e, se quiser, descreva aqui. Para criar: GitHub > Actions > 'Gerar arte no estilo' > Run workflow, ou peça ao Claude 'no estilo NOME com os textos ...'.",
+  "_ajuda": "Biblioteca de estilos do squad. O Lucas larga referências em estilos/novos/; o squad cataloga (nome, descrição, tom, pessoa, quantos textos, uso) e move para estilos/. Para gerar: python3 scripts/pedir_arte.py --post ... --estilo NOME --textos 'a | b | c' [--lucas].",
   "anuncio-hud": {
     "arquivo": "estilos/anuncio-hud.jpg",
-    "descricao": "Anúncio escuro tipo HUD: Lucas no centro numa loja à noite, robô com tablet ao lado, tarja vermelha de alerta, manchete em caixa alta + linha em itálico ciano, faixa de informações, botão em pílula e preço grande à direita."
+    "descricao": "Anúncio escuro tipo HUD: Lucas no centro numa loja à noite, robô com tablet ao lado, tarja vermelha de alerta, manchete em caixa alta + linha em itálico ciano, faixa de informações, botão em pílula e preço grande à direita.",
+    "tom": "escuro",
+    "pessoa": "Lucas + robô",
+    "textos": "7 a 9 (tarja, manchete, linha itálica, selo, faixa de info, botão, rótulo e preço, site)",
+    "uso": "venda direta da imersão, chamada por público local"
   },
   "cinema-robo": {
     "arquivo": "estilos/cinema-robo.jpg",
-    "descricao": "Cinema escuro: Lucas segurando painel holográfico, robô de perfil à direita, kicker ciano em mono, título branco grande com palavra em itálico ciano, botão pílula + caixa de investimento."
+    "descricao": "Cinema escuro: Lucas segurando painel holográfico, robô de perfil à direita, kicker ciano em mono, título branco grande com palavra em itálico ciano, botão pílula + caixa de investimento.",
+    "tom": "escuro",
+    "pessoa": "Lucas + robô",
+    "textos": "6 a 8 (kicker, título 2 linhas, apoio, botão, preço, rodapé, site)",
+    "uso": "venda da imersão, autoridade"
   },
   "painel3d-claro": {
     "arquivo": "estilos/painel3d-claro.jpg",
-    "descricao": "Composto claro: fundo papel, título preto enorme com palavra em gradiente azul, chips brancos com ícones, cards de vidro e objeto 3D à direita, botão azul em pílula, selo 'painel ilustrativo'."
+    "descricao": "Composto claro: fundo papel, título preto enorme com palavra em gradiente azul, chips brancos com ícones, cards de vidro e objeto 3D à direita, botão azul em pílula, selo 'painel ilustrativo'.",
+    "tom": "claro",
+    "pessoa": "nenhuma",
+    "textos": "7 a 9 (título 3 linhas, apoio, 4 chips, botão, selo, rodapé)",
+    "uso": "sistemas, gestão, conteúdo que entrega valor"
   },
   "revista-lucas-robo": {
     "arquivo": "estilos/revista-lucas-robo.jpg",
-    "descricao": "Revista escura: Lucas de braços cruzados e robô oficial atrás com gráfico holográfico, anel de luz, etiqueta ciano no alto do bloco de texto, título 'branco + itálico em gradiente', faixa de informações, botão e preço."
+    "descricao": "Revista escura: Lucas de braços cruzados e robô oficial atrás com gráfico holográfico, anel de luz, etiqueta ciano no alto do bloco de texto, título 'branco + itálico em gradiente', faixa de informações, botão e preço.",
+    "tom": "escuro",
+    "pessoa": "Lucas + robô",
+    "textos": "8 a 10 (etiqueta, kicker, título, apoio, faixa de info, botão, preço, site)",
+    "uso": "venda da imersão"
   }
 }

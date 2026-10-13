@@ -14,7 +14,21 @@ Prefira os modelos que mais chamam atenção no tema:
 - dado → numero
 - guia → carrossel
 
-## 2. Imagem
+## 2. Caminho padrão: arte inteira pelo GPT, no estilo da biblioteca
+
+A biblioteca fica em `estilos/estilos.json` (cada estilo tem imagem, descrição, tom, pessoa, quantos textos cabem e para que serve). As fotos de referência do Lucas, do robô oficial e do retrato híbrido ficam em `campanhas/referencias.json`.
+
+1. **Escolha o estilo** que combina com o conceito vencedor, respeitando a regra do grid (tom alternado, Lucas em no máximo 1 a cada 3). Não use o mesmo estilo dos 3 últimos posts; o estilo usado fica gravado no campo `estilo` do post.json.
+2. **Monte a lista de textos** com o que o Copywriter escreveu, na ordem de importância (título primeiro), já no tamanho que o estilo comporta. Na campanha, inclua os fixos: "25/11", "Tri Hotel", "R$ 198,90", "treinamentoia.conexaomkt.com.br".
+3. **Peça a arte** (feed e story de uma vez):
+   ```
+   python3 scripts/pedir_arte.py --post posts/AAAA-MM-DD-16h --estilo NOME --textos "texto 1 | texto 2 | ..." --lucas --cena "o detalhe surpresa do conceito"
+   ```
+   Use `--lucas` só quando o post leva a foto dele. A `--cena` é onde entra a metáfora do Diretor de Criação (ex.: "robô entregando um convite iluminado").
+4. O script espera o GPT (2 a 4 minutos) e já salva `feed.jpg` e `story.jpg` na pasta do post. Grave `"estilo": "NOME"` e `"imagem": "gpt"` no post.json.
+5. Se o script sair com erro, ou se o Revisor achar texto errado duas vezes seguidas, use o plano B abaixo.
+
+## 3. Plano B: imagem sem texto + render.py
 
 Primeiro tente reaproveitar uma imagem de campanhas/assets/. Só gere nova se nenhuma servir ou se a mesma foto já apareceu nos últimos 6 posts.
 
@@ -34,7 +48,7 @@ Para objeto 3D: "Premium 3D product render, isometric, isolated on flat dark nav
 
 Confira a imagem gerada: mãos, rosto parecido com o Lucas, nada escrito. Se estiver errada, gere de novo (no máximo 2 vezes). Se for usar em revista, popout ou flutuante, recorte com rembg e salve o par .jpg + _recorte.png em campanhas/assets/.
 
-## 3. Entregue
+## 4. Entregue (plano B)
 
 O objeto JSON do post para o render.py, com:
 - id, modelo, pilar e caminhos de imagem;

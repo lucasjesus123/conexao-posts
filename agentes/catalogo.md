@@ -12,6 +12,10 @@ O perfil é visto em grade de 3 colunas. Antes de escolher o modelo, olhe os 5 p
 - **Azul chapado (modelo palavra):** no máximo 1 a cada 9 posts.
 - **Venda direta:** no máximo 1 a cada 3 posts. Os outros entregam algo: opinião, dado, guia ou demonstração.
 
+## Biblioteca de estilos (GPT): caminho padrão
+
+Além dos modelos do render.py, o squad tem a biblioteca `estilos/`: artes de referência que o GPT reproduz só trocando os textos (e colocando o Lucas quando o post pede). É o caminho padrão de execução (ver agentes/diretor_arte.md). O Lucas larga referências novas em `estilos/novos/` e o squad cataloga no passo 0. A regra do grid vale igual: o estilo conta como "modelo".
+
 ## Modelos
 
 ### Editoriais (respiro)
