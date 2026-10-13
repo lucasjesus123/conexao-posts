@@ -2,7 +2,7 @@
   "com_lucas": false,
   "formato": "feed",
   "paleta": "marca",
-  "status": "pendente",
+  "status": "pronto",
   "estilo": "exercito-robos",
   "textos": [
     "ALÉM DO AGORA · 25/11",
@@ -10,5 +10,12 @@
     "da I.A. nas empresas de Lajeado começou.",
     "Uma noite presencial para aprender a colocar a I.A. para trabalhar no seu negócio.",
     "Quero minha vaga"
-  ]
+  ],
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Exército de robôs humanoides brancos caminhando em direção à câmera num galpão escuro com luzes quentes; marca e kicker em mono; título grande com itálico serifado colorido; apoio; botão em pílula.\nIf the reference shows a person, replace them with a NEW generic person (never copy the real person of the reference). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet.  \nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"ALÉM DO AGORA · 25/11\"\n2. \"A nova fase\"\n3. \"da I.A. nas empresas de Lajeado começou.\"\n4. \"Uma noite presencial para aprender a colocar a I.A. para trabalhar no seu negócio.\"\n5. \"Quero minha vaga\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/exercito-robos.jpg"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-teste-exercito.png",
+  "arte_final": "gerar/saida/2026-10-13-teste-exercito.jpg"
 }

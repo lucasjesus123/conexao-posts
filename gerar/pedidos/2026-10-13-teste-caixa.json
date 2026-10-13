@@ -2,7 +2,7 @@
   "com_lucas": true,
   "formato": "feed",
   "paleta": "marca",
-  "status": "pendente",
+  "status": "pronto",
   "estilo": "caixa-misteriosa",
   "textos": [
     "ALÉM DO AGORA · 25/11",
@@ -12,5 +12,13 @@
     "Garanta sua vaga",
     "treinamentoia.conexaomkt.com.br"
   ],
-  "cena": "The glowing symbol on the box is a cyan light ring. The man wears clear transparent-frame eyeglasses and a black t-shirt."
+  "cena": "The glowing symbol on the box is a cyan light ring. The man wears clear transparent-frame eyeglasses and a black t-shirt.",
+  "prompt": "Recreate the FIRST reference image as a new Instagram feed ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Pessoa sentada à cabeceira de uma mesa de reunião escura com uma caixa preta com símbolo iluminado na frente, cidade à noite pela janela; pílula com data no topo, título em 2 linhas com 2 palavras coloridas, apoio, barra-botão larga na base com círculo e seta.\nThe other reference images show the real man Lucas: wherever a person appears in the layout, it must be exactly this man (same face, beard, hair and clear transparent-frame eyeglasses). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. The glowing symbol on the box is a cyan light ring. The man wears clear transparent-frame eyeglasses and a black t-shirt. O símbolo da caixa vira um chip ou o anel de luz do ALÉM DO AGORA.\nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"ALÉM DO AGORA · 25/11\"\n2. \"Em 25/11, eu abro\"\n3. \"essa caixa.\"\n4. \"Lá dentro: o método para usar I.A. de verdade no seu negócio. Presencial, no Tri Hotel.\"\n5. \"Garanta sua vaga\"\n6. \"treinamentoia.conexaomkt.com.br\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.",
+  "referencias": [
+    "estilos/caixa-misteriosa.jpg",
+    "lucas"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-13-teste-caixa.png",
+  "arte_final": "gerar/saida/2026-10-13-teste-caixa.jpg"
 }
