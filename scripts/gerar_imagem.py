@@ -129,6 +129,20 @@ def rodape(im, formato, destaque=""):
     return im.convert("RGB")
 
 
+def story_de_feed(feed):
+    """Story 1080x1920 montado a partir da arte do feed: a arte inteira na área segura
+    (14% do topo e 20% da base livres), sobre o próprio fundo desfocado e escurecido."""
+    from PIL import Image, ImageFilter
+    W, H = 1080, 1920
+    feed = feed.convert("RGB")
+    bg = feed.resize((int(feed.width * H / feed.height), H)).crop((0, 0, W, H)).filter(ImageFilter.GaussianBlur(40))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (5, 7, 13)), 0.6)
+    area = int(H * 0.80) - int(H * 0.14) - 20
+    f2 = feed.resize((int(feed.width * area / feed.height), area), Image.LANCZOS)
+    bg.paste(f2, ((W - f2.width) // 2, int(H * 0.14) + 10))
+    return bg
+
+
 def baixar(ref):
     """Aceita apelido (lucas, robo, hibrido…), URL ou caminho do repositório; devolve lista de arquivos locais."""
     urls = REFS.get(ref, ref)

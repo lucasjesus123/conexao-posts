@@ -43,7 +43,7 @@ def main():
     post = pathlib.Path(a.post)
     post.mkdir(parents=True, exist_ok=True)
     textos = [t.strip() for t in a.textos.split("|") if t.strip()]
-    formatos = ["feed"] + ([] if a.sem_story else ["story"])
+    formatos = ["feed"]  # o story sai do feed (scripts/gerar_imagem.story_de_feed): mais barato e sempre na área segura
     nomes = {}
     for f in formatos:
         nome = f"{post.name}-{f}"
@@ -78,6 +78,12 @@ def main():
             for f, e in estados.items():
                 shutil.copy(e["arte_final"], post / f"{f}.jpg")
                 print(f"{f}: {post / (f + '.jpg')} ({e.get('modelo')})")
+            if not a.sem_story:
+                sys.path.insert(0, "scripts")
+                from PIL import Image
+                from gerar_imagem import story_de_feed
+                story_de_feed(Image.open(post / "feed.jpg")).save(post / "story.jpg", quality=92)
+                print(f"story: {post / 'story.jpg'} (montado a partir do feed)")
             print("Textos pedidos (o Revisor confere letra por letra):")
             for t in textos:
                 print(f"  - {t}")
