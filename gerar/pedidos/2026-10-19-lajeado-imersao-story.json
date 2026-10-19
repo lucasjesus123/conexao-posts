@@ -15,5 +15,13 @@
   "formato": "story",
   "paleta": "marca",
   "destaque": "INSCRIÇÕES ABERTAS",
-  "status": "pendente"
+  "status": "erro",
+  "prompt": "Recreate the FIRST reference image as a new Instagram story ad in exactly the same visual style:\nsame layout, composition, color palette, typography style, light effects, buttons and overall quality. Pessoa de meio corpo no centro, cercada por um anel de telas holográficas azuis flutuando, linhas de conexão no chão; título enorme alinhado à direita em 2 linhas com a última palavra em gradiente azul; apoio com início em negrito; 3 pílulas de categoria embaixo.\nThe other reference images show the real man Lucas: wherever a person appears in the layout, it must be exactly this man (same face, beard, hair and clear transparent-frame eyeglasses). Recolor the whole piece to this brand palette: deep blue-black #05070D, cyan #22D3EE, electric blue #2F6BFF, touches of violet. Lucas stands waist-up in the center, confident slight smile, wearing a navy blue suit jacket over a black t-shirt, clear transparent-frame eyeglasses, surrounded by a ring of floating holographic glass screens showing simple business tools (a WhatsApp-like chat, a sales dashboard with rising lines, a calendar, an inventory list) with NO readable words or numbers on the screens. Night city lights of a small southern Brazilian city blurred far in the background. Headline block in the lower half, large and bold: line 1 small caps white, line 2 white, line 3 huge with gradient cyan to electric blue, line 4 white. The 3 short items at the end are pills/chips in a row under the support text. Telas sem logos de outras empresas.\nRemove EVERY logo, brand name, watermark, social media icon and website of the reference; the only brand allowed is the text in the list below.\n\nReplace ALL the text of the reference with ONLY these texts, in this order of importance (headline first), written exactly as below,\nin Brazilian Portuguese, keeping every accent and punctuation mark, perfectly spelled, with no extra words, no other text, no translations:\n1. \"LAJEADO VAI TER UMA\"\n2. \"IMERSÃO EM\"\n3. \"Inteligência Artificial\"\n4. \"para Negócios.\"\n5. \"Como implantar, de verdade, ferramentas de I.A. que ajudam o seu negócio todos os dias.\"\n6. \"25/11 · 19H\"\n7. \"TRI HOTEL\"\n8. \"R$ 198,90\"\n\nPut each text in the equivalent place of the reference (headline where the headline is, button text in the button, etc.).\nDo not invent prices, dates, numbers or logos that are not in the list. No watermark.\nDo NOT write any phone number, website, @handle or social icons: leave the bottom 11% of the image (and, in a story, the bottom 20%) clean and dark — a footer is added later.",
+  "referencias": [
+    "estilos/hologramas-autoridade.jpg",
+    "lucas"
+  ],
+  "modelo": "gpt-image-2",
+  "saida": "gerar/saida/2026-10-19-lajeado-imersao-story.png",
+  "erro": "No module named 'numpy'"
 }
