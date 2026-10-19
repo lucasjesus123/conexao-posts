@@ -129,6 +129,40 @@ def rodape(im, formato, destaque=""):
     return im.convert("RGB")
 
 
+def respiro(im, escala=0.93):
+    """Encolhe a arte e completa as bordas com o próprio fundo desfocado: dá margem de respiro
+    quando o GPT encosta o texto nas laterais."""
+    from PIL import Image, ImageFilter
+    import numpy as np
+    im = im.convert("RGB")
+    W, H = im.size
+    bg = im.resize((W, H)).filter(ImageFilter.GaussianBlur(50))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (5, 7, 13)), 0.55)
+    w, h = int(W * escala), int(H * escala)
+    peq = im.resize((w, h), Image.LANCZOS)
+    m = np.ones((h, w))
+    f = 40
+    r = np.linspace(0, 1, f)
+    m[:, :f] *= r[None, :]; m[:, -f:] *= r[::-1][None, :]; m[:f, :] *= r[:, None]; m[-f:, :] *= r[::-1][:, None]
+    bg.paste(peq, ((W - w) // 2, (H - h) // 2), Image.fromarray((m * 255).astype("uint8")))
+    return bg
+
+
+def selo_centro(im, texto="INSCRIÇÕES ABERTAS", margem=58):
+    """Rodapé mínimo: só uma pílula ciano centralizada, com margem de respiro da base."""
+    from PIL import ImageDraw, ImageFont
+    im = im.convert("RGB")
+    W, H = im.size
+    d = ImageDraw.Draw(im)
+    f = ImageFont.truetype("campanhas/fontes/Inter-SemiBold.otf", 30)
+    w = d.textlength(texto, font=f)
+    pw, ph = w + 72, 64
+    x, y = (W - pw) / 2, H - margem - ph
+    d.rounded_rectangle([x, y, x + pw, y + ph], radius=ph / 2, fill=(34, 211, 238))
+    d.text(((W - w) / 2, y + 14), texto, font=f, fill=(5, 7, 13))
+    return im
+
+
 def story_de_feed(feed):
     """Story 1080x1920 montado a partir da arte do feed: a arte inteira na área segura
     (14% do topo e 20% da base livres), sobre o próprio fundo desfocado e escurecido."""
