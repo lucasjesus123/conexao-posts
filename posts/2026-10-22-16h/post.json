@@ -1,0 +1,16 @@
+{
+  "publicar_em": "2026-10-22T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Automação no WhatsApp (loja de material de construção): a foto da lista do pedreiro escrita em papel de pão às 6h40 vira pré-orçamento — a IA transcreve, pergunta só o ambíguo (CP2 ou CP4? barra 3/8 de 12 m?), confirma a obra no Conventos e passa ao vendedor conferir preço, estoque e frete (Instituto Anamaco: ~97% das lojas usam WhatsApp para vender)",
+  "grande_ideia": "No WhatsApp da loja de material de construção, a foto da lista do pedreiro não é uma pergunta, é um pedido pronto: quem responde 'vou verificar e te retorno' devolve a venda pra loja do lado",
+  "objetivo": "conversa",
+  "pilar": "ia",
+  "modelo": "celular3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "imagem": "render.py celular3d + bolha-foto de papel de pão em CSS (fonte Caveat), sem imagem gerada",
+  "fonte": "https://www.em.com.br/mundo-corporativo/2026/02/7358033-vendas-digitais-avancam-no-varejo-da-construcao.html",
+  "legenda": "6h40, loja fechada, e a lista do pedreiro já chegou no WhatsApp. Quem responde?\n\nNa foto: cimento, barra 3/8, caixa d'água 500 L.\nEle não tá perguntando. Ele tá pedindo.\n“Vou verificar e te retorno” parece atendimento, mas enquanto a loja redigita item por item, a mesma foto pode ir pra outra loja.\nA IA lê a lista, separa os itens, pergunta só o que é ambíguo (CP2 ou CP4? barra de 12 m, reta?) e confirma o endereço da obra.\nPreço, estoque e prazo ficam com o teu vendedor. A IA entrega o pedido arrumado, e quem fecha é ele.\nSegundo o Instituto Anamaco, cerca de 97% das lojas usam o WhatsApp como canal de vendas e relacionamento com clientes (pesquisa com cerca de 2 mil lojistas, divulgada em fev/2026).\n\nMe conta: aí na loja a lista chega mais por FOTO ou por ÁUDIO? Responde com uma palavra.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #MaterialDeConstrucao #LojaDeMaterialDeConstrucao #VarejoDaConstrucao",
+  "story": true,
+  "status": "agendado"
+}
