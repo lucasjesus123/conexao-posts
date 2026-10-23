@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-10-23T08:00:00-03:00",
+  "turno": "08h",
+  "tema": "Imersão (conteúdo que vende): notícia de IA da semana — a Uber liberou o ChatGPT Work (agente de IA da OpenAI) para mais de 30 mil funcionários (OpenAI, 22/10), 105 dias depois do lançamento em 9/jul; painel de chegadas 'LAJEADO · EM ROTA'. Faltam 33 dias.",
+  "grande_ideia": "Toda notícia de IA tem um prazo de chegada no Vale do Taquari, e esse prazo caiu de anos pra meses: quem espera ver funcionando no vizinho perde a vantagem",
+  "objetivo": "compartilhamento",
+  "pilar": "imersao",
+  "modelo": "painel3d",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "fonte": "https://openai.com/index/uber-chatgpt-work-rollout/",
+  "legenda": "Notícia de IA levava anos pra chegar no Vale. Essa aqui pode levar meses.\n\nEm 9 de julho a OpenAI lançou o ChatGPT Work, um agente que executa tarefa, não só responde pergunta (PYMNTS). Ontem a própria OpenAI contou que a Uber liberou ele pra mais de 30 mil funcionários, depois de testar com mil pessoas. Fonte: OpenAI, 22/10 → https://openai.com/index/uber-chatgpt-work-rollout/\n\nE pra tua empresa? O agente está no plano ChatGPT Business, que funciona em português e custa a partir de US$ 20 por usuário/mês no plano anual (US$ 25 no mensal), segundo a página de preços da OpenAI. Ele se conecta ao Gmail, Drive e Agenda pelas próprias configurações, e aparece primeiro no escritório: pauta de reunião, planilha, análise de vendas, e-mail e agenda.\n\nMinha opinião: o prazo de pouso disso em Lajeado não se conta mais em anos. Se conta em meses. Quem espera ver funcionando no vizinho perde a vantagem.\n\nManda pro teu sócio, ou pra quem ainda acha que isso é coisa de empresa grande lá fora.\n\nDia 25/11, no Tri Hotel, eu mostro como pegar uma novidade dessas e colocar pra rodar na tua empresa em 30 dias. É a imersão ALÉM DO AGORA, presencial, das 19h às 22h, em Lajeado. Investimento: R$ 198,90.\n\nGaranta sua vaga pelo link na bio: treinamentoia.conexaomkt.com.br\nEntra no Grupo VIP do WhatsApp (link também na bio).\n\n#InteligenciaArtificial #IAparaNegocios #Lajeado #ValedoTaquari #AgentesDeIA",
+  "story": true,
+  "status": "agendado",
+  "objeto": "campanhas/assets/painel_embarque3d.png",
+  "imagem": "render.py painel3d + objeto 3D painel de embarque split-flap desenhado em HTML (scripts/objeto_painel_embarque.py); Kairogen sem créditos",
+  "story_sticker": "enquete: 'Quando isso chega na tua empresa?' Já chegou / Ainda em 2026"
+}
