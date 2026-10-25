@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-10-25T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Institucional: o que vem depois da entrega — tecnologia de fora vem com protocolo e 'sua solicitação foi encaminhada'; na Conexão quem montou o marketing, a IA no WhatsApp e o sistema é quem atende e ajusta (comprovante de suporte riscado em ciano + etiqueta 'Quem montou atende · Lajeado/RS')",
+  "grande_ideia": "Tecnologia de empresa grande vem com suporte por ticket; a da Conexão vem com quem fez: marketing, IA no WhatsApp e sistema sob medida feitos aqui no Vale, por quem conhece a tua operação e ajusta quando a empresa muda",
+  "objetivo": "conversa",
+  "pilar": "institucional",
+  "modelo": "painel3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "legenda": "Sistema travou. Tu abre chamado. Volta um protocolo e um \"aguarde\".\n\nNada contra software grande, ele resolve muita coisa.\nMas na hora que trava, tu explica tua empresa do zero pra quem nunca viu ela.\nAqui é diferente: quem montou teu marketing, tua IA no WhatsApp ou teu sistema é quem tu chama depois.\nGente de Lajeado, que sabe como teu negócio gira.\nE quando a empresa muda, a solução muda junto.\n\nQuando trava, o que te irrita mais: 1) esperar o protocolo ou 2) explicar tudo de novo? Responde 1 ou 2 👇\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #SistemaSobMedida #IAnoWhatsApp #MarketingLajeado",
+  "story": true,
+  "status": "agendado",
+  "objeto": "campanhas/assets/protocolo_riscado3d.png",
+  "imagem": "render.py painel3d + objeto 3D comprovante de protocolo riscado desenhado em HTML (scripts/objeto_protocolo.py); Kairogen sem créditos",
+  "story_sticker": "enquete: 'Quando teu sistema trava, tu…' Abro chamado e espero / Ligo pra quem fez"
+}
