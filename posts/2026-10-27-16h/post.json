@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-10-27T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Sistemas sob medida: sistema de prateleira corta a empresa no formato dele e o que sobra vira planilha paralela — cortador de biscoito cromado em forma de estrela genérica cravado numa placa de vidro de contorno único, com as sobras caindo; pergunta 'Quantas planilhas rodam do lado do teu sistema?'",
+  "grande_ideia": "Sistema de prateleira não se adapta à tua empresa, é a tua empresa que se adapta a ele: cada planilha que roda do lado do sistema é um pedaço da empresa que ele não entendeu, e sistema sob medida começa pelo jeito que tu já trabalha",
+  "objetivo": "conversa",
+  "pilar": "sistemas",
+  "modelo": "painel3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "legenda": "Tem coisa que o sistema que tu paga todo mês simplesmente não faz.\n\nAí nasce a planilha.\nA tabela de preço especial. A aprovação que corre no WhatsApp. O pedido montado no caderno.\nCada uma é um pedaço da empresa que o sistema não entendeu.\nTu não está desorganizado. O sistema é que não foi feito pra ti.\nSistema sob medida começa pelo jeito que tu já trabalha.\n\nConta aqui nos comentários: quantas planilhas rodam aí do lado do sistema? 1, 2, 3 ou perdi a conta?\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #SistemaSobMedida #GestaoDePME #SoftwareSobMedida",
+  "story": true,
+  "status": "agendado",
+  "objeto": "campanhas/assets/cortador_estrela3d.png",
+  "imagem": "render.py painel3d + objeto 3D cortador de biscoito (Kairogen seedream-v4-5, recorte_brilho.py)",
+  "story_sticker": "enquete: 'Quantas planilhas rodam do lado do teu sistema?' 1 ou 2 / 3 ou mais"
+}
