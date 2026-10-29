@@ -1,0 +1,19 @@
+{
+  "publicar_em": "2026-10-29T08:00:00-03:00",
+  "turno": "08h",
+  "tema": "IA nas empresas: guia de bolso 'crachá da equipe' — semáforo do que pode, do que pode sem nome/CPF/valor e do que nunca vai pra IA (Thomson Reuters, jul/2026: 38% dos profissionais no Brasil usam IA sem autorização da empresa)",
+  "grande_ideia": "Tua empresa já usa IA, só que sem regra: proibir não resolve; o que protege é uma regra que cabe no crachá, dizendo o que pode, o que pode com cuidado e o que nunca vai para a IA",
+  "objetivo": "salvamento",
+  "pilar": "ia",
+  "modelo": "carrossel",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "estilo": "cracha_equipe",
+  "imagem": "render.py (base editorial clara) + crachá com cordão azul e semáforo em HTML/SVG via scripts/arte_cracha.py; sem imagem gerada",
+  "obs": "Calendário pedia carrossel claro; o publicador só posta 1 imagem, então o guia virou capa única (sem 'arraste').",
+  "fonte": "https://tiinside.com.br/08/07/2026/38-dos-profissionais-no-brasil-utilizam-ferramentas-de-ia-sem-autorizacao-da-empresa-aponta-thomson-reuters/",
+  "legenda": "Tua equipe já cola dado de cliente na IA. Com qual regra?\n\nA recepcionista cola a ficha, o financeiro cola o extrato, e ninguém combinou nada.\nE não é coisa só daqui: 38% dos profissionais no Brasil usam IA sem autorização da empresa (Thomson Reuters, 2026).\nIsso tem nome: shadow AI, a IA usada por fora, sem o dono saber.\nProibir só empurra o uso pra debaixo do pano. O que resolve é regra clara.\nVerde pode. Amarelo pode, tirando nome, CPF e valor antes. Vermelho nunca.\n\nSalva pra usar quando alguém perguntar \"isso pode ir pra IA?\" 🚦\nE manda no grupo da equipe hoje mesmo.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #IAnaEmpresa #GestaoDePME #ProtecaoDeDados",
+  "story": true,
+  "story_sticker": "enquete: 'Tua equipe tem regra pra usar IA?' Tem sim / Ainda não",
+  "status": "agendado"
+}

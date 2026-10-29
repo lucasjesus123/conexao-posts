@@ -1,0 +1,53 @@
+[
+  {
+    "id": "2026-10-29-08h",
+    "modelo": "carrossel",
+    "pilar": "noticia",
+    "tema": "claro",
+    "estilo": "cracha_equipe",
+    "imagem": "html",
+    "kicker": "Guia de bolso · IA na equipe",
+    "titulo": "Proibir IA|não {protege}|tua empresa",
+    "tam": 69,
+    "cracha_cab": "Equipe · Uso de IA",
+    "cracha_apoio": "Antes de colar na IA, {olha a cor.}",
+    "blocos": [
+      [
+        "verde",
+        "PODE USAR",
+        [
+          "Rascunho de texto",
+          "Ideia de post",
+          "Resumir conteúdo público",
+          "Corrigir português"
+        ]
+      ],
+      [
+        "amarelo",
+        "PODE, SEM NOME, CPF E VALOR",
+        [
+          "E-mail para cliente",
+          "Resumo de reunião",
+          "Análise de planilha"
+        ]
+      ],
+      [
+        "vermelho",
+        "NUNCA VAI PRA IA",
+        [
+          "CPF e senha",
+          "Dado de paciente",
+          "Contrato",
+          "Extrato e folha"
+        ]
+      ]
+    ],
+    "rodape_cracha": [
+      "38% dos profissionais no Brasil usam IA sem autorização da empresa",
+      "Thomson Reuters, 2026"
+    ],
+    "cta": "Salva e manda|no grupo da equipe.",
+    "subtitulo": "Tua equipe já usa.|O que protege é uma regra|que cabe no crachá.",
+    "sub_top": 476
+  }
+]
