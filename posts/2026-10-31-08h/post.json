@@ -1,0 +1,17 @@
+{
+  "publicar_em": "2026-10-31T08:00:00-03:00",
+  "turno": "08h",
+  "tema": "Vendas no WhatsApp e no direct: anatomia da resposta de preço — 'Quanto custa o roupeiro planejado?' → 'R$ 4.800' → 'Visualizado 14:02' em vermelho e um vazio ('ele foi perguntar no concorrente'); embaixo, a resposta que continua (preço + o que vem junto + 'É pra quando?') com marca-texto e setas à mão (Opinion Box via ABC da Comunicação, jul/2026: 62% já desistiram de uma compra pelo WhatsApp)",
+  "grande_ideia": "No WhatsApp e no direct, 'quanto custa?' é pergunta de abertura, não de fechamento: quem responde só o número entrega a comparação pronta pro concorrente; preço + o que vem junto + uma pergunta de volta transforma o preço no começo da venda.",
+  "objetivo": "salvamento",
+  "pilar": "trafego",
+  "modelo": "papel",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "imagem": "render.py papel + thread de chat, 'Visualizado' e anotações à mão em HTML/SVG (scripts/arte_visualizou.py), sem imagem gerada",
+  "fonte": "https://www.abcdacomunicacao.com.br/seis-em-cada-dez-brasileiros-ja-desistiram-de-comprar-pelo-whatsapp-mas-o-canal-segue-sendo-o-de-maior-potencial-de-retorno-no-crm-do-varejo/",
+  "legenda": "Cliente pergunta o preço, tu manda o número e ele some. Pode não ter sido o preço.\n\n“Quanto custa?” no WhatsApp ou no direct é pergunta de abertura, não de fechamento.\nQuem responde só o valor entrega o único dado que o cliente precisa pra comparar com o concorrente. E ir embora.\nA resposta que continua tem três partes: o preço, o que vem junto e uma pergunta de volta.\nUm simples “é pra quando?” já faz a conversa andar.\nA conversa da arte é simulação.\n\nSegundo a Opinion Box, 62% dos consumidores já desistiram de uma compra pelo WhatsApp em algum momento (via ABC da Comunicação, 21/07/2026).\n\nSalva pra usar na próxima vez que chegar um “quanto custa?”.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #VendasPeloWhatsApp #AtendimentoAoCliente #ComercioLocal",
+  "story": true,
+  "story_sticker": "enquete: 'Quando chega um quanto custa?, tu responde com…' Só o preço / Preço + pergunta",
+  "status": "agendado"
+}

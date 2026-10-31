@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-10-31-08h",
+    "modelo": "papel",
+    "pilar": "trafego",
+    "tema": "claro",
+    "imagem": "html",
+    "kicker": "Anatomia da resposta",
+    "num": "31/10",
+    "titulo": "Mandar só o preço|{encerra a venda}",
+    "tam": 92,
+    "topo": 186,
+    "subtitulo": "",
+    "selo": "SIMULAÇÃO",
+    "conversa": [
+      [
+        "cliente",
+        "Oi! Quanto custa o|roupeiro planejado?",
+        "14:01"
+      ],
+      [
+        "loja",
+        "R$ 4.800",
+        "14:01"
+      ]
+    ],
+    "visto": "Visualizado 14:02",
+    "vazio_nota": "ele foi perguntar no concorrente",
+    "resposta": "Fica R$ 4.800, {já com projeto,|entrega e montagem}.|{É pra quando?}",
+    "resposta_hora": "",
+    "setas": [
+      "o que vem junto",
+      "a pergunta|de volta"
+    ],
+    "thread_top": 432,
+    "vazio_alt": 236,
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ],
+    "script": "/home/claude/conexao-posts/scripts/arte_visualizou.py",
+    "saida": "/tmp/claude-0/-home-claude-conexao-posts/0c44fe16-8281-5d52-b1d6-13c498a5c2b4/scratchpad/out"
+  }
+]
