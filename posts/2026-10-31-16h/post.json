@@ -1,0 +1,17 @@
+{
+  "publicar_em": "2026-10-31T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Bastidor de método: a 1ª semana de um atendente de IA na Conexão é leitura das conversas antigas do WhatsApp da loja (com autorização, sem dado pessoal) para copiar o jeito do vendedor que fecha; celular3d com conversa simulada de loja de material de construção e o pop em 'decalque': a resposta da IA em papel vegetal por cima da frase original do vendedor, fios ligando 'foto da parede', 'calculo a tinta' e 'entrego no sábado' (Locaweb 2026 via Sebrae PR: 55% apontam mensagens genéricas como falha comum do atendimento online)",
+  "grande_ideia": "A melhor IA de vendas da tua empresa já está escrita no teu WhatsApp: é o jeito que o teu melhor vendedor responde. Quem começa pelo prompt bonito ganha robô genérico; quem começa pelas conversas que viraram venda ganha o atendimento da casa.",
+  "objetivo": "compartilhamento",
+  "pilar": "ia",
+  "modelo": "celular3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "imagem": "render.py celular3d + decalque do vendedor em HTML/SVG (scripts/arte_decalque.py), sem imagem gerada",
+  "fonte": "https://sebraepr.com.br/comunidade/artigo/onde-as-marcas-mais-falham-durante-um-atendimento-online-demora-excessiva-e-apontada-por-6-em-cada-10-consumidores-brasileiros",
+  "legenda": "Robô com cara de SAC nasce de prompt. O jeito da tua loja está no teu WhatsApp.\n\nTem vendedor que responde e tem vendedor que fecha. Tu sabe qual é o teu.\nPor isso, na Conexão, a primeira semana de um atendente de IA não é programação. É leitura.\nA gente lê as conversas antigas da loja, com autorização do dono e sem dado pessoal, e marca onde a venda fechou e onde esfriou.\nAí aparece o que o vendedor bom faz diferente: pede foto da parede pra calcular a tinta, oferece entregar no sábado. É isso que a IA aprende.\nO contrário é o que o cliente já cansou de ver: 55% dos brasileiros apontam mensagens genéricas que não resolvem a demanda como uma das falhas mais comuns do atendimento online (Locaweb, 2026, via Sebrae PR).\nA conversa da arte é simulação. O método é esse mesmo.\n\nManda pra quem tem loja e morre de medo de robô com cara de SAC.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #MaterialDeConstrucao #AtendimentoWhatsApp #IAnoAtendimento",
+  "story": true,
+  "story_sticker": "enquete: 'Hoje quem responde o WhatsApp da tua loja?' Eu mesmo / Um vendedor",
+  "status": "agendado"
+}
