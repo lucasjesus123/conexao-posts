@@ -1,0 +1,17 @@
+{
+  "publicar_em": "2026-11-01T08:00:00-03:00",
+  "turno": "08h",
+  "tema": "Número da semana: 1 em cada 4 reclamações da Black Friday 2025 no Reclame AQUI foi por problema na entrega (25,29%, balanço parcial 26-27/11/2025, via Agência Brasil); 3 caixas sólidas 'outro motivo' e a 4ª tracejada em vermelho 'entrega'; checklist de 3 pontos na legenda (estoque real, prazo honesto, quem responde e cobra)",
+  "grande_ideia": "Em novembro, a pequena empresa não perde a venda no preço, perde na operação: a Black Friday é um teste de processo, não uma guerra de desconto.",
+  "objetivo": "salvamento",
+  "pilar": "trafego",
+  "modelo": "numero",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "imagem": "render.py numero + caixas em SVG (scripts/arte_caixas.py), sem imagem gerada",
+  "fonte": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-11/black-friday-problemas-em-entregas-lideram-reclamacoes/",
+  "legenda": "Tu tá afiando o desconto. O cliente vai lembrar é da encomenda que não chegou.\n\nNa Black Friday passada, problema na entrega liderou as reclamações no Reclame AQUI: 25,29% de todos os registros. Em 2º lugar veio \"produto não recebido\", com 12,62%.\n\nDesconto atrai o cliente. Processo é o que faz ele voltar.\n\nAntes do dia 27, revisa 3 coisas:\n1. Estoque real: o que aparece no site existe na prateleira?\n2. Prazo honesto: promete o que a transportadora cumpre, não o que vende mais.\n3. Quem responde e quem cobra: cada mensagem e cada pagamento pendente tem um nome do lado.\n\nÉ isso que sistema e automação seguram no pico. É o que a gente monta aqui na Conexão.\n\nSalva pra usar quando for revisar a operação com a tua equipe 📌\n\nFonte: Reclame AQUI, balanço parcial de 26 e 27/11/2025, via Agência Brasil (28/11/2025).\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #BlackFriday #VarejoLocal #PequenasEmpresas",
+  "story": true,
+  "story_sticker": "enquete: 'Tua entrega aguenta o pico da Black Friday?' Tá tudo no esquema / Tô com medo",
+  "status": "agendado"
+}
