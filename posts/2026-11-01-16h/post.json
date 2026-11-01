@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-11-01T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Institucional: o cliente que cai no vão entre fornecedores — painel 'Reunião de fim de mês' com tráfego, atendimento e sistema todos com check verde e a linha 'Venda do mês' parando num '?'; corrente de vidro 3D com o 4º elo partido onde a venda cai; chips Clicou ✓ · Chamou ✓ · Pediu orçamento · Ficou no vácuo",
+  "grande_ideia": "Quando o anúncio, o atendimento e o sistema são de três fornecedores diferentes, todo mundo bate a meta e a venda não vem: o cliente cai no vão entre eles, e o que a Conexão entrega é o caminho inteiro, do anúncio até o caixa, com um só responsável.",
+  "objetivo": "conversa",
+  "pilar": "institucional",
+  "modelo": "painel3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "legenda": "Cada um fez a sua parte. E mesmo assim a venda não aconteceu.\n\nEle clicou no anúncio, chamou no WhatsApp e pediu orçamento. Depois, silêncio.\n\nO anúncio fez a parte dele.\nO atendimento respondeu, como combinado.\nO orçamento ficou parado entre o WhatsApp e o sistema, que não se falam.\nNinguém errou sozinho. A venda caiu no vão entre um e outro.\n\nAqui na Conexão, anúncio, atendimento e sistema andam juntos: do primeiro clique ao caixa, com um responsável só.\n\nJá perdeu um orçamento assim, no meio do caminho? Comenta SIM ou NÃO 👇\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #VendasNoWhatsApp #AutomacaoComercial #PequenasEmpresas",
+  "story": true,
+  "status": "agendado",
+  "objeto": "campanhas/assets/corrente_elo3d.png",
+  "imagem": "render.py painel3d + objeto 3D corrente de vidro com elo partido (Kairogen seedream-v4-5, recorte_brilho.py) + cards com check, gráfico com '?' e linha caindo no elo em HTML/SVG (scripts/arte_elo.py)",
+  "story_sticker": "enquete: 'Já perdeu venda entre o WhatsApp e o sistema?' Já, e dói / Ainda não"
+}

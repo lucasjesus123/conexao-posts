@@ -1,0 +1,64 @@
+[
+ {
+  "id": "2026-11-01-16h",
+  "modelo": "painel3d",
+  "pilar": "institucional",
+  "tema": "escuro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "O cliente|caiu no [vão].",
+  "tam": 94,
+  "apoio": "Clicou, chamou, pediu orçamento.|{Ninguém foi atrás.}",
+  "chips": [
+   [
+    "alvo",
+    "Clicou ✓"
+   ],
+   [
+    "chat",
+    "Chamou ✓"
+   ],
+   [
+    "lista",
+    "Pediu orçamento"
+   ],
+   [
+    "relogio",
+    "Ficou no vácuo"
+   ]
+  ],
+  "cards": [
+   [
+    "grafico",
+    "✓",
+    "Tráfego: cliques entregues"
+   ],
+   [
+    "chat",
+    "✓",
+    "Atendimento: respondido"
+   ],
+   [
+    "escudo",
+    "✓",
+    "Sistema: no ar"
+   ]
+  ],
+  "painel_titulo": "Reunião de fim de mês",
+  "grafico_titulo": "Venda do mês",
+  "cta": "Já caiu nesse vão? Comenta",
+  "nota": "",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/corrente_elo3d.png",
+  "obj_x": 677,
+  "obj_y": 773,
+  "obj_w": 480,
+  "obj_rot": 0,
+  "elo_x": 840,
+  "elo_y": 1000,
+  "sb_tam": 32,
+  "txt_top": 290,
+  "chips_w": 560,
+  "chip_tam": 21,
+  "cta_seta": false,
+  "css_extra": ".nota{display:none!important} .cta3{padding:26px 34px!important}"
+ }
+]
