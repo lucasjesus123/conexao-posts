@@ -1,0 +1,17 @@
+{
+ "publicar_em": "2026-11-02T08:00:00-03:00",
+ "turno": "08h",
+ "tema": "Imersão (conteúdo que vende): o bastidor da notícia — GXO vai levar o humanoide Digit (Agility Robotics) para mais 2 armazéns em 2027 depois de piloto em 2023 com uma tarefa só (caixa até a esteira); escada de 5 degraus (processo, tarefa, dado, sistema, robô) com o robô no topo furando o cartão e 'tu está aqui?' no 1º degrau. Faltam 23 dias.",
+ "grande_ideia": "O robô humanoide é a última etapa, não a primeira: a empresa que hoje não tem o processo organizado e medido com IA não vai ter onde plugar o robô quando ele ficar barato.",
+ "objetivo": "compartilhamento",
+ "pilar": "imersao",
+ "modelo": "nota",
+ "tom": "claro",
+ "personagem": "nenhum",
+ "estilo": "escada_bastidor",
+ "imagem": "render.py nota clara + escada de 5 degraus e robô em traço em HTML/SVG (scripts/arte_escada.py), sem imagem gerada",
+ "fonte": "https://www.logisticsmanager.com/humanoid-robot-deployment-expands-to-two-more-gxo-warehouses/",
+ "legenda": "O robô humanoide não começa pelo robô. Começa por uma caixa e uma esteira.\n\nA GXO, operadora logística, vai levar o robô humanoide Digit para mais 2 armazéns nos EUA a partir de 2027.\nO bastidor: piloto num armazém da Geórgia em 2023, contrato em junho de 2024 e UMA tarefa só: pegar a caixa e pôr na esteira.\nEle trabalha junto da automação que já existia, ligado ao sistema do armazém. Mais de 100 mil caixas movidas desde a implantação.\nO robô é a manchete. O processo organizado e medido é o que fez ele funcionar.\nFonte: Logistics Manager, 27/10/2026: https://www.logisticsmanager.com/humanoid-robot-deployment-expands-to-two-more-gxo-warehouses/\n\nEm que degrau a tua empresa está hoje? É isso que eu mostro dia 25/11, no Tri Hotel, em Lajeado: o diagnóstico de maturidade em IA em 5 níveis. Presencial, das 19h às 22h, R$ 198,90.\n\nManda pra aquele sócio ou gestor que vê vídeo de robô e acha que ainda não é com ele.\n\nGaranta sua vaga pelo link na bio: treinamentoia.conexaomkt.com.br\nEntra no Grupo VIP do WhatsApp (link também na bio).\n\n#InteligenciaArtificial #IAparaNegocios #Lajeado #ValedoTaquari #RobosHumanoides",
+ "story": true,
+ "status": "agendado"
+}

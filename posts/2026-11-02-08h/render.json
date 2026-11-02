@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2026-11-02-08h",
+    "modelo": "nota",
+    "pilar": "imersao",
+    "tema": "claro",
+    "kicker": "Bastidor da notícia",
+    "kicker_dir": "Faltam 23 dias · 25/11",
+    "avatar": "/home/claude/conexao-posts/kit/assets/lucas_avatar.jpg",
+    "nome": "Lucas Jesus",
+    "texto": "Todo mundo filma o robô.|Ninguém filma {a escada}.",
+    "sub": "GXO: o robô humanoide começou com ==uma tarefa só== (levar a caixa até a esteira). Piloto em 2023. Mais armazéns só em 2027.",
+    "degraus": [
+      "01|PROCESSO",
+      "02|TAREFA",
+      "03|DADO",
+      "04|SISTEMA",
+      "05|ROBÔ"
+    ],
+    "notas": {
+      "aqui": "tu está aqui?",
+      "piloto": "2023 · piloto",
+      "robo": "2027 · +2 armazéns",
+      "leitura": "a escada, na minha leitura"
+    },
+    "rodape": "Fatos: GXO + Agility Robotics · Logistics Manager · 27/10/2026",
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ]
+  }
+]
