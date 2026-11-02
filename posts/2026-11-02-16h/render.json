@@ -1,0 +1,22 @@
+[
+ {
+  "id": "2026-11-02-16h",
+  "modelo": "revista",
+  "pilar": "imersao",
+  "tema": "escuro",
+  "recorte": "campanhas/assets/lucas_chave_recorte.png",
+  "palavra": "QUARTA",
+  "cor_palavra": "#2F6BFF",
+  "pal_top": 138,
+  "pal_tam": 340,
+  "edicao": "PRESENCIAL · LAJEADO/RS",
+  "kicker": "FALTAM 23 DIAS · ALÉM DO AGORA",
+  "titulo": "Na quinta, tu já sabes|{qual tarefa vai pra IA.}",
+  "tam": 64,
+  "info": "QUARTA, 25/11 · 19H ÀS 22H · TRI HOTEL",
+  "x": 10,
+  "y": 265,
+  "w": 972,
+  "faixa_y": 1010
+ }
+]
