@@ -1,0 +1,33 @@
+[
+  {
+    "id": "2026-11-03-08h",
+    "modelo": "papel",
+    "pilar": "gestao",
+    "tema": "claro",
+    "imagem": "html",
+    "kicker": "Fim de ano",
+    "num": "03/11",
+    "titulo": "O número da tua empresa|{tira férias} junto|com o funcionário.",
+    "tam": 72,
+    "h1_right": 40,
+    "topo": 226,
+    "subtitulo": "Só 20% dos donos de pequenos negócios controlam as finanças em sistema. Fonte: Sebrae, jan/2026.",
+    "sub_w": 480,
+    "postit": {
+      "linhas": ["Estoque, saldo|do caixa e pedido|do cliente:"],
+      "destaque": "pergunta pra Bete.",
+      "volta": "Bete volta {12/01}.",
+      "w": 396,
+      "right": 84,
+      "bottom": 176,
+      "rot": -4,
+      "fs": 49
+    },
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ],
+    "script": "/home/claude/conexao-posts/scripts/arte_postit.py",
+    "saida": "/home/claude/out"
+  }
+]
