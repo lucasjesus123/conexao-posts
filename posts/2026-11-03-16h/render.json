@@ -1,0 +1,71 @@
+[
+ {
+  "id": "2026-11-03-16h",
+  "modelo": "painel3d",
+  "pilar": "sistemas",
+  "tema": "escuro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "A gambiarra|que [funciona]|custa mais caro.",
+  "tam": 72,
+  "apoio": "A que quebra, tu consertas na hora.|{A que funciona, tu carregas por anos.}",
+  "chips": [
+   [
+    "calendario",
+    "Funciona desde 2019"
+   ],
+   [
+    "chat",
+    "Ninguém reclama"
+   ],
+   [
+    "lista",
+    "Todo mundo se acostumou"
+   ],
+   [
+    "grafico",
+    "Fora do orçamento"
+   ]
+  ],
+  "cards": [
+   [
+    "lista",
+    "✓",
+    "Planilha: funcionando"
+   ],
+   [
+    "chat",
+    "✓",
+    "Grupo de pedidos: funcionando"
+   ],
+   [
+    "relogio",
+    "?",
+    "Custo em 10 anos: nunca calculado"
+   ]
+  ],
+  "painel_titulo": "Inventário de gambiarras",
+  "grafico_titulo": "O custo que ninguém vê",
+  "cta": "Qual é a tua? Comenta aí",
+  "nota": "",
+  "objeto": "campanhas/assets/engrenagem_fita3d.png",
+  "obj_x": 540,
+  "obj_y": 695,
+  "obj_w": 540,
+  "obj_rot": -4,
+  "fita_txt": "NÃO MEXER",
+  "fita_x": 436,
+  "fita_y": 622,
+  "fita_rot": 32,
+  "fita_tam": 56,
+  "arco": true,
+  "arco_r": 455,
+  "arco_de": 115,
+  "arco_ate": 185,
+  "sb_tam": 28,
+  "txt_top": 310,
+  "chips_w": 600,
+  "chip_tam": 19,
+  "cta_seta": false,
+  "css_extra": ".nota{display:none!important} .cta3{padding:26px 34px!important} .txt{width:620px!important;gap:34px!important} .chips{grid-template-columns:auto auto!important;justify-content:start;column-gap:12px!important} .chip{padding:16px 12px!important;gap:10px!important} .palco{right:-88px!important}"
+ }
+]
