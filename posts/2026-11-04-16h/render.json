@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-04-16h", "modelo": "flutuante", "pilar": "imersao",
+ "recorte": "/home/claude/conexao-posts/campanhas/assets/lucas_aponta_recorte.png",
+ "x": 251, "y": 50, "w": 900, "anel_x": 450, "anel_y": 30,
+ "cards_atras": [[64, 150, -3, "calendario", "HOJE · 04/11", "garante a tua vaga"]],
+ "cards_frente": [[64, 470, 2, "escudo", "ATÉ 18/11", "prazo de reembolso"], [700, 640, -2, "pin", "25/11 · 19H", "Tri Hotel · Lajeado"]],
+ "linha": {"hoje": [110, 270], "prazo": [380, 430], "evento": [690, 615], "tiques": 14, "frente_de": 0.35,
+   "nota": "14 dias pra mudar de ideia", "nota_t": 0.5, "nota_off": -40, "nota_tam": 19},
+ "rosto": [633, 126, 894, 524],
+ "titulo": "21 DIAS.|14 DE [FOLGA.]|ZERO DESCULPA.",
+ "subtitulo": "Garante hoje. Se mudar de ideia até 18/11, tem reembolso.",
+ "tam": 96, "txt_bottom": 150, "tag": "Imersão de IA · presencial",
+ "info": "25/11 · 19H ÀS 22H · TRI HOTEL · LAJEADO", "preco": "R$ 198,90"
+}
