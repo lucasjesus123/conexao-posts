@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2026-11-04-08h",
+    "modelo": "nota",
+    "pilar": "imersao",
+    "tema": "claro",
+    "imagem": "html",
+    "kicker": "A notícia, traduzida",
+    "kicker_dir": "Faltam 21 dias · 25/11",
+    "avatar": "/home/claude/conexao-posts/kit/assets/lucas_avatar.jpg",
+    "nome": "Lucas Jesus",
+    "texto": "Teu cliente parou de digitar|duas palavras. Agora ele|{conta a história inteira}.",
+    "busca_antes": {
+      "tag": "ANTES",
+      "texto": "dentista lajeado",
+      "regua": "1x"
+    },
+    "busca_agora": {
+      "tag": "AGORA",
+      "texto": "dentista em Lajeado que atenda sábado, aceite convênio, tenha estacionamento e não demore pra marcar porque meu dente tá doendo desde ontem…",
+      "regua": "3x"
+    },
+    "resposta": {
+      "chip": "Patrocinado",
+      "nota": "quem|aparece aqui?"
+    },
+    "virada": "Traduzir notícia em decisão: ==25/11 · Tri Hotel==",
+    "rodape": "Fonte: Google, 28/10/2026 · perguntas no Modo IA são 3x mais longas|Anúncios no Modo IA no Brasil: previstos para out–dez/2026",
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ],
+    "script": "/home/claude/conexao-posts/scripts/arte_caixa_busca.py"
+  }
+]
