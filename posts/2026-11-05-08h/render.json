@@ -1,0 +1,63 @@
+[
+  {
+    "id": "2026-11-05-08h",
+    "modelo": "carrossel",
+    "pilar": "noticia",
+    "tema": "claro",
+    "estilo": "bula_tarja",
+    "imagem": "html",
+    "registro": "Leia antes de usar",
+    "kicker": "",
+    "produto": "IA Generativa",
+    "dosagem": "uso empresarial · {conferir antes de enviar}",
+    "apoio": "Ótima no rascunho.|{Péssima} na palavra final.",
+    "tarja": "Saída só com conferência humana",
+    "indicado": {
+      "titulo": "Indicado para",
+      "itens": [
+        "Rascunho de proposta",
+        "Resumo de reunião",
+        "Organizar planilha",
+        "1ª versão de e-mail"
+      ]
+    },
+    "posologia": {
+      "titulo": "Posologia",
+      "itens": [
+        "Dá o contexto",
+        "Mostra um exemplo",
+        "Pede o formato"
+      ]
+    },
+    "advertencia": {
+      "titulo": "Advertência: nunca sozinha",
+      "itens": [
+        "Número final",
+        "Imposto e preço",
+        "Lei ou norma citada",
+        "Prazo pro cliente"
+      ],
+      "reacao": [
+        "Reação adversa",
+        "inventa fonte, número e lei com total segurança."
+      ]
+    },
+    "lote": [
+      "LOTE:",
+      "tua assinatura"
+    ],
+    "validade": [
+      "VAL.:",
+      "só depois de conferido"
+    ],
+    "estudo": {
+      "rotulo": "ESTUDO",
+      "num": "52%",
+      "texto": "dos donos de pequenos|negócios usaram IA nas 2|semanas antes da pesquisa",
+      "fonte": "Sebrae, ago/2026"
+    },
+    "aviso": "EM CASO DE DÚVIDA, CONSULTE UM HUMANO.",
+    "script": "/home/claude/conexao-posts/scripts/arte_bula.py",
+    "est_w": 392
+  }
+]

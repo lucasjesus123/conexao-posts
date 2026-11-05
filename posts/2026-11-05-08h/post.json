@@ -1,0 +1,19 @@
+{
+  "publicar_em": "2026-11-05T08:00:00-03:00",
+  "turno": "08h",
+  "tema": "IA nas empresas: guia de bolso em forma de caixa de remédio — 'IA Generativa, uso empresarial', tarja vermelha 'SAÍDA SÓ COM CONFERÊNCIA HUMANA', indicado para / posologia / advertência (número final, imposto e preço, lei citada, prazo pro cliente) / reação adversa (inventa fonte, número e lei com total segurança) e 'LOTE: tua assinatura' circulado à caneta (Sebrae, ago/2026: 52% dos donos de pequenos negócios usaram IA nas 2 semanas antes da pesquisa)",
+  "grande_ideia": "A IA não erra devagar, erra com convicção: na empresa ela é ótima para o rascunho e péssima para a palavra final; quem manda o texto dela sem conferir está terceirizando a própria assinatura.",
+  "objetivo": "salvamento",
+  "pilar": "ia",
+  "modelo": "carrossel",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "estilo": "bula_tarja",
+  "imagem": "render.py (base editorial clara) + face de caixa de remédio com tarja, lombada, código de barras e círculo à caneta em HTML/SVG (scripts/arte_bula.py), sem imagem gerada",
+  "obs": "Calendário pedia carrossel claro; o publicador só posta 1 imagem, então o guia virou capa única (sem 'arraste').",
+  "fonte": "https://agenciasebrae.com.br/dados/pequenos-negocios-do-brasil-usam-mais-ia-que-os-norte-americanos-aponta-sebrae/",
+  "legenda": "Todo mundo te mostra o que a IA faz. Hoje é a bula do que ela não faz sozinha.\n\nSegundo pesquisa do Sebrae, 52% dos donos de pequenos negócios do Brasil usaram IA nas duas semanas antes da entrevista. Ela já está aí: na proposta, no resumo da reunião, na planilha.\nO problema não é usar. É mandar sem ler.\nQuando a IA erra, erra com convicção: inventa fonte, número e artigo de lei com a mesma segurança com que acerta.\nA regra cabe numa linha: rascunho é com ela, palavra final é com gente. Número, imposto, preço, lei e prazo que vão pro cliente passam por um humano antes.\nQuem manda o texto da IA sem conferir está terceirizando a própria assinatura.\n\nSalva pra usar quando a próxima proposta feita com IA estiver pronta pra sair daí.\n\nFonte: Sebrae, pesquisa com 7.182 donos de pequenos negócios (Agência Sebrae, 17/08/2026).\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #IAnosNegocios #GestaoEmpresarial #PequenasEmpresas",
+  "story": true,
+  "story_sticker": "enquete: 'Tu confere tudo que a IA escreve antes de mandar pro cliente?' Sempre, linha por linha / Confesso que às vezes não",
+  "status": "agendado"
+}
