@@ -1,0 +1,50 @@
+{
+ "id": "2026-11-05-16h",
+ "modelo": "celular3d",
+ "pilar": "ia",
+ "tema": "escuro",
+ "tag": "IA + MECÂNICO NO WHATSAPP",
+ "titulo": "A IA|que sabe|[a hora]|de sair",
+ "subtitulo": "Resolve o rotineiro sozinha e passa o caso sério pro mecânico, com resumo pronto.",
+ "contato": "Oficina do Bairro",
+ "conversa": [
+  [
+   "cliente",
+   "Bom dia! Dá pra fazer revisão no Gol essa semana? Antes de descer pro litoral"
+  ],
+  [
+   "ia",
+   "Bom dia, Rodrigo! Tenho quinta às 8h. Qual o ano do Gol?"
+  ],
+  [
+   "cliente",
+   "2016. Ah, e o pedal do freio tá baixo, acendeu uma luz no painel"
+  ],
+  [
+   "ia",
+   "Com o freio assim, melhor não rodar com o carro até o mecânico ver, tá?"
+  ],
+  [
+   "ia",
+   "Passei pro Marcelo: Gol 2016 · pedal baixo · luz acesa · viagem pro litoral"
+  ]
+ ],
+ "bolhas_todas": true,
+ "apagar_bolhas": true,
+ "sistema_msg": "IA saiu da conversa",
+ "pop_nome": "Marcelo · mecânico",
+ "pop_avatar": "M",
+ "pop_html": "Rodrigo, Marcelo aqui. <span class=\"mk\">Já li tudo, não precisa repetir.</span> Te ligo em 5 min.",
+ "pop_rodape": "MECÂNICO ASSUMIU · 08:47",
+ "pop_top": 890,
+ "cta": "Fale com a gente",
+ "selo": "SIMULAÇÃO",
+ "tam": 100,
+ "bolha_fs": 19,
+ "msgs_gap": 12,
+ "msgs_top": 175,
+ "pop_right": 420,
+ "pop_w": 500,
+ "txt_w": 560,
+ "input_txt": ""
+}
