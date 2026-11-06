@@ -1,0 +1,53 @@
+[
+ {
+  "id": "2026-11-06-08h",
+  "modelo": "painel3d",
+  "pilar": "imersao",
+  "tema": "claro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "O painel|não decide|[por ti].",
+  "tam": 100,
+  "subtitulo": "A IA monta os gráficos. Os 3 números de segunda quem escolhe és tu.",
+  "chips": [
+   [
+    "cerebro",
+    "IA monta tudo"
+   ],
+   [
+    "alvo",
+    "Tu escolhes 3"
+   ],
+   [
+    "calendario",
+    "Segunda, 8h"
+   ],
+   [
+    "escudo",
+    "Sem chute"
+   ]
+  ],
+  "painel_titulo": "Painel montado pela IA",
+  "grafico_titulo": "Atualiza sozinho",
+  "cards": [
+   [
+    "raio",
+    "?",
+    "Caixa"
+   ],
+   [
+    "grafico",
+    "?",
+    "Venda"
+   ],
+   [
+    "escudo",
+    "?",
+    "Risco"
+   ]
+  ],
+  "cta": "Salva pra segunda",
+  "nota": "Imersão 25/11 · Tri Hotel · Lajeado · faltam 19 dias",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/contador_vazio3d.png",
+  "css_extra": ".kp small{font-size:24px!important;font-weight:600;color:#3d424d!important} .linha small{font-size:21px!important;font-weight:600;color:#3d424d!important} .sel{color:rgba(11,13,18,.72)!important;font-size:18px!important} .nota{font-size:27px!important;font-weight:600;color:rgba(11,13,18,.86)!important}"
+ }
+]
