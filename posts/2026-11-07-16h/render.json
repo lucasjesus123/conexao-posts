@@ -1,0 +1,72 @@
+{
+ "id": "2026-11-07-16h",
+ "modelo": "celular3d",
+ "pilar": "ia",
+ "tag": "IA NO WHATSAPP · BASTIDOR",
+ "titulo": "A gente|começa|[pelo|fim]",
+ "subtitulo": "Primeiro a gente define a última mensagem. Depois escreve o oi.",
+ "contato": "Doce Taquari Confeitaria",
+ "conversa": [
+  [
+   "cliente",
+   "Oi! Dá pra fazer uma torta pro almoço de amanhã? Umas 15 pessoas"
+  ],
+  [
+   "ia",
+   "Dá sim, Fernanda! Morango ou bolacha? Pra 15, a de 2 kg serve bem"
+  ],
+  [
+   "cliente",
+   "Morango! Passo aí antes da missa, umas 10h?"
+  ],
+  [
+   "ia",
+   "Fechado! Mando o Pix do sinal e já vai pra cozinha"
+  ],
+  [
+   "ia",
+   "Encomenda nº 318 confirmada. Sinal recebido, retirada domingo 10h."
+  ]
+ ],
+ "pop_html": "Encomenda nº 318 confirmada. <span class=\"mk\">Sinal recebido, retirada domingo 10h.</span>",
+ "pop_rodape": "PEDIDO Nº 318 · NO SISTEMA DA COZINHA",
+ "cta": "Fale com a gente",
+ "selo": "SIMULAÇÃO",
+ "tam": 100,
+ "pop_top": 900,
+ "input_txt": "",
+ "bolha_fs": 20,
+ "bolha_w": 74,
+ "msgs_gap": 14,
+ "num_r": 30,
+ "um_r": 46,
+ "um_dx": -34,
+ "um_dy": -28,
+ "nota1_anc": "end",
+ "nota1_dx": -62,
+ "nota1_dy": 16,
+ "nota1_fs": 40,
+ "nota1_rot": -6,
+ "seta_ini": [
+  450,
+  826
+ ],
+ "seta": [
+  [
+   540,
+   660
+  ],
+  [
+   586,
+   470
+  ]
+ ],
+ "notaN_dx": -24,
+ "notaN_dy": -14,
+ "sim_top": 1138,
+ "sim_tam": 20,
+ "msgs_lr": [
+  22,
+  62
+ ]
+}

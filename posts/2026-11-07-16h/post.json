@@ -1,0 +1,16 @@
+{
+  "publicar_em": "2026-11-07T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Bastidor de método: o atendimento com IA no WhatsApp montado de trás pra frente — celular3d escuro com conversa simulada de confeitaria em Lajeado (torta pro almoço de domingo), numerada à mão de baixo pra cima: o pop 'Encomenda nº 318 confirmada · sinal recebido · retirada domingo 10h' é o ① 'começa aqui' e o 'Oi!' é o ⑤ 'por último', com seta de caneta subindo (Opinion Box 2026: 69% dos usuários de WhatsApp já compraram produtos pelo app)",
+  "grande_ideia": "A IA de WhatsApp que começa pelo 'Olá, sou a assistente virtual' já começou errado: a gente monta o atendimento pela última mensagem (pedido registrado, sinal pago, horário marcado) e desenha a conversa de trás pra frente, porque atendimento que não termina em pedido no sistema é só conversa simpática.",
+  "objetivo": "conversa",
+  "pilar": "ia",
+  "modelo": "celular3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "https://coletiva.net/coletivatech/whatsapp-no-brasil-sete-em-cada-10-ja-compraram-pelo-aplicativo/",
+  "legenda": "Teu robô diz \"oi\" bonito. Mas a conversa termina em pedido ou em \"vou ver\"?\n\n\"Olá, sou a assistente virtual\": isso qualquer IA escreve. O que paga a conta é a conversa terminar em pedido anotado e sinal no Pix.\nPor isso, aqui na Conexão, o atendimento é montado de trás pra frente:\n1. Definir a última mensagem e onde ela fica registrada (sistema da cozinha, agenda, planilha).\n2. Listar tudo que precisa estar respondido pra chegar nela: sabor, tamanho, dia, retirada, sinal.\n3. Só então escrever o \"oi\".\nO cliente já compra por ali: 69% dos brasileiros que usam WhatsApp já compraram produtos pelo app (Opinion Box, 2026). Falta a conversa terminar no lugar certo.\nA conversa da arte é uma simulação.\n\nComo termina a maioria das conversas no teu WhatsApp hoje? Comenta PEDIDO ou VOU VER.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #AtendimentoWhatsApp #IAnoAtendimento #ComercioLocal",
+  "story": true,
+  "status": "agendado",
+  "imagem": "render.py celular3d + numeração à mão 1-5 de baixo pra cima e seta em SVG (scripts/arte_contagem.py), sem imagem gerada"
+}
