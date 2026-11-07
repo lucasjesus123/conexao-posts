@@ -11,6 +11,7 @@
   "fonte": "https://coletiva.net/coletivatech/whatsapp-no-brasil-sete-em-cada-10-ja-compraram-pelo-aplicativo/",
   "legenda": "Teu robô diz \"oi\" bonito. Mas a conversa termina em pedido ou em \"vou ver\"?\n\n\"Olá, sou a assistente virtual\": isso qualquer IA escreve. O que paga a conta é a conversa terminar em pedido anotado e sinal no Pix.\nPor isso, aqui na Conexão, o atendimento é montado de trás pra frente:\n1. Definir a última mensagem e onde ela fica registrada (sistema da cozinha, agenda, planilha).\n2. Listar tudo que precisa estar respondido pra chegar nela: sabor, tamanho, dia, retirada, sinal.\n3. Só então escrever o \"oi\".\nO cliente já compra por ali: 69% dos brasileiros que usam WhatsApp já compraram produtos pelo app (Opinion Box, 2026). Falta a conversa terminar no lugar certo.\nA conversa da arte é uma simulação.\n\nComo termina a maioria das conversas no teu WhatsApp hoje? Comenta PEDIDO ou VOU VER.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #AtendimentoWhatsApp #IAnoAtendimento #ComercioLocal",
   "story": true,
-  "status": "publicando",
-  "imagem": "render.py celular3d + numeração à mão 1-5 de baixo pra cima e seta em SVG (scripts/arte_contagem.py), sem imagem gerada"
+  "status": "erro",
+  "imagem": "render.py celular3d + numeração à mão 1-5 de baixo pra cima e seta em SVG (scripts/arte_contagem.py), sem imagem gerada",
+  "erro": "Meta API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AGCB38DL2u9nfZs5fHZPqOb\"}}"
 }
