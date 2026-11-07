@@ -1,0 +1,50 @@
+{
+ "id": "2026-11-07-08h",
+ "modelo": "numero",
+ "tema": "claro",
+ "pilar": "atendimento",
+ "imagem": "html",
+ "kicker": "O orçamento que tu mandou e esqueceu",
+ "numero": "59%",
+ "tam": 372,
+ "topo": 300,
+ "texto": "das empresas que vendem pelo WhatsApp guardam o cliente em planilha ou {cada vendedor com seu jeito}.",
+ "texto_w": 880,
+ "apoio_gap": 34,
+ "apoio": "É nesse jeito que o orçamento esfria.",
+ "fonte": "RD Station · Panorama de Atendimento ao Cliente 2026 · 1.360 respondentes",
+ "grad": [
+  "#FF6A2B",
+  "#F2B544",
+  "#8FB8FF",
+  "#5B8DEF"
+ ],
+ "regua": {
+  "marcas": [
+   "dia 1",
+   "dia 3",
+   "dia 7"
+  ],
+  "cores": [
+   "#E8452B",
+   "#C98A12",
+   "#3F74E0"
+  ],
+  "gap": 44,
+  "fs": 50
+ },
+ "gelo": {
+  "n5": 3,
+  "n9": 3
+ },
+ "fonte_mao": [
+  "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+  "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+ ],
+ "kit": "/home/claude/kit",
+ "script": "/home/claude/conexao-posts/scripts/arte_esfria.py",
+ "saida": "/home/claude/out",
+ "nota_mao": "o roteiro do dia 1, 3 e 7 tá na legenda ↓",
+ "kicker_tam": 25,
+ "kicker_op": 0.85
+}
