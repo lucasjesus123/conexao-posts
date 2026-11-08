@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2026-11-08-08h",
+    "modelo": "papel",
+    "pilar": "gestao",
+    "tema": "claro",
+    "imagem": "html",
+    "kicker": "Frase da semana",
+    "num": "08.11.2026",
+    "titulo": "Promoção de|última hora é|{liquidação de pânico}.",
+    "tam": 90,
+    "topo": 196,
+    "subtitulo": "O cliente decide antes: só 25% pretendem esperar a sexta da Black Friday.",
+    "fonte_sub": "Pesquisa Globo via|E-Commerce Brasil · nov/2026",
+    "sub_w": 460,
+    "sub_bottom": 170,
+    "etiqueta": {
+      "topo": "BLACK FRIDAY",
+      "riscados": ["-10%", "-20%"],
+      "final": "-40%",
+      "left": 606, "top": 512, "w": 390, "h": 640,
+      "rot": 12, "fio_y": 520, "fio_curva": 40,
+      "ys": [196, 310, 424], "final_dx": 2, "fs_final": 190
+    },
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ],
+    "script": "/home/claude/conexao-posts/scripts/arte_etiqueta.py",
+    "saida": "/home/claude/out08"
+  }
+]
