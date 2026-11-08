@@ -1,0 +1,16 @@
+{
+  "publicar_em": "2026-11-08T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Institucional: o caminho de desejo. Painel3d escuro com diorama 3D de uma calçada de vidro (o sistema) vazia e uma trilha de terra gasta cortando o gramado (o caminho que a equipe realmente faz), anotações à mão o sistema / a equipe e pontilhado ciano sobre a trilha (a Conexão pavimenta onde a equipe já anda).",
+  "grande_ideia": "Quando a equipe precisa de uma planilha paralela para conseguir usar o sistema, quem está errado é o sistema, não a equipe: a Conexão começa pelo jeito que a empresa já trabalha e constrói marketing, IA e sistema em cima dele.",
+  "objetivo": "conversa",
+  "pilar": "sistemas",
+  "modelo": "painel3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "legenda": "Se a equipe abriu uma planilha do lado do sistema, ela não tá te desobedecendo.\n\nEla tá te mostrando o que o software não faz.\nA coluna extra, o caderno do balcão, o grupo onde tudo se resolve: esse é o teu processo real.\nAqui na Conexão a gente começa por aí. Olha o caminho que a equipe já faz antes de desenhar qualquer tela.\nDepois constrói o sistema, a IA e o marketing em cima do jeito que já funciona na tua empresa.\n(O painel da arte é ilustrativo.)\n\nE aí, qual é o sistema paralelo da tua equipe: planilha, caderno ou grupo de WhatsApp? Responde com uma palavra aqui embaixo 👇\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #SistemaSobMedida #GestaoDePME #AutomacaoComIA",
+  "story": true,
+  "status": "agendado",
+  "imagem": "render.py painel3d + diorama caminho de desejo (Kairogen seedream-v4-5 -> campanhas/assets/caminho_desejo3d.png, recorte rembg+brilho) + anotações SVG (scripts/arte_caminho.py)"
+}

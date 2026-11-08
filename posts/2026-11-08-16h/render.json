@@ -1,0 +1,113 @@
+[
+ {
+  "id": "2026-11-08-16h",
+  "modelo": "painel3d",
+  "pilar": "sistemas",
+  "tema": "escuro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "A equipe|não errou.|O [sistema errou].",
+  "tam": 70,
+  "apoio": "A planilha paralela mostra {o que o software deveria fazer} e não faz.",
+  "chips": [
+   [
+    "lista",
+    "Planilha do lado"
+   ],
+   [
+    "chat",
+    "Grupo no WhatsApp"
+   ],
+   [
+    "calendario",
+    "Caderno do balcão"
+   ],
+   [
+    "cerebro",
+    "Atalho da equipe"
+   ]
+  ],
+  "painel_titulo": "O caminho real",
+  "cards": [
+   [
+    "pin",
+    "✓",
+    "Onde a equipe anda: mapeado"
+   ],
+   [
+    "lista",
+    "✓",
+    "Por que anda ali: entendido"
+   ],
+   [
+    "escudo",
+    "✓",
+    "O pavimento: sob medida"
+   ]
+  ],
+  "grafico_titulo": "Previsto x real",
+  "cta": "Qual é a tua? Comenta",
+  "cta_seta": false,
+  "nota": "Marketing · IA · Sistemas sob medida · Lajeado/RS",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/caminho_desejo3d.png",
+  "obj_x": 480,
+  "obj_y": 860,
+  "obj_w": 600,
+  "txt_top": 200,
+  "trilha": [
+   [
+    400,
+    330
+   ],
+   [
+    560,
+    420
+   ],
+   [
+    740,
+    520
+   ],
+   [
+    880,
+    600
+   ]
+  ],
+  "setas": [
+   [
+    150,
+    50,
+    100,
+    90,
+    150,
+    170,
+    "#FFFFFF"
+   ],
+   [
+    820,
+    250,
+    800,
+    360,
+    650,
+    420,
+    "#FFFFFF"
+   ]
+  ],
+  "notas": [
+   [
+    "o sistema",
+    40,
+    -30,
+    -4,
+    "#FFFFFF"
+   ],
+   [
+    "a equipe",
+    720,
+    150,
+    -6,
+    "#FFFFFF"
+   ]
+  ],
+  "nt_tam": 62,
+  "css_extra": ".painel{padding-right:110px!important} .nota{display:flex!important;font-size:24px!important;font-weight:600;color:rgba(255,255,255,.85)!important;bottom:64px!important} .palco{right:-88px!important} .kp2 small{font-size:20px!important;color:rgba(255,255,255,.9)!important} .linha small{font-size:22px!important;color:#fff!important}"
+ }
+]
