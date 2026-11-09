@@ -1,0 +1,85 @@
+{
+ "id": "2026-11-09-08h",
+ "modelo": "celular3d",
+ "tema": "claro",
+ "pilar": "imersao",
+ "script": "scripts/arte_caderno.py",
+ "tag": "IA LÊ A LISTA",
+ "titulo": "O pedreiro|não preenche|[formulário]",
+ "subtitulo": "Ele manda foto do caderno e áudio. A IA traduz pro teu estoque.",
+ "contato": "Casa da Obra",
+ "conversa": [
+  [
+   "cliente",
+   "📷 Foto: lista do pedreiro"
+  ],
+  [
+   "cliente",
+   "🎤 Áudio 0:48"
+  ],
+  [
+   "ia",
+   "Boa noite, Jairo! Li a lista. É pra laje da garagem, certo?"
+  ],
+  [
+   "cliente",
+   "Isso, o Tião que pediu. Precisa pra amanhã cedo"
+  ],
+  [
+   "ia",
+   "Só uma dúvida: o cano de 100 é de esgoto, né?"
+  ],
+  [
+   "ia",
+   "Fechado, Jairo. Orçamento pronto, tudo separado pra retirar seg 7h30."
+  ]
+ ],
+ "hora": [
+  "21:14",
+  "",
+  "21:15",
+  "21:15",
+  "21:15"
+ ],
+ "pop_html": "Fechado, Jairo. <span class=\"mk\">Orçamento pronto, tudo separado</span> pra retirar seg 7h30.",
+ "pop_rodape": "ORÇAMENTO PRONTO · DOM 21:16",
+ "cta": "Eu mostro dia 25/11",
+ "selo": "SIMULAÇÃO",
+ "tam": 80,
+ "txt_w": 570,
+ "bolha_fs": 19,
+ "msgs_gap": 12,
+ "msgs_top": 172,
+ "pop_top": 1000,
+ "pop_w": 500,
+ "input_txt": "",
+ "folha": {
+  "x": 56,
+  "y": 630,
+  "w": 610,
+  "h": 480,
+  "rot": -8,
+  "fs": 56,
+  "pauta": 62,
+  "topo": 142,
+  "titulo": "Tião · laje garagem",
+  "linhas": [
+   "10 saco cimento",
+   "3 barra de 3/8",
+   "cano 100 6m",
+   "cola pvc"
+  ],
+  "digital": [
+   100,
+   405,
+   -18
+  ]
+ },
+ "lapis": {
+  "x": 215,
+  "y": 1015,
+  "w": 370,
+  "rot": -22
+ },
+ "status_contato": "● responde em minutos"
+}
