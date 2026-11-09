@@ -1,0 +1,37 @@
+[
+ {
+  "id": "2026-11-09-16h",
+  "modelo": "revista",
+  "pilar": "imersao",
+  "tema": "escuro",
+  "recorte": "/home/claude/conexao-posts/campanhas/assets/lucas_rasga_convite_pad.png",
+  "palavra": "PLATEIA",
+  "cor_palavra": "#2F6BFF",
+  "pal_top": 120,
+  "pal_tam": 300,
+  "risco": {
+   "y": 250,
+   "x1": 40,
+   "x2": 1040
+  },
+  "edicao": "PRESENCIAL · LAJEADO/RS",
+  "kicker": "EU DESCONVIDO · FALTAM 16 DIAS",
+  "titulo": "4 donos que eu não|{quero na plateia.}",
+  "tam": 64,
+  "info": "25/11 · 19H ÀS 22H · TRI HOTEL",
+  "preco_pilula": {
+   "texto": "R$ 198,90",
+   "top": 1160,
+   "right": 72,
+   "tam": 30
+  },
+  "x": -13,
+  "y": 170,
+  "w": 1107,
+  "faixa_y": 1010,
+  "story_cta": [
+   "FALTAM 16 DIAS · 25/11 · 19H",
+   "GARANTA SUA VAGA · LINK NA BIO"
+  ]
+ }
+]
