@@ -1,0 +1,82 @@
+[
+  {
+    "id": "2026-11-10-08h",
+    "modelo": "papel",
+    "pilar": "sistemas",
+    "tema": "claro",
+    "imagem": "html",
+    "kicker": "Fechamento de ano",
+    "num": "10.11.2026",
+    "titulo": "Antes de comprar,|{demite} quem|não aparece.",
+    "tam": 100,
+    "topo": 192,
+    "subtitulo": "Assinatura que ninguém abre é funcionário fantasma: recebe todo mês e nunca trabalha.",
+    "sub_w": 390,
+    "sub_bottom": 170,
+    "tam_sub": 33,
+    "holerite": {
+      "cabecalho": "RECIBO DE PAGAMENTO · DEZ/2026",
+      "selo": "ILUSTRATIVO",
+      "linhas": [
+        [
+          "Funcionário",
+          "Assinatura Pro – Plano Mensal"
+        ],
+        [
+          "Cargo",
+          "Ferramenta que ia organizar tudo"
+        ],
+        [
+          [
+            "Admissão",
+            "jan/2026"
+          ],
+          [
+            "Dias trabalhados",
+            "0 em dezembro"
+          ]
+        ],
+        [
+          "Pagamento",
+          "todo dia 5, débito automático"
+        ],
+        [
+          [
+            "Valor",
+            "R$ •••,••"
+          ],
+          [
+            "Último acesso",
+            "março"
+          ]
+        ]
+      ],
+      "circulo": "março",
+      "obs": "Observações",
+      "carimbo": [
+        "DEMITIDO",
+        "EM DEZEMBRO"
+      ],
+      "rot_carimbo": -14,
+      "left": 468,
+      "top": 508,
+      "w": 622,
+      "rot": -5,
+      "h_obs": 236,
+      "car_x": 66,
+      "car_y": 36,
+      "car_w": 372,
+      "seta": [
+        86,
+        -2
+      ],
+      "fs_val": 25
+    },
+    "fonte_mao": [
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+      "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+    ],
+    "script": "/home/claude/conexao-posts/scripts/arte_holerite.py",
+    "saida": "/tmp/claude-0/-home-claude-conexao-posts/2c2b877f-af73-589f-b196-a179ad4eb5f9/scratchpad/out"
+  }
+]
