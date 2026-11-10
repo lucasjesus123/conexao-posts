@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-11-10T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Sistemas sob medida: a telefonista de 2026 — painel3d escuro 'O sistema que liga os outros és tu.' com painel 'O teu dezembro' (fim do dia 23h40, pedido redigitado 3x, fechamento 31/12), cabo pontilhado ciano ligando os cards a uma mesa telefônica (switchboard) de 1950 em miniatura de vidro e alumínio com um plugue solto; o dono como a integração humana entre WhatsApp, vendas, planilha e contador.",
+  "grande_ideia": "Na tua empresa a integração entre os sistemas já existe, e é tu: cada número que tu copias de um programa para o outro é hora de dono paga a preço de estagiário, e dezembro é o mês em que esse cabo humano mais trabalha.",
+  "objetivo": "conversa",
+  "pilar": "sistemas",
+  "modelo": "painel3d",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "legenda": "Fim do dia e tu ainda passando o mesmo pedido de um programa pro outro?\nUm programa pra cada coisa. E tu no meio, fazendo de cabo entre eles.\n\nDe dia, o pedido chega no WhatsApp.\nDe noite, tu copias pro sistema de vendas, do sistema pra planilha, da planilha pro e-mail do contador.\nA integração da tua empresa já existe. Só que ela tem nome, sobrenome e devia estar dormindo.\nE dezembro é o mês em que esse cabo mais trabalha.\nSistema sob medida, pra gente, é ligar os programas que tu já tens pro dado nascer uma vez só.\n\nPergunta rápida: quantos programas tu usas hoje que não conversam entre si? Responde só o número aqui embaixo 👇\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #SistemaSobMedida #IntegracaoDeSistemas #GestaoEmpresarial",
+  "story": true,
+  "status": "agendado",
+  "objeto": "campanhas/assets/mesa_telefonica3d.png",
+  "imagem": "render.py painel3d via scripts/arte_telefonista.py + objeto 3D mesa telefônica (Kairogen seedream-v4-5, recorte_brilho.py + borda suavizada) + laço tracejado ciano em SVG",
+  "story_sticker": "enquete: 'Quantos programas teus não conversam entre si?' 1–2 / 3 / 4 / 5 ou mais"
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "id": "2026-11-10-16h",
+  "modelo": "painel3d",
+  "pilar": "sistemas",
+  "tema": "escuro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "O sistema que liga|os outros [és tu.]",
+  "tam": 84,
+  "subtitulo": "Sob medida não é mais um programa: é o dado nascer uma vez só.",
+  "chips": [
+   [
+    "chat",
+    "Pedido do WhatsApp"
+   ],
+   [
+    "lista",
+    "Sistema de vendas"
+   ],
+   [
+    "grafico",
+    "Planilha financeira"
+   ],
+   [
+    "calendario",
+    "E-mail pro contador"
+   ]
+  ],
+  "painel_titulo": "O teu dezembro",
+  "cards": [
+   [
+    "relogio",
+    "23h40",
+    "fim do dia"
+   ],
+   [
+    "lista",
+    "3x",
+    "pedido redigitado"
+   ],
+   [
+    "calendario",
+    "31/12",
+    "fechamento"
+   ]
+  ],
+  "grafico_titulo": "Horas de redigitação",
+  "cta": "Me conta teus programas",
+  "nota": "Sistemas sob medida · Lajeado/RS",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/mesa_telefonica3d.png",
+  "obj_x": 600,
+  "obj_y": 830,
+  "obj_w": 430,
+  "txt_top": 180,
+  "txt_w": 560,
+  "hd_w": 960,
+  "palco_top": 410,
+  "palco_h": 420,
+  "palco_w": 500,
+  "palco_right": -40,
+  "laco": "auto",
+  "nt_tam": 54,
+  "css_extra": ".linha{display:none!important} .kv .kt{font-size:25px!important;line-height:1.15!important} .kv b{font-size:38px!important} .ph{font-size:28px!important} .chips{width:570px!important} .chip span{font-size:21px!important}"
+ }
+]
