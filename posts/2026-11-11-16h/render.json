@@ -1,0 +1,76 @@
+{
+ "id": "2026-11-11-16h",
+ "modelo": "flutuante",
+ "pilar": "imersao",
+ "recorte": "/home/claude/conexao-posts/campanhas/assets/lucas_bolso_recorte.png",
+ "x": 230,
+ "y": 100,
+ "w": 740,
+ "campo": {
+  "cx": 600,
+  "cy": 480,
+  "r": 370
+ },
+ "notificacoes": [
+  [
+   "Balcão",
+   "tem alguém te esperando",
+   30,
+   150,
+   420
+  ],
+  [
+   "Fornecedor",
+   "me liga assim que puder",
+   630,
+   150,
+   420
+  ],
+  [
+   "Cliente",
+   "e aquele orçamento?",
+   30,
+   748,
+   420
+  ],
+  [
+   "Lembrete",
+   "ver vídeo salvo de IA",
+   630,
+   748,
+   420
+  ]
+ ],
+ "cards_atras": [],
+ "cards_frente": [
+  [
+   150,
+   520,
+   -3,
+   "calendario",
+   "30 DIAS",
+   "de plano na mão"
+  ],
+  [
+   690,
+   590,
+   2,
+   "grafico",
+   "4 CASOS",
+   "de negócio na mesa"
+  ]
+ ],
+ "rosto": [
+  478,
+  200,
+  722,
+  480
+ ],
+ "titulo": "3 HORAS.|CELULAR NO BOLSO.|UMA [DECISÃO].",
+ "subtitulo": "Longe do balcão, decidindo o que a IA vai fazer.",
+ "tam": 88,
+ "txt_bottom": 150,
+ "tag": "PRESENCIAL · FALTAM 14 DIAS",
+ "info": "25/11 · 19H ÀS 22H · TRI HOTEL · LAJEADO",
+ "preco": "R$ 198,90"
+}

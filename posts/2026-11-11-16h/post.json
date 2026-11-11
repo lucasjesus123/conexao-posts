@@ -1,0 +1,17 @@
+{
+ "publicar_em": "2026-11-11T16:00:00-03:00",
+ "turno": "16h",
+ "tema": "Imersão (venda direta): o campo de silêncio — flutuante escuro com o Lucas guardando o celular no bolso dentro de um anel de luz que funciona como campo de força: as notificações do dia (Balcão, Fornecedor, Cliente, Lembrete: ver vídeo salvo de IA) batem na borda do círculo e são cortadas; dentro, cards '30 DIAS de plano na mão' e '4 CASOS de negócio na mesa'. Título '3 HORAS. CELULAR NO BOLSO. UMA DECISÃO.' Faltam 14 dias.",
+ "grande_ideia": "Mais um vídeo de IA não muda a tua empresa. O que muda são 3 horas longe do balcão, com o celular no bolso, decidindo o que fazer com ela. Por isso eu fiz a imersão presencial de propósito.",
+ "objetivo": "clique/venda",
+ "pilar": "imersao",
+ "modelo": "flutuante",
+ "tom": "escuro",
+ "personagem": "Lucas",
+ "fonte": "",
+ "estilo": "campo_silencio",
+ "imagem": "Kairogen seedream-v4-5 (refs do Lucas) -> campanhas/assets/lucas_bolso.jpg + rembg u2net_human_seg com bordas laterais e base esmaecidas (lucas_bolso_recorte.png); render.py flutuante + campo de força e notificações cortadas pela máscara circular (scripts/arte_campo.py)",
+ "legenda": "Mais um vídeo de IA salvo não muda tua empresa. Uma noite longe do balcão muda.\n\nNinguém decide nada sério entre um cliente e outro. Tu sabe disso, eu também.\nEntão montei a imersão do jeito que eu acredito que funciona: presencial, numa sala, celular no bolso, sem interrupção.\nDia 25/11, das 19h às 22h, no Tri Hotel, em Lajeado. Faltam 14 dias.\nTu trabalha com o método C.L.A.R.O., o checklist F.A.T.O., 4 casos de negócio e sai com um plano de 30 dias.\nInvestimento: R$ 198,90. Se mudar de ideia, o reembolso vale até 18/11.\n\nGaranta sua vaga pelo link na bio: treinamentoia.conexaomkt.com.br\nEntra no Grupo VIP do WhatsApp (link também na bio).\n\n#InteligenciaArtificial #IAparaNegocios #Lajeado #ValedoTaquari #ImersaoPresencial",
+ "story": true,
+ "status": "agendado"
+}
