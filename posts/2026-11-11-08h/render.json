@@ -1,0 +1,51 @@
+{
+ "id": "2026-11-11-08h",
+ "modelo": "numero",
+ "tema": "claro",
+ "pilar": "imersao",
+ "imagem": "html",
+ "kicker": "A notícia de IA desta semana",
+ "numero": "22h04",
+ "destaque": "04",
+ "tam": 330,
+ "topo": 205,
+ "chat_sobe": 70,
+ "chat_left": 92,
+ "chat_w": 600,
+ "chat_rot": -2,
+ "fs_chat": 33,
+ "conversa": [
+  [
+   "cliente",
+   "Qual a medida do sofá retrátil de 3 lugares?",
+   "22:04"
+  ],
+  [
+   "loja",
+   "{Amanhã cedo} te respondo 🙂",
+   "08:47"
+  ]
+ ],
+ "selo": "SIMULAÇÃO",
+ "nota_mao": [
+  "antes: educado → agora: demora"
+ ],
+ "nota_xy": [
+  74,
+  16
+ ],
+ "texto": "“Amanhã eu te respondo” sempre foi educação. {Está começando a virar demora.}",
+ "texto_w": 900,
+ "apoio": "Na tua empresa, quem responde às 22h?",
+ "apoio_gap": 28,
+ "gap_bar": 60,
+ "fonte": "ChatGPT · agentes de empresas em teste nos EUA · TechCrunch, 10/11/2026",
+ "fonte_mao": [
+  "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+  "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+ ],
+ "kit": "/home/claude/conexao-posts/kit",
+ "script": "/home/claude/conexao-posts/scripts/arte_22h04.py",
+ "saida": "/tmp/claude-0/-home-claude-conexao-posts/c53bd896-48d9-5ebf-bd3e-608de1f6a142/scratchpad/out",
+ "selo_x": 26
+}
