@@ -1,0 +1,19 @@
+{
+ "publicar_em": "2026-11-12T08:00:00-03:00",
+ "turno": "08h",
+ "tema": "IA nas empresas: guia de bolso 'Senha 001' — tira de senhas de padaria/açougue saindo de um dispensador vermelho; a 001 rasgada ('SUA VEZ · Resumo do relatório semanal de vendas') e as 002–005 com os 4 critérios da primeira tarefa (repete toda semana? regra cabe em 5 linhas? entra e sai em texto? ninguém briga pra fazer?); 099 'projeto bonito' desfocada no fundo. Dado: Serasa Experian (jun/2026), 41,3% das PMEs apontam a falta de conhecimento sobre as soluções como principal obstáculo pra adotar IA.",
+ "grande_ideia": "A primeira tarefa que tu entregas pra IA não é a mais importante da empresa, é a mais chata: a que repete toda semana, segue uma regra simples, vive em texto e ninguém disputa. Quem começa pelo projeto bonito desiste em um mês; quem começa pela tarefa chata ganha horas e confiança.",
+ "objetivo": "salvamento",
+ "pilar": "ia",
+ "modelo": "carrossel",
+ "tom": "claro",
+ "personagem": "nenhum",
+ "estilo": "senha_001",
+ "imagem": "html (scripts/arte_senha.py sobre kit/render.py), sem imagem gerada",
+ "obs": "Calendário pedia carrossel claro; o publicador posta 1 imagem, então o guia virou capa única.",
+ "fonte": "https://www.serasaexperian.com.br/sala-de-imprensa/pmes/produtividade-e-o-principal-beneficio-da-IA-para-59-por-cento-das-pmes-aponta-pesquisa-da-serasa-experian/",
+ "legenda": "Na fila da IA, quem é atendido primeiro não é o projeto bonito.\n\nUm erro clássico de quem começa com IA: escolher a tarefa mais importante.\nO projeto é grande, trava no primeiro mês e todo mundo desiste.\nComeça pela senha 001: a tarefa que repete toda semana, segue uma regra simples e vive em texto.\nResumo de vendas, ata da reunião, descrição de produto, resposta de orçamento.\nÉ ali que tu ganha horas de volta e a equipe pega confiança pra ir além.\nE não saber por onde começar é normal: 41,3% das PMEs apontam a falta de conhecimento sobre as soluções como o principal obstáculo pra adotar IA.\n\n📌 Salva pra usar quando for puxar a senha 001 da tua empresa.\n\nFonte: Serasa Experian, pesquisa com 1.565 PMEs (jun/2026).\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #InteligenciaArtificial #PequenasEmpresas #GestaoEmpresarial",
+ "story": true,
+ "story_sticker": "Enquete: 'Qual é a senha 001 da tua empresa?' Resumo de vendas / Resposta de orçamento; depois caixa de pergunta 'Me conta a tarefa mais chata daí'",
+ "status": "agendado"
+}

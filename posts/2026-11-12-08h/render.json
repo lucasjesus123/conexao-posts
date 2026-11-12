@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2026-11-12-08h",
+    "modelo": "carrossel",
+    "pilar": "ia",
+    "tema": "claro",
+    "estilo": "senha_001",
+    "imagem": "html",
+    "kicker": "Guia de bolso · IA na empresa",
+    "num": "",
+    "titulo": "Começa a IA pela|tarefa {mais chata}.",
+    "tam": 92,
+    "topo": 176,
+    "apoio": "Não pelo projeto bonito. Ela é a senha 001.",
+    "tam_apoio": 34,
+    "apoio_top": 388,
+    "senha": {
+      "numero": "001",
+      "vez": "SUA VEZ",
+      "texto": "Resumo do relatório|semanal de vendas",
+      "left": 66,
+      "top": 585,
+      "w": 540,
+      "h": 350,
+      "rot": -8,
+      "tam": 220,
+      "tam_tx": 31
+    },
+    "fila": [
+      [
+        "002",
+        "Repete toda|semana?"
+      ],
+      [
+        "003",
+        "A regra cabe|em 5 linhas?"
+      ],
+      [
+        "004",
+        "Entra e sai|em texto?"
+      ],
+      [
+        "005",
+        "Ninguém briga|pra fazer?"
+      ]
+    ],
+    "fim": [
+      "099",
+      "projeto bonito"
+    ],
+    "fim_pos": [
+      318,
+      466,
+      6,
+      0.58
+    ],
+    "tira": {
+      "left": 642,
+      "top": 656,
+      "w": 378,
+      "h_tk": 126,
+      "rot": 2.5,
+      "tam_nm": 58,
+      "tam_q": 25
+    },
+    "dado": {
+      "num": "41,3%",
+      "texto": "das PMEs apontam a falta de conhecimento sobre as soluções como o principal obstáculo pra adotar IA.",
+      "fonte": "— Serasa Experian, jun/2026",
+      "left": 72,
+      "top": 1020,
+      "w": 528
+    },
+    "script": "/home/claude/conexao-posts/scripts/arte_senha.py",
+    "disp": {
+      "left": 572,
+      "top": 470
+    }
+  }
+]
