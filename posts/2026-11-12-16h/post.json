@@ -1,0 +1,17 @@
+{
+  "publicar_em": "2026-11-12T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Automação e atendimento com IA no WhatsApp: a saída pronta — celular3d escuro 'Teu paciente avisa ou some?' com conversa simulada de clínica (lembrete da véspera com 'se não der, responde REMARCAR'; a paciente remarca; o horário das 14h é preenchido pela lista de espera) e uma placa de saída de emergência ciano escrita REMARCAR com seta de caneta até a resposta da paciente. Dado: SES-RJ via Correio da Manhã (02/06/2026), faltas caíram de 43% para 32% com lembrete no WhatsApp e opção de cancelar.",
+  "grande_ideia": "O paciente que falta quase nunca esqueceu: ficou sem jeito de desmarcar. A IA que facilita desmarcar enche mais a agenda do que a que cobra presença, porque cada 'não vou poder' que chega cedo vira um horário oferecido para quem está na fila.",
+  "objetivo": "conversa",
+  "pilar": "ia",
+  "modelo": "celular3d",
+  "estilo": "saida_remarcar",
+  "imagem": "render.py celular3d escuro + placa de saída REMARCAR e seta à mão em HTML/SVG (scripts/arte_saida.py), sem imagem gerada",
+  "tom": "escuro",
+  "personagem": "nenhum",
+  "fonte": "https://www.correiodamanha.com.br/sul-fluminense/cidades/2026/06/290313-assistente-virtual-diminui-ausencias-na-rede-estadual-de-saude.html",
+  "legenda": "Pelo que a gente vê, muita falta não é esquecimento: é paciente sem jeito de desmarcar.\n\nLigar, explicar, pedir desculpa… é mais fácil não aparecer.\nLembrete que só cobra presença não resolve. Resolve dar a saída pronta: \"se não der, responde REMARCAR\".\nA IA oferece dois horários, remarca e já avisa quem está na lista de espera.\n\nNa rede estadual de saúde do RJ, as faltas caíram de 43% para 32% com lembrete no WhatsApp e opção de cancelar (Correio da Manhã, jun/2026).\nTua clínica é outra realidade, mas a lógica vale: aviso cedo vira horário pra outra pessoa.\n\nNa tua agenda, quem falta avisa ou some? Responde aqui embaixo: AVISA ou SOME.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #GestaoDeClinica #ListaDeEspera #IAnoWhatsApp",
+  "story": true,
+  "status": "agendado"
+}

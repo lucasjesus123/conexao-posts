@@ -1,0 +1,70 @@
+{
+ "id": "2026-11-12-16h",
+ "modelo": "celular3d",
+ "pilar": "ia",
+ "tag": "IA NO WHATSAPP · AGENDA",
+ "titulo": "Teu paciente|avisa ou [some?]",
+ "subtitulo": "Dá a saída pronta no lembrete: quem não vem avisa e a vaga volta pra agenda.",
+ "contato": "Clínica · Agenda",
+ "conversa": [
+  [
+   "ia",
+   "Oi, Juliana! Tua consulta é amanhã, 14h. Se não der, responde REMARCAR."
+  ],
+  [
+   "cliente",
+   "REMARCAR. Surgiu um compromisso, desculpa"
+  ],
+  [
+   "ia",
+   "Imagina, obrigada por avisar! Tenho quinta 9h ou sexta 16h30. Qual fica melhor?"
+  ],
+  [
+   "cliente",
+   "Sexta 16h30"
+  ],
+  [
+   "ia",
+   "x"
+  ]
+ ],
+ "pop_html": "Juliana remarcou.<br>Horário das 14h <span class=\"mk\">preenchido</span><br><span class=\"mk\">pela lista de espera.</span>",
+ "pop_rodape": "AVISO À RECEPÇÃO · 18:42",
+ "cta": "Fale com a gente",
+ "selo": "SIMULAÇÃO",
+ "bolha_fs": 20,
+ "msgs_gap": 14,
+ "pop_top": 850,
+ "placa": {
+  "left": 64,
+  "top": 820,
+  "rot": -4,
+  "texto": "REMARCAR",
+  "sub": "A SAÍDA PRONTA",
+  "fs": 46,
+  "pict": 78
+ },
+ "seta": [
+  [
+   530,
+   680
+  ]
+ ],
+ "seta_alvo": 1,
+ "pop_w": 490,
+ "pop_right": 34,
+ "sim_top": 790,
+ "seta_ini": [
+  470,
+  800
+ ],
+ "seta_fim_dx": -94,
+ "seta_fim_dy": -26,
+ "tam": 80,
+ "txt_w": 530,
+ "msgs_lr": [
+  22,
+  70
+ ],
+ "bolha_w": 76
+}
