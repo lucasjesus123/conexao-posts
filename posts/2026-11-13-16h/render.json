@@ -1,0 +1,79 @@
+[
+ {
+  "id": "2026-11-13-16h",
+  "modelo": "retrato",
+  "pilar": "imersao",
+  "imagem": "/home/claude/conexao-posts/campanhas/assets/lucas_folha_pb.jpg",
+  "kicker": "Opinião · Lucas Jesus",
+  "nome": "Lucas Jesus",
+  "frase": "IA não conserta processo ruim.|Só faz ele {errar mais rápido.}",
+  "tam": 66,
+  "q_bottom": 226,
+  "x": 80,
+  "y": -66,
+  "w": 940,
+  "folha": [
+   184,
+   633,
+   588,
+   1209
+  ],
+  "fonte_mao": [
+   "campanhas/fontes/caveat-latin-600-normal.woff2",
+   "campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+  ],
+  "itens": [
+   [
+    "Areia média (m³)",
+    "R$ 140,00"
+   ],
+   [
+    "Cimento CP-II 50kg",
+    "R$ 31,90"
+   ]
+  ],
+  "erro": 1,
+  "nota_lapis": "tabela velha?",
+  "total": "Total  R$ 171,90",
+  "n_copias": 38,
+  "semente": 7,
+  "leque": {
+   "ox": 300,
+   "oy": 520,
+   "ang0": 184,
+   "ang1": 274,
+   "d0": 190,
+   "d1": 640,
+   "k0": 0.44,
+   "k1": 0.13,
+   "proibido": [
+    [
+     520,
+     0,
+     860,
+     495
+    ],
+    [
+     60,
+     62,
+     400,
+     112
+    ],
+    [
+     130,
+     630,
+     262,
+     800
+    ]
+   ]
+  },
+  "contador": "00:03 · cópias enviadas",
+  "passo": [
+   0,
+   128
+  ],
+  "selo": "SIMULAÇÃO",
+  "oferta": "25/11 · 19H · TRI HOTEL · LAJEADO · PRESENCIAL",
+  "preco": "R$ 198,90"
+ }
+]
