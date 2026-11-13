@@ -1,0 +1,96 @@
+[
+ {
+  "id": "2026-11-13-08h",
+  "modelo": "painel3d",
+  "pilar": "imersao",
+  "tema": "claro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "Arte com IA|é só o [1º andar].",
+  "tam": 100,
+  "subtitulo": "Agenda, pedidos e números ainda estão esperando o elevador.",
+  "chips": [
+   [
+    "alvo",
+    "Diagnóstico em 5 níveis"
+   ],
+   [
+    "grafico",
+    "Painel Executivo IA"
+   ],
+   [
+    "calendario",
+    "25/11 · Tri Hotel"
+   ],
+   [
+    "pin",
+    "R$ 198,90 · Lajeado"
+   ]
+  ],
+  "painel_titulo": "IA no marketing",
+  "cards": [
+   [
+    "grafico",
+    "50%",
+    "já usaram IA"
+   ],
+   [
+    "chat",
+    "74%",
+    "desses: imagem e vídeo"
+   ],
+   [
+    "escudo",
+    "14%",
+    "não usam nem pretendem"
+   ]
+  ],
+  "grafico_titulo": "Teu prédio hoje",
+  "grafico_svg": "<svg width=\"100%\" height=\"160\" viewBox=\"0 0 440 210\" style=\"overflow:visible\"><path d=\"M10 205H430\" stroke=\"#0B0D12\" stroke-opacity=\".35\" stroke-width=\"2\"/><g fill=\"none\" stroke=\"#0B0D12\" stroke-opacity=\".38\" stroke-width=\"2\" stroke-dasharray=\"6 6\"><rect x=\"40\" y=\"34\" width=\"230\" height=\"34\"/><rect x=\"40\" y=\"68\" width=\"230\" height=\"34\"/><rect x=\"40\" y=\"102\" width=\"230\" height=\"34\"/><rect x=\"40\" y=\"136\" width=\"230\" height=\"34\"/></g><g font-family=\"M\" font-weight=\"800\" font-size=\"22\" fill=\"#0B0D12\" fill-opacity=\".35\" text-anchor=\"middle\"><text x=\"155\" y=\"59\">?</text><text x=\"155\" y=\"93\">?</text><text x=\"155\" y=\"127\">?</text><text x=\"155\" y=\"161\">?</text></g><rect x=\"40\" y=\"170\" width=\"230\" height=\"34\" fill=\"#2F6BFF\" fill-opacity=\".16\" stroke=\"#2F6BFF\" stroke-width=\"2.5\"/><text x=\"155\" y=\"194\" text-anchor=\"middle\" font-family=\"M\" font-weight=\"700\" font-size=\"22\" fill=\"#2F6BFF\">faço arte com IA</text><rect x=\"270\" y=\"34\" width=\"30\" height=\"170\" fill=\"none\" stroke=\"#0B0D12\" stroke-opacity=\".38\" stroke-width=\"2\"/><line x1=\"285\" y1=\"34\" x2=\"285\" y2=\"176\" stroke=\"#2F6BFF\" stroke-width=\"1.5\" stroke-dasharray=\"2 5\"/><rect x=\"275\" y=\"176\" width=\"20\" height=\"24\" rx=\"3\" fill=\"#2F6BFF\"/><path d=\"M32 34H308\" stroke=\"#0B0D12\" stroke-opacity=\".5\" stroke-width=\"2.5\"/><path d=\"M140 34V26M170 34V26\" stroke=\"#2F6BFF\" stroke-width=\"2\"/><rect x=\"117\" y=\"2\" width=\"76\" height=\"24\" rx=\"6\" fill=\"#2F6BFF\"/><text x=\"155\" y=\"20\" text-anchor=\"middle\" font-family=\"Mono\" font-size=\"17\" fill=\"#fff\">25/11</text><path d=\"M340 196V46\" stroke=\"#2F6BFF\" stroke-width=\"2.5\" stroke-dasharray=\"4 7\" stroke-linecap=\"round\"/><path d=\"M331 56L340 44L349 56\" fill=\"none\" stroke=\"#2F6BFF\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+  "cta": "Quero subir de andar",
+  "nota": "Fonte: Sebrae, Pulso dos Pequenos Negócios (nov/2026)",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/elevador_botoes3d.png",
+  "obj_x": 470,
+  "obj_y": 770,
+  "obj_w": 270,
+  "txt_top": 180,
+  "txt_w": 560,
+  "hd_w": 960,
+  "sb_tam": 30,
+  "chip_tam": 20,
+  "cta_tam": 28,
+  "palco_top": 410,
+  "palco_h": 640,
+  "palco_w": 500,
+  "palco_right": -40,
+  "laco": false,
+  "nt_tam": 48,
+  "notas": [
+   [
+    "apertado por 74%",
+    70,
+    1080,
+    -4,
+    "#E5484D"
+   ],
+   [
+    "de quem usa",
+    150,
+    1138,
+    -4,
+    "#E5484D"
+   ]
+  ],
+  "setas": [
+   [
+    420,
+    1185,
+    500,
+    1225,
+    570,
+    1160,
+    "#E5484D"
+   ]
+  ],
+  "css_extra": ".linha{padding:18px 20px!important} .linha small{font-size:21px!important;font-weight:600;color:#0B0D12!important} .kv .kt{font-size:22px!important;line-height:1.18!important;color:#0B0D12!important} .kv b{font-size:36px!important;color:#2F6BFF!important;text-shadow:none!important} .kv .ki{background:rgba(47,107,255,.10)!important} .ph{font-size:28px!important;color:#0B0D12!important} .chip span{font-size:20px!important} .sel{background:rgba(255,255,255,.75)!important;color:rgba(11,13,18,.8)!important;border-color:rgba(47,107,255,.45)!important} .nota{color:rgba(11,13,18,.82)!important} .nt{text-shadow:0 1px 0 rgba(244,243,239,.9)!important} .objw{filter:drop-shadow(0 28px 40px rgba(30,45,90,.22)) drop-shadow(0 0 36px rgba(47,107,255,.30))!important}"
+ }
+]

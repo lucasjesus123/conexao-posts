@@ -1,0 +1,17 @@
+{
+ "publicar_em": "2026-11-13T08:00:00-03:00",
+ "turno": "08h",
+ "tema": "Imersão (conteúdo que vende): 'Arte com IA é só o 1º andar.' — painel3d claro com painel de botões de elevador 3D (só o 1 aceso, 'apertado por 74% de quem usa') e corte de prédio de 5 andares (andar 1 'faço arte com IA', andares 2-5 com '?' e plaquinha 25/11). Dado: Sebrae, Pulso dos Pequenos Negócios 13ª ed. (09/11/2026): ~50% dos pequenos negócios já usaram IA em marketing/comunicação; 74% desses usam para criar imagens e vídeos; 14% não usam nem pretendem. Faltam 12 dias.",
+ "grande_ideia": "Usar IA para fazer arte não é ter IA no negócio: metade dos pequenos negócios já usou IA, mas o que lidera é criar imagem, e isso é só o primeiro andar de um prédio de 5 (o diagnóstico de maturidade que o Lucas aplica em 25/11).",
+ "objetivo": "compartilhamento + consideração",
+ "pilar": "imersao",
+ "modelo": "painel3d",
+ "tom": "claro",
+ "personagem": "nenhum",
+ "fonte": "https://agenciasebrae.com.br/?p=43963",
+ "legenda": "Metade dos pequenos negócios já usou IA no marketing. E parou em qual andar?\n\nO Sebrae olhou o marketing e a comunicação, e ali o que lidera é criar imagem e vídeo: 74% de quem usa.\nFazer arte com IA vale. É um degrau de verdade. Mas é o 1º andar.\nSe a tua agenda, os teus pedidos e os teus números seguem iguais, a IA ainda não subiu pro resto da empresa.\nNa imersão eu aplico contigo o diagnóstico de maturidade em 5 níveis, e a gente monta na hora o teu Painel Executivo IA.\nALÉM DO AGORA: imersão presencial, dia 25/11, das 19h às 22h, no Tri Hotel, em Lajeado. R$ 198,90, com reembolso até 18/11. Faltam 12 dias.\n\nManda pra quem já faz arte com IA e acha que isso é usar IA na empresa.\n\nFonte: Sebrae, Pulso dos Pequenos Negócios, 13ª edição (09/11/2026): https://agenciasebrae.com.br/?p=43963\n\nGaranta sua vaga pelo link na bio: treinamentoia.conexaomkt.com.br\nEntra no Grupo VIP do WhatsApp (link também na bio).\n\n#InteligenciaArtificial #IAparaNegocios #Lajeado #ValedoTaquari #MaturidadeEmIA",
+ "story": true,
+ "status": "agendado",
+ "estilo": "elevador_andar1",
+ "imagem": "Kairogen seedream-v4-5 -> campanhas/assets/elevador_botoes3d.jpg, recorte_brilho.py + alpha limpo para fundo claro (elevador_botoes3d.png); render.py painel3d claro + prédio SVG e anotação à mão (scripts/arte_elevador.py)"
+}
