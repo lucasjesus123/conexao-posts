@@ -1,0 +1,46 @@
+[
+ {
+  "id": "2026-11-14-16h",
+  "modelo": "nota",
+  "tema": "claro",
+  "pilar": "sistemas",
+  "avatar": "/home/claude/conexao-posts/kit/assets/symbol.png",
+  "nome": "Lucas Jesus",
+  "texto": "Se nada vai {sumir} da tua semana, eu não construo.",
+  "rodape": "Bastidor · a primeira pergunta",
+  "tam": 62,
+  "card_top": 92,
+  "ficha": {
+   "cabecalho": "FICHA · 1ª REUNIÃO",
+   "selo": "EXEMPLO",
+   "pergunta": "1. O que vai sumir da tua semana quando isso estiver pronto?",
+   "resposta": "nada… mas vai ficar mais profissional",
+   "nota": "então ainda não é hora",
+   "proxima": "",
+   "left": 372,
+   "top": 515,
+   "w": 640,
+   "h": 860,
+   "rot": 3,
+   "clip_y": 8,
+   "cab_top": 234,
+   "pg_top": 300,
+   "topo_pauta": 464,
+   "passo": 64,
+   "linha_resp": 1,
+   "fs_lapis": 43,
+   "lapis_dx": 46,
+   "nota_dx": 110,
+   "nota_rot": -3,
+   "fs_nota": 56,
+   "nota_dy": 18,
+   "fs_perg": 32
+  },
+  "fonte_mao": [
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+  ],
+  "avatar_pad": 16,
+  "avatar_fundo": "#EEECE6"
+ }
+]

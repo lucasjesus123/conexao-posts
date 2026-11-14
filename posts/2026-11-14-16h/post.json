@@ -1,0 +1,18 @@
+{
+  "publicar_em": "2026-11-14T16:00:00-03:00",
+  "turno": "16h",
+  "tema": "Bastidor: a ficha da primeira reunião — nota clara 'Se nada vai sumir da tua semana, eu não construo.' com ficha de reunião (selo EXEMPLO) presa por binder clip: pergunta '1. O que vai sumir da tua semana quando isso estiver pronto?', resposta a lápis 'nada… mas vai ficar mais profissional' riscada em vermelho e 'então ainda não é hora' à mão. Sem foto do Lucas (grid), troca do popout claro do calendário pela nota clara.",
+  "grande_ideia": "Antes de construir qualquer coisa, a pergunta da casa não é 'o que tu quer?', é 'o que vai sumir da tua semana quando isso estiver pronto?'. Se a resposta for 'nada, mas vai ficar mais profissional', a Conexão não constrói: tecnologia boa se mede pelo que tira da rotina, não pelo que acrescenta.",
+  "objetivo": "conversa",
+  "pilar": "bastidor",
+  "modelo": "nota",
+  "tom": "claro",
+  "personagem": "nenhum",
+  "fonte": "",
+  "estilo": "ficha_reuniao",
+  "imagem": "render.py nota clara + ficha pautada, binder clip e anotações à mão em HTML/SVG (scripts/arte_ficha.py), sem imagem gerada",
+  "story_sticker": "Enquete acima do card: 'O que tu tirava da tua semana primeiro?' — Conferir pedido / \"Tem disponível?\" / Planilha do mês / Outra coisa",
+  "legenda": "Toda reunião aqui começa com a mesma pergunta. Às vezes ela encerra a reunião.\n\nO dono chega querendo um sistema, uma IA, um site novo.\nEu pergunto: o que vai sumir da tua semana quando isso estiver pronto?\nQuando a resposta vem na hora (a conferência de pedido, o \"tem disponível?\" repetido, a planilha do fim do mês), a gente começa.\nQuando vem um silêncio e depois um \"vai ficar mais profissional\", eu digo que ainda não é hora de construir.\nTecnologia boa não se mede pelo que acrescenta. Se mede pelo que tira.\n\nE na tua empresa, o que tu tirava da semana primeiro?\n1) a conferência de pedido\n2) o \"tem disponível?\" repetido\n3) a planilha do fim do mês\nResponde só com o número. Se for outra coisa, escreve qual.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #AutomacaoEmpresarial #SistemasSobMedida #EmpresasDoRS",
+  "story": true,
+  "status": "agendado"
+}
