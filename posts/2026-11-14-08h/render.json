@@ -1,0 +1,96 @@
+{
+ "id": "2026-11-14-08h",
+ "modelo": "celular3d",
+ "tema": "escuro",
+ "pilar": "atendimento",
+ "tag": "WHATSAPP · VENDAS DE FIM DE ANO",
+ "titulo": "Ele perguntou o número.|[Queria saber outra coisa.]",
+ "subtitulo": "Em dezembro, vende quem responde a pergunta que o cliente não escreveu.",
+ "contato": "Calçados · Lajeado",
+ "conversa": [
+  [
+   "cliente",
+   "Oi! Tem esse tênis no 38?"
+  ],
+  [
+   "ia",
+   "Oi, Rafael! Tem no 38. Se for presente: separo hoje e entrego em Lajeado até sexta, ou tu retira aqui."
+  ],
+  [
+   "ia",
+   "E se não servir, a troca vale até 15/01. Reservo pra ti?"
+  ],
+  [
+   "cliente",
+   "Reserva! É pro meu pai"
+  ]
+ ],
+ "pop_html": "Ele não perguntou prazo nem troca.<br><span class=\"mk\">Era isso que travava a compra.</span>",
+ "pop_rodape": "PEDIDO RESERVADO · 19:12",
+ "cta": "Fale com a gente",
+ "selo": "SIMULAÇÃO",
+ "espelho": true,
+ "tam": 64,
+ "bolha_fs": 20,
+ "msgs_gap": 14,
+ "msgs_lr": [
+  30,
+  22
+ ],
+ "bolha_w": 82,
+ "pop_top": 960,
+ "pop_w": 540,
+ "fantasma": {
+  "left": 340,
+  "top": 662,
+  "rot": -5,
+  "fs": 42,
+  "recuo2": 40,
+  "linhas": [
+   "chega antes do Natal?",
+   "e se não servir no meu pai?"
+  ]
+ },
+ "nota": "o que ele pensou|e não escreveu",
+ "nota_xy": [
+  590,
+  1062
+ ],
+ "nota_fs": 38,
+ "seta": [
+  [
+   972,
+   992
+  ]
+ ],
+ "cena_left": 22,
+ "cena_w": 500,
+ "pop_fs": 25,
+ "pop_left": 30,
+ "trilha": [
+  [
+   314,
+   800,
+   12
+  ],
+  [
+   280,
+   828,
+   8.5
+  ],
+  [
+   256,
+   850,
+   5.5
+  ]
+ ],
+ "nota_rot": -4,
+ "seta_ini": [
+  884,
+  1044
+ ],
+ "seta_alvo": 1,
+ "seta_fim_dx": 170,
+ "seta_fim_dy": -4,
+ "tag_fs": 16
+}
