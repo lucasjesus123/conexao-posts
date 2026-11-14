@@ -14,5 +14,6 @@
   "story_sticker": "Enquete: 'Teu cliente pergunta se chega antes do Natal?' — 'Pergunta sempre' / 'Nem pergunta, some'",
   "legenda": "\"Tem sim no 38 😊\" é a resposta certa. E é por isso que a conversa morre.\n\nQuem compra presente tem 3 dúvidas que quase nunca escreve:\n1. Chega a tempo?\n2. Dá pra trocar se não servir?\n3. Dá pra embrulhar ou mandar direto pra pessoa?\n\nSem resposta, ele compra onde tem certeza. Numa pesquisa de intenção de compra da Black Friday 2026 (LWSA + Opinion Box), 24% citaram o prazo de entrega como motivo para desistir de uma compra.\n\nCola isso na resposta rápida do WhatsApp Business e nas respostas salvas do direct:\n\"Se for presente: separo hoje, entrego em Lajeado até [dia] ou tu retira na loja. A troca vale até [data] e eu embrulho ou mando direto pra pessoa. Reservo pra ti?\"\n\nPrazo e regra de troca são os da tua loja. Define e deixa por escrito.\n\nSalva pra colar no WhatsApp antes da Black Friday.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #VarejoGaúcho #VarejoDeModa #WhatsAppBusiness",
   "story": true,
-  "status": "publicando"
+  "status": "erro",
+  "erro": "Meta API 400: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AxMipWWy_Yoimja2OMdsVoq\"}}"
 }
