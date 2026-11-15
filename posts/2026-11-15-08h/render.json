@@ -1,0 +1,145 @@
+[
+ {
+  "id": "2026-11-15-08h",
+  "modelo": "papel",
+  "tema": "claro",
+  "pilar": "informativo",
+  "imagem": "html",
+  "kicker": "FRASE DA SEMANA · 15.11.2026",
+  "num": "",
+  "titulo": "O Natal tem data.|O teu plano {tem}?",
+  "tam": 100,
+  "topo": 826,
+  "k_top": 780,
+  "subtitulo": "{530 mil} contratos temporários previstos até dezembro (522 mil em 2025)",
+  "fonte": "Fonte: Asserttem, 11/11",
+  "sub_top": 1068,
+  "tam_sub": 25,
+  "folha_w": 470,
+  "folha_h": 720,
+  "folhas": [
+   {
+    "ano": 2015,
+    "left": -250,
+    "top": -480,
+    "rot": -14,
+    "idade": 1,
+    "dobra": "bd"
+   },
+   {
+    "ano": 2016,
+    "left": 20,
+    "top": -530,
+    "rot": -8,
+    "idade": 0.95
+   },
+   {
+    "ano": 2018,
+    "left": 300,
+    "top": -555,
+    "rot": -3,
+    "idade": 0.85
+   },
+   {
+    "ano": 2019,
+    "left": 600,
+    "top": -510,
+    "rot": 4,
+    "idade": 0.8,
+    "dobra": "be"
+   },
+   {
+    "ano": 2021,
+    "left": 850,
+    "top": -390,
+    "rot": 6,
+    "idade": 0.7
+   },
+   {
+    "ano": 2017,
+    "left": -380,
+    "top": -20,
+    "rot": -12,
+    "idade": 0.9,
+    "dobra": "be"
+   },
+   {
+    "ano": 2020,
+    "left": -250,
+    "top": 0,
+    "rot": -5,
+    "idade": 0.74
+   },
+   {
+    "ano": 2022,
+    "left": -60,
+    "top": -25,
+    "rot": -13,
+    "idade": 0.6
+   },
+   {
+    "ano": 2023,
+    "left": 70,
+    "top": 5,
+    "rot": -4,
+    "idade": 0.5,
+    "dobra": "be",
+    "surpresa": [
+     22,
+     575,
+     -5
+    ]
+   },
+   {
+    "ano": 2024,
+    "left": 222,
+    "top": -20,
+    "rot": -12,
+    "idade": 0.38
+   },
+   {
+    "ano": 2025,
+    "left": 342,
+    "top": 0,
+    "rot": -4,
+    "idade": 0.24,
+    "surpresa": [
+     6,
+     590,
+     -7
+    ]
+   },
+   {
+    "ano": 2026,
+    "left": 500,
+    "top": 0,
+    "rot": 3,
+    "idade": 0,
+    "nota": true
+   }
+  ],
+  "nota": [
+   "anotado em 02/01:",
+   "começar a contratar",
+   "em novembro"
+  ],
+  "nota_xy": [
+   48,
+   516,
+   -3
+  ],
+  "tam_nota": 35,
+  "loja": "Boas Festas · brinde da casa",
+  "fonte_mao": [
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+  ],
+  "script": "/home/claude/conexao-posts/scripts/arte_folhinha.py",
+  "saida": "/home/claude/conexao-posts/out",
+  "n_top": 92,
+  "na_top": 452,
+  "tam_25": 340,
+  "sub_nt_x": 44,
+  "sub_nt_w": 118
+ }
+]
