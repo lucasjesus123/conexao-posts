@@ -1,0 +1,17 @@
+{
+ "publicar_em": "2026-11-15T16:00:00-03:00",
+ "turno": "16h",
+ "tema": "Institucional: a porta de saída — painel3d escuro 'O bom fornecedor se mede pela porta de saída.' com painel 'As chaves da tua empresa' (CNPJ titular do domínio, 2+ admins no Google Ads, base de clientes tua) e bandeja de chip SIM de vidro saindo de um slot do painel, com 'sai contigo' à mão apontando o chip (a empresa como número portado). Checklist na legenda: WHOIS do Registro.br, admins do Google Ads, número do WhatsApp, base exportável (LGPD).",
+ "grande_ideia": "Um bom fornecedor de tecnologia se mede pela facilidade de sair dele: domínio, conta de anúncio, número do WhatsApp, acessos de administrador e dados de clientes têm que estar no nome da empresa, não no login do fornecedor. Pergunta isso pra qualquer fornecedor, inclusive pra gente.",
+ "objetivo": "salvamento",
+ "pilar": "institucional",
+ "modelo": "painel3d",
+ "tom": "escuro",
+ "personagem": "nenhum",
+ "estilo": "porta_saida_sim",
+ "imagem": "Kairogen seedream-v4-5 -> campanhas/assets/sim_bandeja3d.jpg, recorte_brilho.py (sim_bandeja3d.png); render.py painel3d escuro + slot de SIM, anotação à mão e seta em HTML/SVG (scripts/arte_sim.py)",
+ "fonte": "https://nic.br/noticia/na-midia/e-possivel-descobrir-quem-e-o-responsavel-por-um-site-na-internet/ | https://support.google.com/google-ads/answer/9978556?hl=pt-BR | ANPD Guia de Agentes de Tratamento v2.0",
+ "legenda": "Se o fornecedor sumir amanhã, quem tem as chaves da tua empresa?\n\nAgência adora mostrar o que construiu. Quase ninguém fala de como se sai dela.\nSó que um bom fornecedor de tecnologia se mede pela facilidade de sair dele.\nSe o domínio, o anúncio, o WhatsApp e os clientes estão no login do fornecedor ou do sobrinho, tu só descobre no dia em que quer trocar. Ou no dia em que alguém some.\n\nChecklist das chaves 🔑\n1. Domínio: consulta o WHOIS no registro.br, de graça. O titular tem que ser o CNPJ da empresa.\n2. Google Ads: Administrador > Acesso e segurança > \"Nível de acesso\". Só um admin? O próprio Google recomenda ter pelo menos mais um.\n3. WhatsApp comercial: o número é da empresa ou do celular de alguém?\n4. Clientes: tu consegue exportar a base no teu login? Pela LGPD, a controladora desses dados é a tua empresa.\n\nPergunta isso pra qualquer fornecedor. Inclusive pra gente.\nSalva pra conferir com calma, item por item.\n\nFale com a gente: (51) 99266-8095 · conexaomkt.com.br\n\n#Lajeado #ValedoTaquari #PequenasEmpresas #LGPD #GestaoDigital",
+ "story": true,
+ "status": "agendado"
+}

@@ -1,0 +1,84 @@
+[
+ {
+  "id": "2026-11-15-16h",
+  "modelo": "painel3d",
+  "pilar": "institucional",
+  "tema": "escuro",
+  "selo": "PAINEL ILUSTRATIVO",
+  "titulo": "O bom fornecedor se mede|pela [porta de saída.]",
+  "tam": 66,
+  "subtitulo": "Domínio, anúncio, WhatsApp e clientes: a chave fica no nome da tua empresa.",
+  "chips": [
+   [
+    "pin",
+    "Domínio: titular é o CNPJ"
+   ],
+   [
+    "grafico",
+    "Google Ads: 2+ admins"
+   ],
+   [
+    "chat",
+    "WhatsApp: chip da empresa"
+   ],
+   [
+    "escudo",
+    "Clientes: base exportável"
+   ]
+  ],
+  "painel_titulo": "As chaves da tua empresa",
+  "cards": [
+   [
+    "escudo",
+    "CNPJ",
+    "titular do domínio"
+   ],
+   [
+    "lista",
+    "2+",
+    "admins no Google Ads"
+   ],
+   [
+    "cerebro",
+    "Tua",
+    "base de clientes"
+   ]
+  ],
+  "cta": "Salva esse checklist",
+  "nota": "Pergunta isso pra qualquer fornecedor. Inclusive pra gente.",
+  "objeto": "/home/claude/conexao-posts/campanhas/assets/sim_bandeja3d.png",
+  "obj_x": 540,
+  "obj_y": 636,
+  "obj_w": 560,
+  "txt_top": 180,
+  "txt_w": 470,
+  "hd_w": 980,
+  "palco_top": 450,
+  "palco_h": 440,
+  "palco_w": 540,
+  "palco_right": -40,
+  "slot": true,
+  "notas": [
+   [
+    "sai contigo",
+    300,
+    960,
+    -6,
+    "#22D3EE"
+   ]
+  ],
+  "setas": [
+   [
+    470,
+    1010,
+    520,
+    1110,
+    680,
+    1060,
+    "#22D3EE"
+   ]
+  ],
+  "nt_tam": 54,
+  "css_extra": ".kv .kt{font-size:24px!important;line-height:1.15!important} .kv b{font-size:38px!important} .ph{font-size:26px!important} .chips{grid-template-columns:auto!important;width:auto!important} .chip span{font-size:22px!important} .sb{width:600px} .kv .kt{text-wrap:balance} .objw img{-webkit-mask-image:linear-gradient(180deg,#000 79%,transparent 90%);mask-image:linear-gradient(180deg,#000 79%,transparent 90%)} .sb{color:rgba(255,255,255,.9)!important;font-weight:600!important} .nota, .nt-rodape{font-size:25px}"
+ }
+]
