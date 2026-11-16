@@ -1,0 +1,85 @@
+{
+ "id": "2026-11-16-08h",
+ "modelo": "celular3d",
+ "tema": "claro",
+ "pilar": "imersao",
+ "tag": "IA NO WHATSAPP · OFICINA",
+ "titulo": "O cliente não|odeia robô.|[Odeia ficar|preso nele.]",
+ "subtitulo": "IA boa resolve o simples e sabe a hora de chamar o mecânico.",
+ "contato": "Oficina · Lajeado",
+ "selo": "SIMULAÇÃO",
+ "cta": "Te mostro dia 25/11",
+ "tam": 80,
+ "txt_w": 490,
+ "sb_fs": 30,
+ "conversa": [
+  [
+   "cliente",
+   "Bom dia! Tem horário essa semana pra revisão? Onix 2019, tá com 62 mil"
+  ],
+  [
+   "ia",
+   "Bom dia, Marcos! Tenho quinta 8h ou sexta 14h. Qual fica melhor?"
+  ],
+  [
+   "cliente",
+   "Quinta 8h. E tá fazendo um barulho estranho na frente quando eu freio"
+  ],
+  [
+   "cliente",
+   "🎤 Áudio · 0:14"
+  ],
+  [
+   "ia",
+   "Isso quem avalia é o mecânico, não eu. Já passei pro Jorge com tudo anotado, tu não precisa repetir nada."
+  ],
+  [
+   "ia",
+   "Ouvi o áudio, Marcos. Quinta 8h eu olho o freio junto com a revisão."
+  ]
+ ],
+ "bolha_fs": 19,
+ "msgs_gap": 12,
+ "msgs_top": 170,
+ "bolha_w": 97,
+ "pop_html": "Passei pro Jorge: Onix 2019 · 62 mil km · <span class=\"mk\">barulho na dianteira ao frear</span> · áudio anexo · revisão quinta 8h",
+ "pop_rodape": "REPASSE AO MECÂNICO · 08:14",
+ "chave": {
+  "left": 470,
+  "top": 935,
+  "w": 275,
+  "rot": 14
+ },
+ "etiqueta": {
+  "left": 60,
+  "top": 700,
+  "w": 440,
+  "rot": -5,
+  "os": "OS 0417",
+  "topo": "OFICINA",
+  "rodape": "REPASSE AO MECÂNICO · 08:14",
+  "linhas": [
+   "Onix 2019 · 62 mil km",
+   "barulho na dianteira ao frear",
+   "áudio anexo",
+   "→ JORGE"
+  ],
+  "fs": 32,
+  "pauta_y": 48
+ },
+ "nota": "ninguém pergunta de novo",
+ "nota_xy": [
+  92,
+  1022
+ ],
+ "nota_rot": -3,
+ "fio_dy": 35,
+ "fio_dx": -10,
+ "msgs_lr": [
+  22,
+  70
+ ],
+ "aviso_fs": 20,
+ "status": "responde em minutos",
+ "aviso": "Passada pro Jorge · mecânico"
+}
