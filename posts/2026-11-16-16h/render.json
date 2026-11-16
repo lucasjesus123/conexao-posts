@@ -1,0 +1,54 @@
+[
+ {
+  "id": "2026-11-16-16h",
+  "modelo": "revista",
+  "pilar": "imersao",
+  "tema": "escuro",
+  "recorte": "campanhas/assets/lucas_cafe_pad.png",
+  "palavra": "QUINTA",
+  "cor_palavra": "#2F6BFF",
+  "pal_top": 128,
+  "pal_tam": 280,
+  "mao": {
+   "texto": "quarta 22h",
+   "x": 64,
+   "y": 408,
+   "tam": 46,
+   "rot": -6
+  },
+  "seta": {
+   "x1": 140,
+   "y1": 396,
+   "x2": 208,
+   "y2": 322,
+   "curva": -30
+  },
+  "edicao": "IMERSÃO ALÉM DO AGORA",
+  "kicker": "PRESENCIAL · FALTAM 9 DIAS",
+  "titulo": "Quarta tu {escuta}.|Quinta tu {decide}.",
+  "tam": 64,
+  "info": "25/11 · 19H · TRI HOTEL",
+  "preco_pilula": {
+   "texto": "R$ 198,90",
+   "top": 1160,
+   "right": 72,
+   "tam": 30
+  },
+  "postit": {
+   "texto": "DIA 1/30",
+   "x": 618,
+   "y": 852,
+   "w": 100,
+   "rot": -6,
+   "tam": 31
+  },
+  "x": -30,
+  "y": 215,
+  "w": 1050,
+  "faixa_y": 1010,
+  "story_cta": [
+   "ALÉM DO AGORA · 25/11 · 19H",
+   "Garanta tua vaga · link na bio"
+  ]
+ }
+]
