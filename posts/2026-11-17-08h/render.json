@@ -1,0 +1,70 @@
+[
+ {
+  "id": "2026-11-17-08h",
+  "modelo": "papel",
+  "tema": "claro",
+  "pilar": "gestao",
+  "imagem": "html",
+  "kicker": "GESTÃO E TECNOLOGIA · 17.11.2026",
+  "num": "",
+  "titulo": "Backup nunca restaurado|{não é backup. É fé.}",
+  "tam": 70,
+  "topo": 812,
+  "k_top": 772,
+  "subtitulo": "{90%} das empresas confiam que se recuperam de um ataque.|Entre as vítimas de ransomware, só {28%} recuperaram tudo.",
+  "tam_sub": 27,
+  "sub_top": 1000,
+  "fonte": "Fonte: Veeam, Data Trust and Resilience Report 2026 · pesquisa global",
+  "hd": {
+   "img": "/home/claude/conexao-posts/campanhas/assets/hd_externo.png",
+   "left": 140,
+   "top": 52,
+   "w": 580,
+   "rot": -12
+  },
+  "fita": {
+   "cx": 345,
+   "cy": 196,
+   "w": 330,
+   "h": 128,
+   "u": [
+    0.916,
+    -0.401
+   ],
+   "v": [
+    0.85,
+    0.526
+   ],
+   "rot": 18,
+   "linhas": [
+    "BACKUP – NÃO MEXER",
+    "mar/2023"
+   ],
+   "tam": 34,
+   "tam_data": 31
+  },
+  "nota": {
+   "texto": "alguém já testou?",
+   "left": 770,
+   "top": 560,
+   "rot": -5,
+   "tam": 40,
+   "seta": "M112 4 C 106 38, 78 70, 36 86 M36 86 L 52 72 M36 86 L 56 92",
+   "seta_box": [
+    0,
+    46,
+    130,
+    110
+   ]
+  },
+  "fonte_mao": [
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-600-normal.woff2",
+   "/home/claude/conexao-posts/campanhas/fontes/caveat-latin-ext-600-normal.woff2"
+  ],
+  "script": "/home/claude/conexao-posts/scripts/arte_hd.py",
+  "saida": "/home/claude/conexao-posts/out",
+  "tam_fn": 17,
+  "op_fn": 0.72,
+  "h1_right": 30
+ }
+]
